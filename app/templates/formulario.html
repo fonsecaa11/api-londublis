@@ -1,0 +1,222 @@
+<!DOCTYPE html>
+<html lang="pt">
+<head>
+  <meta charset="UTF-8" />
+  <title>Ver POIs</title>
+  <link
+    rel="stylesheet"
+    href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css"
+  />
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      margin: 20px;
+    }
+
+    form {
+      margin-bottom: 20px;
+    }
+
+    label {
+      display: inline-block;
+      width: 80px;
+    }
+
+    input[type="text"] {
+      width: 200px;
+      padding: 5px;
+      margin-bottom: 10px;
+    }
+
+    .top-section {
+      display: flex;
+      gap: 20px;
+      margin-top: 20px;
+    }
+
+    #map {
+      flex: 1;
+      height: 300px;
+      border: 1px solid #ccc;
+      border-radius: 6px;
+    }
+
+    #freguesia {
+      flex: 1;
+      background-color: #f4f4f4;
+      padding: 10px;
+      border: 1px solid #ccc;
+      border-radius: 6px;
+    }
+
+    #pois {
+      margin-top: 30px;
+    }
+
+    .poi-card {
+      border: 1px solid #ccc;
+      padding: 10px;
+      margin-bottom: 10px;
+      border-radius: 6px;
+      background-color: #f9f9f9;
+    }
+
+    h2, h3 {
+      margin-bottom: 10px;
+    }
+  </style>
+</head>
+<body>
+  <h2>Consultar POIs por Coordenadas</h2>
+
+  <form id="poiForm">
+    <label for="lat">Latitude:</label>
+    <input type="text" id="lat" name="lat" required /><br />
+
+    <label for="lon">Longitude:</label>
+    <input type="text" id="lon" name="lon" required /><br />
+
+    <button type="submit">Pesquisar</button>
+  </form>
+
+  <div class="top-section">
+    <div id="map"></div>
+    <div id="freguesia"></div>
+  </div>
+
+  <h3>POIs:</h3>
+  <div id="pois"></div>
+
+  <script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js">
+    
+  </script>
+  <script>
+    
+    const map = L.map('map').setView([38.7169, -9.1399], 12);
+
+    L.tileLayer('https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png', {
+      attribution: '&copy; OpenStreetMap contributors'
+    }).addTo(map);
+
+    let marker;
+    let poiMarkers = [];
+
+    document.getElementById("poiForm").addEventListener("submit", async function (e) {
+      e.preventDefault();
+
+      const lat = parseFloat(document.getElementById("lat").value);
+      const lon = parseFloat(document.getElementById("lon").value);
+
+      document.getElementById("freguesia").textContent = "A procurar freguesia...";
+      document.getElementById("pois").innerHTML = "";
+
+      map.setView([lat, lon], 15);
+
+      // Remove marcador anterior do utilizador
+      if (marker) map.removeLayer(marker);
+      marker = L.marker([lat, lon]).addTo(map);
+
+      // Remove marcadores anteriores de POIs
+      poiMarkers.forEach(m => map.removeLayer(m));
+      poiMarkers = [];
+
+      try {
+        const freguesiaResponse = await fetch(`/api/freguesia?lat=${lat}&lon=${lon}`);
+        const freguesiaData = await freguesiaResponse.json();
+        const freguesiaDiv = document.getElementById("freguesia");
+
+        if (freguesiaData) {
+          freguesiaDiv.innerHTML = `
+            <strong>${freguesiaData.descr_concelho}</strong><br/><br/>
+            <ul>
+              <li><strong>Taxa de Envelhecimento:</strong> ${freguesiaData.taxa_envelhecimento}</li>
+              <li><strong>Taxa de Analfabetismo:</strong> ${freguesiaData.taxa_analfabetismo}%</li>
+              <li><strong>Ensino Superior:</strong> ${freguesiaData.taxa_ensino_superior}%</li>
+              <li><strong>Taxa de Desemprego:</strong> ${freguesiaData.taxa_desemprego}%</li>
+              <li><strong>Taxa de Criminalidade:</strong> ${freguesiaData.taxa_criminalidade}%</li>
+              <li><strong>Taxa de Mortalidade:</strong> ${freguesiaData.taxa_mortalidade}%</li>
+              <li><strong>Renda Média (€):</strong> ${freguesiaData.valor_renda_absoluto}€</li>
+              <li><strong>Renda Percentual:</strong> ${freguesiaData.valor_renda_percentual}%</li>
+              <li><strong>Enfermeiros por 1000 hab.:</strong> ${freguesiaData.enfermeiros_por_1000}</li>
+              <li><strong>Número Total de Alunos:</strong> ${freguesiaData.numero_total}</li>
+              <li><strong>Número de Alunos Não Aprovados:</strong> ${freguesiaData.numero_nao_transicao}</li>
+              <li><strong>Taxa de Não Transição:</strong> ${freguesiaData.taxa_nao_transicao}%</li>
+              <li><strong>Número de Alunos Aprovados:</strong> ${freguesiaData.numero_transicao}</li>
+              <li><strong>Taxa de Transição:</strong> ${freguesiaData.taxa_transicao}%</li>
+            </ul>
+          `;
+        } else {
+          freguesiaDiv.innerHTML = "<em>Dados da zona não encontrados.</em>";
+        }
+
+        const poisResponse = await fetch("/api/pois", {
+          method: "POST",
+          headers: { "Content-Type": "application/json" },
+          body: JSON.stringify({ lat, lon })
+        });
+        const poisData = await poisResponse.json();
+
+        const poisContainer = document.getElementById("pois");
+
+        for (const poi of poisData) {
+          const div = document.createElement("div");
+          div.className = "poi-card";
+
+          let html = `<strong>${poi.descr_poi}</strong><br/>`;
+          html += `<em>${poi.descr_categoria} / ${poi.descr_subcategoria}</em><br/>`;
+          html += `<small>${poi.descr_entidade}</small><br/>`;
+
+          div.innerHTML = html;
+
+          // Adicionar marcador ao mapa para este POI
+          if (poi.lat && poi.lon) {
+            const poiMarker = L.marker([poi.lat, poi.lon])
+              .addTo(map)
+              .bindPopup(`<strong>${poi.descr_poi}</strong><br/>${poi.descr_categoria} / ${poi.descr_subcategoria}`);
+            poiMarkers.push(poiMarker);
+          }
+
+          // Estatísticas para escolas
+          if (poi.descr_subcategoria === "Escola") {
+            const estatPre = document.createElement("pre");
+            estatPre.textContent = "Carregando estatísticas...";
+            div.appendChild(estatPre);
+
+            try {
+              const estatRes = await fetch(`/api/escolas/${poi.id_poi}`);
+              if (estatRes.ok) {
+                const estat = await estatRes.json();
+                if (estat.estatisticas.length > 0) {
+                  estatPre.textContent = estat.estatisticas.map(e =>
+                    `   Ciclo: ${e.descr_ciclo_escolar}\n` +
+                    `   Média Global: ${e.media_global}\n` +
+                    `   Ranking Nacional: ${e.ranking_nacional}\n` +
+                    `   Ranking Distrital: ${e.ranking_distrital}\n` +
+                    `   Ranking Nacional com Índice de Segurança: ${e.ranking_nacional_seg}\n` +
+                    `   Ranking Distrital com Índice de Segurança: ${e.ranking_distrital_seg}\n` +
+                    `   Número de Alunos: ${e.num_alunos}\n` +
+                    `   % Mulheres: ${e.perc_mulheres}%\n` +
+                    `   % Homens: ${e.perc_homens}%`
+                  ).join("\n\n");
+                } else {
+                  estatPre.textContent = "Sem estatísticas disponíveis.";
+                }
+              } else {
+                estatPre.textContent = "Erro ao carregar estatísticas.";
+              }
+            } catch {
+              estatPre.textContent = "Erro ao carregar estatísticas.";
+            }
+          }
+
+          poisContainer.appendChild(div);
+        }
+
+      } catch (error) {
+        document.getElementById("freguesia").textContent = "Erro ao obter freguesia.";
+        document.getElementById("pois").innerHTML = `<pre>Erro ao obter POIs: ${error.message}</pre>`;
+      }
+    });
+  </script>
+</body>
+</html>
