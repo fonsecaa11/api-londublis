@@ -16,3 +16,4 @@ class POIOut(BaseModel):
     lat: float
     lon: float
     tipo: str
+    distancia_pedonal_m: float
