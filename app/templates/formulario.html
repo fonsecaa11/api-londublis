@@ -165,6 +165,9 @@
           let html = `<strong>${poi.descr_poi}</strong><br/>`;
           html += `<em>${poi.descr_categoria} / ${poi.descr_subcategoria}</em><br/>`;
           html += `<small>${poi.descr_entidade}</small><br/>`;
+          html += `<span><strong>Distância a pé:</strong> ${poi.distancia_pedonal_m} m</span><br/>`;
+
+
 
           div.innerHTML = html;
 
@@ -172,7 +175,7 @@
           if (poi.lat && poi.lon) {
             const poiMarker = L.marker([poi.lat, poi.lon])
               .addTo(map)
-              .bindPopup(`<strong>${poi.descr_poi}</strong><br/>${poi.descr_categoria} / ${poi.descr_subcategoria}`);
+              .bindPopup(`<strong>${poi.descr_poi}</strong><br/>${poi.descr_categoria} / ${poi.descr_subcategoria}<br><span><strong>Distância a pé:</strong> ${poi.distancia_pedonal_m} m</span>`);
             poiMarkers.push(poiMarker);
           }
 
