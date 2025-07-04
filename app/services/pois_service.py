@@ -1,5 +1,4 @@
 from app.db import get_connection
-import psycopg2
 import requests
 from psycopg2.extras import RealDictCursor
 

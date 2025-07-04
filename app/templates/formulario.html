@@ -70,14 +70,28 @@
   <h2>Consultar POIs por Coordenadas</h2>
 
   <form id="poiForm">
-    <label for="lat">Latitude:</label>
-    <input type="text" id="lat" name="lat" required /><br />
+    <label for="modo">Pesquisar por:</label><br />
+    <input type="radio" id="modoMorada" name="modo" value="morada" checked />
+    <label for="modoMorada">Morada</label>
+    <input type="radio" id="modoCoordenadas" name="modo" value="coordenadas" />
+    <label for="modoCoordenadas">Coordenadas</label><br /><br />
 
-    <label for="lon">Longitude:</label>
-    <input type="text" id="lon" name="lon" required /><br />
+    <div id="campoMorada">
+      <label for="morada">Morada:</label>
+      <input type="text" id="morada" name="morada" />
+    </div>
 
+    <div id="campoCoordenadas" style="display: none;">
+      <label for="lat">Latitude:</label>
+      <input type="text" id="lat" name="lat" /><br />
+      <label for="lon">Longitude:</label>
+      <input type="text" id="lon" name="lon" />
+    </div>
+
+    <br />
     <button type="submit">Pesquisar</button>
   </form>
+
 
   <div class="top-section">
     <div id="map"></div>
@@ -91,8 +105,21 @@
     
   </script>
   <script>
-    
+    const campoMorada = document.getElementById("campoMorada");
+    const campoCoordenadas = document.getElementById("campoCoordenadas");
     const map = L.map('map').setView([38.7169, -9.1399], 12);
+
+    document.querySelectorAll('input[name="modo"]').forEach(radio => {
+      radio.addEventListener("change", function () {
+        if (this.value === "morada") {
+          campoMorada.style.display = "block";
+          campoCoordenadas.style.display = "none";
+        } else {
+          campoMorada.style.display = "none";
+          campoCoordenadas.style.display = "block";
+        }
+      });
+    });
 
     L.tileLayer('https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png', {
       attribution: '&copy; OpenStreetMap contributors'
@@ -104,8 +131,28 @@
     document.getElementById("poiForm").addEventListener("submit", async function (e) {
       e.preventDefault();
 
-      const lat = parseFloat(document.getElementById("lat").value);
-      const lon = parseFloat(document.getElementById("lon").value);
+      let lat, lon;
+
+      const modo = document.querySelector('input[name="modo"]:checked').value;
+
+      if (modo === "morada") {
+        const morada = document.getElementById("morada").value;
+        const response = await fetch(`https://nominatim.openstreetmap.org/search?format=json&q=${encodeURIComponent(morada)}`);
+        const data = await response.json();
+        if (!data || data.length === 0) {
+          alert("Morada não encontrada!");
+          return;
+        }
+        lat = parseFloat(data[0].lat);
+        lon = parseFloat(data[0].lon);
+      } else {
+        lat = parseFloat(document.getElementById("lat").value);
+        lon = parseFloat(document.getElementById("lon").value);
+        if (isNaN(lat) || isNaN(lon)) {
+          alert("Coordenadas inválidas!");
+          return;
+        }
+      }
 
       document.getElementById("freguesia").textContent = "A procurar freguesia...";
       document.getElementById("pois").innerHTML = "";
