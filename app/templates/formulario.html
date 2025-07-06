@@ -19,11 +19,11 @@
 
     label {
       display: inline-block;
-      width: 80px;
+      width: 100px;
     }
 
     input[type="text"] {
-      width: 200px;
+      width: 250px;
       padding: 5px;
       margin-bottom: 10px;
     }
@@ -92,23 +92,22 @@
     <button type="submit">Pesquisar</button>
   </form>
 
-
   <div class="top-section">
     <div id="map"></div>
     <div id="freguesia"></div>
+    <button id="btnGerarRelatorio">📄 Descarregar Relatório PDF</button>
   </div>
 
   <h3>POIs:</h3>
   <div id="pois"></div>
 
-  <script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js">
-    
-  </script>
+  <script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js"></script>
   <script>
     const campoMorada = document.getElementById("campoMorada");
     const campoCoordenadas = document.getElementById("campoCoordenadas");
     const map = L.map('map').setView([38.7169, -9.1399], 12);
 
+    // Alterna entre morada e coordenadas
     document.querySelectorAll('input[name="modo"]').forEach(radio => {
       radio.addEventListener("change", function () {
         if (this.value === "morada") {
@@ -121,6 +120,7 @@
       });
     });
 
+    // Define o tile layer do mapa
     L.tileLayer('https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png', {
       attribution: '&copy; OpenStreetMap contributors'
     }).addTo(map);
@@ -128,11 +128,11 @@
     let marker;
     let poiMarkers = [];
 
+    // Função para buscar POIs e dados
     document.getElementById("poiForm").addEventListener("submit", async function (e) {
       e.preventDefault();
 
       let lat, lon;
-
       const modo = document.querySelector('input[name="modo"]:checked').value;
 
       if (modo === "morada") {
@@ -154,12 +154,13 @@
         }
       }
 
+      // Exibe a localização da freguesia e POIs
       document.getElementById("freguesia").textContent = "A procurar freguesia...";
       document.getElementById("pois").innerHTML = "";
 
       map.setView([lat, lon], 15);
 
-      // Remove marcador anterior do utilizador
+      // Remove o marcador anterior
       if (marker) map.removeLayer(marker);
       marker = L.marker([lat, lon]).addTo(map);
 
@@ -196,6 +197,7 @@
           freguesiaDiv.innerHTML = "<em>Dados da zona não encontrados.</em>";
         }
 
+        // Buscar POIs
         const poisResponse = await fetch("/api/pois", {
           method: "POST",
           headers: { "Content-Type": "application/json" },
@@ -205,20 +207,16 @@
 
         const poisContainer = document.getElementById("pois");
 
-        for (const poi of poisData) {
+        poisData.forEach(poi => {
           const div = document.createElement("div");
           div.className = "poi-card";
-
           let html = `<strong>${poi.descr_poi}</strong><br/>`;
           html += `<em>${poi.descr_categoria} / ${poi.descr_subcategoria}</em><br/>`;
           html += `<small>${poi.descr_entidade}</small><br/>`;
           html += `<span><strong>Distância a pé:</strong> ${poi.distancia_pedonal_m} m</span><br/>`;
-
-
-
           div.innerHTML = html;
 
-          // Adicionar marcador ao mapa para este POI
+          // Adicionar marcador para cada POI no mapa
           if (poi.lat && poi.lon) {
             const poiMarker = L.marker([poi.lat, poi.lon])
               .addTo(map)
@@ -226,45 +224,52 @@
             poiMarkers.push(poiMarker);
           }
 
-          // Estatísticas para escolas
-          if (poi.descr_subcategoria === "Escola") {
-            const estatPre = document.createElement("pre");
-            estatPre.textContent = "Carregando estatísticas...";
-            div.appendChild(estatPre);
-
-            try {
-              const estatRes = await fetch(`/api/escolas/${poi.id_poi}`);
-              if (estatRes.ok) {
-                const estat = await estatRes.json();
-                if (estat.estatisticas.length > 0) {
-                  estatPre.textContent = estat.estatisticas.map(e =>
-                    `   Ciclo: ${e.descr_ciclo_escolar}\n` +
-                    `   Média Global: ${e.media_global}\n` +
-                    `   Ranking Nacional: ${e.ranking_nacional}\n` +
-                    `   Ranking Distrital: ${e.ranking_distrital}\n` +
-                    `   Ranking Nacional com Índice de Segurança: ${e.ranking_nacional_seg}\n` +
-                    `   Ranking Distrital com Índice de Segurança: ${e.ranking_distrital_seg}\n` +
-                    `   Número de Alunos: ${e.num_alunos}\n` +
-                    `   % Mulheres: ${e.perc_mulheres}%\n` +
-                    `   % Homens: ${e.perc_homens}%`
-                  ).join("\n\n");
-                } else {
-                  estatPre.textContent = "Sem estatísticas disponíveis.";
-                }
-              } else {
-                estatPre.textContent = "Erro ao carregar estatísticas.";
-              }
-            } catch {
-              estatPre.textContent = "Erro ao carregar estatísticas.";
-            }
-          }
-
           poisContainer.appendChild(div);
-        }
+        });
 
       } catch (error) {
         document.getElementById("freguesia").textContent = "Erro ao obter freguesia.";
         document.getElementById("pois").innerHTML = `<pre>Erro ao obter POIs: ${error.message}</pre>`;
+      }
+    });
+
+    document.getElementById("btnGerarRelatorio").addEventListener("click", async function () {
+      const modo = document.querySelector('input[name="modo"]:checked').value;
+      let coordenada = "";
+      let morada = "";
+      let codigo_postal = "";
+
+      if (modo === "morada") {
+        morada = document.getElementById("morada").value;
+      } else {
+        const lat = document.getElementById("lat").value;
+        const lon = document.getElementById("lon").value;
+        if (lat && lon) {
+          coordenada = `${lat},${lon}`;
+        } else {
+          alert("Por favor, insira as coordenadas.");
+          return;
+        }
+      }
+
+      try {
+        // Fazendo a requisição para gerar o relatório PDF
+        const response = await fetch(`/api/gerar_relatorio?coordenada=${coordenada}&morada=${morada}&codigo_postal=${codigo_postal}`);
+        
+        if (response.ok) {
+          const blob = await response.blob();
+          const url = window.URL.createObjectURL(blob);
+          const a = document.createElement("a");
+          a.href = url;
+          a.download = "relatorio.pdf"; // Nome do arquivo PDF
+          a.click();
+          window.URL.revokeObjectURL(url);
+        } else {
+          alert("Falha ao gerar o relatório.");
+        }
+      } catch (error) {
+        console.error("Erro ao gerar o relatório:", error);
+        alert("Ocorreu um erro ao gerar o relatório.");
       }
     });
   </script>
