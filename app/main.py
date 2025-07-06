@@ -2,7 +2,7 @@ from fastapi import FastAPI, Request
 from fastapi.responses import HTMLResponse
 from fastapi.templating import Jinja2Templates
 from fastapi.middleware.cors import CORSMiddleware
-from app.routers import localizacao, pois
+from app.routers import localizacao, pois, pdf_router
 
 app = FastAPI()
 
@@ -18,6 +18,7 @@ app.add_middleware(
 # Incluir os routers
 app.include_router(localizacao.router) #, prefix="/api"
 app.include_router(pois.router) #, prefix="/api"
+app.include_router(pdf_router.router)
 
 # Templates
 templates = Jinja2Templates(directory="app/templates")
