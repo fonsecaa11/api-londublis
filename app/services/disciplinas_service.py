@@ -17,7 +17,7 @@ def get_disciplinas_by_ciclo(escola_id: str, ciclo_id: str) -> list[dict]:
               ON ed.poi_id = p.id_poi
             JOIN public.ciclo_escolar ce
               ON ed.ciclo_escolar_id = ce.id_ciclo_escolar
-            WHERE p.id_poi = %s
+            WHERE p.id_poi = %s AND ce.id_ciclo_escolar = %s
             ORDER BY ce.id_ciclo_escolar, ed.disciplina;
         """, (escola_id, ciclo_id))
         return cur.fetchall()

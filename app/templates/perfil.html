@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="pt">
+<head>
+  <meta charset="UTF-8" />
+  <title>Editar Perfil</title>
+</head>
+<body>
+  <h2>Editar Perfil</h2>
+
+  <form method="post" action="/perfil/update">
+    <input type="hidden" name="user_id" value="{{ user_id }}" />
+
+    <label for="full_name">Nome completo:</label>
+    <input type="text" name="full_name" id="full_name" value="{{ profile.full_name }}" />
+
+    <label for="avatar_url">URL da imagem de perfil:</label>
+    <input type="text" name="avatar_url" id="avatar_url" value="{{ profile.avatar_url }}" />
+
+    <label for="bio">Bio:</label><br>
+    <textarea name="bio" id="bio" rows="4" cols="50">{{ profile.bio }}</textarea>
+
+    <br><br>
+    <button type="submit">Guardar</button>
+  </form>
+</body>
+</html>
