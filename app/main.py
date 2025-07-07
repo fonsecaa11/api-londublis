@@ -179,3 +179,4 @@ async def update_profile(
     except Exception as e:
         print("Erro ao atualizar perfil:", e)
         raise HTTPException(status_code=500, detail="Erro ao atualizar perfil")
+

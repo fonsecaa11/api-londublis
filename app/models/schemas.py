@@ -1,4 +1,5 @@
 from pydantic import BaseModel
+from typing import Optional
 
 class Coordenadas(BaseModel):
     lat: float
@@ -17,3 +18,5 @@ class POIOut(BaseModel):
     lon: float
     tipo: str
     distancia_pedonal_m: float
+    morada: Optional[str]
+    cod_postal: Optional[str]

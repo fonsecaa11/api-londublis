@@ -55,7 +55,7 @@
     transform: translateX(calc(-100% + 48px)); /* Mostra só 48px (tamanho botão) */
     transition: transform 0.3s ease;
     overflow-y: auto;
-    z-index: 1000;
+    z-index: 1099;
     padding: 30px;
   }
 
@@ -172,6 +172,18 @@
   max-height: 90vh;
 }
 
+.poi-card {
+    position: relative;
+    padding-right: 100px; /* deixa espaço para o botão à direita */
+  }
+
+  .poi-card .btn {
+    position: absolute;
+    top: 45px;
+    right: 10px;
+  }
+
+
   #info-container {
   position: absolute;
   bottom: 20px;
@@ -180,6 +192,7 @@
   flex-direction: row;
   gap: 20px;
   z-index: 1000;
+  height: 17rem;
 }
 
   #freguesia,
@@ -211,8 +224,8 @@
   background: #fff;
   padding: 30px;
   border-radius: 10px;
-  max-width: 700px;
-  width: 90%;
+  max-width: 90vw;
+  width: 100%;
   max-height: 90vh;
   overflow-y: auto;
   position: relative;
@@ -502,79 +515,78 @@ document.getElementById("toggleLogin").addEventListener("click", () => {
 
   <script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js"></script>
  
-  <script>
+<script>
     document.addEventListener("DOMContentLoaded", function () {
       const buscaDiv = document.getElementById("busca");
       const abrirModalCoordenadasBtn = document.getElementById("abrirModalCoordenadas");
       const coordenadasModal = document.getElementById("coordenadasModal");
       const concelhoModal = document.getElementById("concelhoModal");
       const poiForm = document.getElementById("poiForm");
-
+    
+      // Flag para saber se a pesquisa foi por morada
+      let pesquisaPorMorada = false;
+    
       document.getElementById("formPrincipal").addEventListener("submit", async function (e) {
-      e.preventDefault();
-
-      const morada = document.getElementById("morada").value;
-
-      if (!morada.trim()) {
-        alert("Por favor, insira uma morada.");
-        return;
-      }
-
-      try {
-        // Usar Nominatim para geocodificar a morada
-        const response = await fetch(`https://nominatim.openstreetmap.org/search?format=json&q=${encodeURIComponent(morada)}`);
-        const data = await response.json();
-
-        if (data.length === 0) {
-          alert("Morada não encontrada.");
+        e.preventDefault();
+      
+        const morada = document.getElementById("morada").value;
+      
+        if (!morada.trim()) {
+          alert("Por favor, insira uma morada.");
           return;
         }
-
-        const lat = parseFloat(data[0].lat);
-        const lon = parseFloat(data[0].lon);
-
-        // Atualizar campos escondidos (opcional)
-        document.getElementById("lat").value = lat;
-        document.getElementById("lon").value = lon;
-
-        // Simular submissão do formulário das coordenadas
-        const event = new Event("submit", { bubbles: true, cancelable: true });
-        document.getElementById("poiForm").dispatchEvent(event);
-      } catch (error) {
-        alert("Erro ao procurar morada: " + error.message);
-      }
-    });
-
-
-      // Abrir Modal Coordenadas → esconder busca
+      
+        try {
+          pesquisaPorMorada = true;
+        
+          const response = await fetch(`https://nominatim.openstreetmap.org/search?format=json&q=${encodeURIComponent(morada)}`);
+          const data = await response.json();
+        
+          if (data.length === 0) {
+            alert("Morada não encontrada.");
+            return;
+          }
+        
+          const lat = parseFloat(data[0].lat);
+          const lon = parseFloat(data[0].lon);
+        
+          document.getElementById("lat").value = lat;
+          document.getElementById("lon").value = lon;
+        
+          const event = new Event("submit", { bubbles: true, cancelable: true });
+          document.getElementById("poiForm").dispatchEvent(event);
+        } catch (error) {
+          alert("Erro ao procurar morada: " + error.message);
+        }
+      });
+    
       abrirModalCoordenadasBtn.addEventListener("click", function () {
         buscaDiv.style.display = "none";
+        pesquisaPorMorada = false;  // ← Importante: isto indica que estamos a usar coordenadas
       });
-
-      // Fechar Modal Coordenadas (após submissão)
+    
       poiForm.addEventListener("submit", function (e) {
         e.preventDefault();
         const lat = document.getElementById("lat").value;
         const lon = document.getElementById("lon").value;
         console.log("Lat:", lat, "Lon:", lon);
-
+      
         const modal = bootstrap.Modal.getInstance(coordenadasModal);
-        modal.hide();
-
-        buscaDiv.style.display = "none"; // Esconder busca após submissão
+        if (modal) modal.hide();
+      
+        buscaDiv.style.display = "none";
       });
-
-      // Mostrar busca de novo quando fechar modal de coordenadas
+    
       coordenadasModal.addEventListener("hidden.bs.modal", function () {
-        buscaDiv.style.display = "block";
+        if (pesquisaPorMorada) {
+          buscaDiv.style.display = "block";
+        }
       });
-
-      // Quando abrir o modal de "Ver mais" → esconder busca
+    
       concelhoModal.addEventListener("show.bs.modal", function () {
         buscaDiv.style.display = "none";
       });
-
-      // Quando fechar o modal de "Ver mais" → mostrar busca
+    
       concelhoModal.addEventListener("hidden.bs.modal", function () {
         buscaDiv.style.display = "block";
       });
@@ -667,6 +679,8 @@ document.getElementById("toggleLogin").addEventListener("click", () => {
 
         // Mostrar os POIs agrupados por categoria
         for (const [categoria, pois] of Object.entries(categoriasMap)) {
+
+          pois.sort((a, b) => a.distancia_pedonal_m - b.distancia_pedonal_m);
           const catDiv = document.createElement("div");
           catDiv.className = "categoria-bloco";
 
@@ -690,9 +704,24 @@ document.getElementById("toggleLogin").addEventListener("click", () => {
             let html = `<strong>${poi.descr_poi}</strong><br/>`;
             html += `<em>${poi.descr_categoria} / ${poi.descr_subcategoria}</em><br/>`;
             html += `<small>${poi.descr_entidade}</small><br/>`;
+            html += `<small>${poi.morada}</small><br/>`;
+            html += `<small>${poi.cod_postal}</small><br/>`;
             html += `<span><strong>Distância a pé:</strong> ${poi.distancia_pedonal_m} m</span><br/>`;
 
+            // Adiciona o botão se for uma escola
+            if (poi.descr_subcategoria === "Escola") {
+              html += `<button class="btn btn-sm btn-outline-primary mt-2" onclick="mostrarDetalhesEscola('${poi.id_poi}')">Ver mais</button>`;
+            }
+
+            if (poi.descr_subcategoria === "Universidade") {
+              html += `<button class="btn btn-sm btn-outline-primary mt-2" onclick="mostrarDetalhesUniversidade('${poi.id_poi}')">Ver mais</button>`;
+            }
+
             div.innerHTML = html;
+
+              // Se for da categoria "Educação / Escola", adicionar botão "Ver mais" à direita
+              
+
 
             if (poi.lat && poi.lon) {
               const poiMarker = L.marker([poi.lat, poi.lon])
@@ -862,25 +891,40 @@ document.getElementById("toggleLogin").addEventListener("click", () => {
         }
       }
 
-      try {
-        // Fazendo a requisição para gerar o relatório PDF
-        const response = await fetch(`/api/gerar_relatorio?coordenada=${coordenada}&morada=${morada}&codigo_postal=${codigo_postal}`);
-        
-        if (response.ok) {
-          const blob = await response.blob();
-          const url = window.URL.createObjectURL(blob);
-          const a = document.createElement("a");
-          a.href = url;
-          a.download = "relatorio.pdf"; // Nome do arquivo PDF
-          a.click();
-          window.URL.revokeObjectURL(url);
-        } else {
-          alert("Falha ao gerar o relatório.");
-        }
-      } catch (error) {
-        console.error("Erro ao gerar o relatório:", error);
-        alert("Ocorreu um erro ao gerar o relatório.");
-      }
+            try {
+              // Fazendo a requisição para gerar o relatório PDF
+              const response = await fetch(`/api/gerar_relatorio`, {
+                method: "POST",
+                headers: {
+                  "Content-Type": "application/json"
+                },
+                body: JSON.stringify({
+                  coordenada,
+                  morada,
+                  codigo_postal,
+                  freguesia: window.freguesiaDetalhes
+                })
+              });
+
+              if (!response.ok) {
+                throw new Error("Erro ao gerar o relatório PDF.");
+              }
+
+              const blob = await response.blob();
+              const url = window.URL.createObjectURL(blob);
+
+              const link = document.createElement("a");
+              link.href = url;
+              link.download = "relatorio.pdf";
+              document.body.appendChild(link);
+              link.click();
+              link.remove();
+              window.URL.revokeObjectURL(url);
+
+            } catch (error) {
+              console.error("Erro ao gerar o relatório:", error);
+              alert("Erro ao gerar o relatório PDF.");
+            }
     });
 
 
@@ -905,5 +949,150 @@ document.getElementById("toggleLogin").addEventListener("click", () => {
       });
 
   </script>
+
+  <div class="modal fade" id="modalEscola" tabindex="-1" aria-labelledby="modalEscolaLabel" aria-hidden="true">
+    <div class="modal-dialog modal-dialog-scrollable modal-lg">
+      <div class="modal-content">
+        <div class="modal-header">
+          <h5 class="modal-title" id="modalEscolaLabel">Detalhes da Escola</h5>
+          <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Fechar"></button>
+        </div>
+        <div class="modal-body" id="modalEscolaBody">
+          Carregando dados...
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <script>
+    async function mostrarDetalhesEscola(id) {
+      const modalBody = document.getElementById("modalEscolaBody");
+      modalBody.innerHTML = "Carregando dados...";
+
+      const modal = new bootstrap.Modal(document.getElementById("modalEscola"));
+      modal.show();
+
+      try {
+        const res = await fetch(`/api/escolas/${id}/disciplinas`);
+        if (!res.ok) {
+          modalBody.innerHTML = "<p>Erro ao buscar dados da escola.</p>";
+          return;
+        }
+
+        const data = await res.json();
+
+        if (!data.disciplinas || data.disciplinas.length === 0) {
+          modalBody.innerHTML = "<p>Sem dados de disciplinas disponíveis.</p>";
+          return;
+        }
+
+        modalBody.innerHTML = `
+          <div class="table-responsive">
+            <table class="table table-striped">
+              <thead class="table-dark">
+                <tr>
+                  <th>Disciplina</th>
+                  <th>Nota Média</th>
+                  <th>Ranking Nacional</th>
+                  <th>Ranking Distrital</th>
+                </tr>
+              </thead>
+              <tbody>
+                ${data.disciplinas.map(d => `
+                  <tr>
+                    <td>${d.disciplina ?? "-"}</td>
+                    <td>${d.nota_media ?? "-"}</td>
+                    <td>${d.ranking_nacional ?? "-"}</td>
+                    <td>${d.ranking_distrital ?? "-"}</td>
+                  </tr>`).join("")}
+              </tbody>
+            </table>
+          </div>
+        `;
+
+      } catch (err) {
+        modalBody.innerHTML = "<p>Erro inesperado ao carregar dados.</p>";
+        console.error(err);
+      }
+    }
+
+
+  </script>
+
+  <!-- Modal -->
+  <div class="modal fade" id="modalUniversidade" tabindex="-1" aria-labelledby="modalUniversidadeLabel" aria-hidden="true">
+    <div class="modal-dialog modal-xl">
+      <div class="modal-content">
+        <div class="modal-header">
+          <h5 class="modal-title" id="modalUniversidadeLabel">Detalhes da Universidade</h5>
+          <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Fechar"></button>
+        </div>
+        <div class="modal-body" id="modalUniversidadeBody">
+          <!-- Conteúdo dinâmico -->
+        </div>
+      </div>
+    </div>
+  </div>
+
+
+  <script>
+    async function mostrarDetalhesUniversidade(id) {
+      console.log("🔍 Buscando cursos para universidade id:", id);
+      const modalBody = document.getElementById("modalUniversidadeBody");
+      modalBody.innerHTML = "Carregando dados...";
+      const modal = new bootstrap.Modal(document.getElementById("modalUniversidade"));
+      modal.show();
+
+      try {
+        const res = await fetch(`/api/universidade/${id}`);
+        if (!res.ok) {
+          modalBody.innerHTML = "<p>Erro ao buscar dados da universidade.</p>";
+          return;
+        }
+        const cursos = await res.json();
+
+        if (!cursos || cursos.length === 0) {
+          modalBody.innerHTML = "<p>Sem dados de cursos disponíveis.</p>";
+          return;
+        }
+
+        modalBody.innerHTML = `
+          <div class="table-responsive">
+            <table class="table table-striped">
+              <thead class="table-dark">
+                <tr>
+                  <th>Curso</th>
+                  <th>Nivel Formação</th>
+                  <th>Natureza</th>
+                  <th>Vagas</th>
+                  <th>Colocados</th>
+                  <th>Nota Último</th>
+                  <th>Ano</th>
+                </tr>
+              </thead>
+              <tbody>
+                ${cursos.map(curso => `
+                  <tr>
+                    <td>${curso.nome_curso ?? "-"}</td>
+                    <td>${curso.nivel_formacao ?? "-"}</td>
+                    <td>${curso.natureza_institucional ?? "-"}</td>
+                    <td>${curso.vagas_iniciais ?? "-"}</td>
+                    <td>${curso.colocados ?? "-"}</td>
+                    <td>${curso.nota_ultimo_colocado ?? "-"}</td>
+                    <td>${curso.ano_colocacao ?? "-"}</td>
+                  </tr>
+                `).join('')}
+              </tbody>
+            </table>
+          </div>
+        `;
+      } catch (err) {
+        modalBody.innerHTML = "<p>Erro inesperado ao carregar dados.</p>";
+        console.error(err);
+      }
+    }
+
+  </script>
+
 </body>
 </html>

@@ -7,7 +7,7 @@ def get_pois_around(lat: float, lon: float, min_pois: int = 10, max_raio: int = 
         conn = get_connection()
         with conn.cursor(cursor_factory=RealDictCursor) as cur:
             raio = 500
-            resultados = []
+            resultados_dict = {}
 
             print(f"📩 Coordenadas recebidas: lat={lat}, lon={lon}")
 
@@ -16,7 +16,7 @@ def get_pois_around(lat: float, lon: float, min_pois: int = 10, max_raio: int = 
 
                 cur.execute("""
                     SELECT p.id_poi, p.descr_poi, e.descr_entidade,
-                           s.descr_subcategoria, c.descr_categoria,
+                           s.descr_subcategoria,p.morada,p.cod_postal, c.descr_categoria,
                            ST_Y(p.geom) AS lat, ST_X(p.geom) AS lon
                     FROM poi p
                     JOIN entidade e ON p.entidade_id = e.id_entidade
@@ -33,23 +33,28 @@ def get_pois_around(lat: float, lon: float, min_pois: int = 10, max_raio: int = 
                 print(f"🔢 {len(rows)} POIs encontrados no raio de {raio}m")
 
                 for poi in rows:
+                    poi_id = poi["id_poi"]
+                    if poi_id in resultados_dict:
+                        continue 
+
                     dist = get_pedestrian_distance(lat, lon, poi["lat"], poi["lon"])
                     if dist is not None and dist <= 1000:
                         poi["distancia_pedonal_m"] = round(dist, 2)
                         poi["tipo"] = "poi"
-                        resultados.append(poi)
+                        resultados_dict[poi_id] = poi
 
-                if len(resultados) >= min_pois:
-                    break  # Encontrámos POIs suficientes dentro do raio e distância a pé
+                if len(resultados_dict) >= min_pois:
+                    break
 
                 raio += 500
 
-            print(f"📦 Resultado final: {len(resultados)} POIs com distância pedonal <= 1000m")
-            return resultados
+            print(f"📦 Resultado final: {len(resultados_dict)} POIs com distância pedonal <= 1000m")
+            return list(resultados_dict.values())
 
     except Exception as e:
         print(f"❌ Erro ao obter POIs: {e}")
         return []
+
 
 def get_pedestrian_distance(lat1, lon1, lat2, lon2):
     try:

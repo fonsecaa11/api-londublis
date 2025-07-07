@@ -1,7 +1,8 @@
 from psycopg2.extras import RealDictCursor
 from app.db import get_connection
 
-def get_universidade_colocacoes_cursos(poi_id: str, ciclo_escolar_id: str) -> list[dict]:
+
+def get_universidade_colocacoes_cursos(poi_id: str) -> list[dict]:
     conn = get_connection()
     with conn.cursor(cursor_factory=RealDictCursor) as cur:
         cur.execute("""
@@ -22,8 +23,7 @@ def get_universidade_colocacoes_cursos(poi_id: str, ciclo_escolar_id: str) -> li
              AND c.ciclo_escolar_id = fc.ciclo_escolar_id
              AND c.codcurso = fc.codcurso
             WHERE fc.poi_id = %s
-              AND fc.ciclo_escolar_id = %s
             ORDER BY fc.nome_curso
-        """, (poi_id, ciclo_escolar_id))
+        """, (poi_id))
         return cur.fetchall()
 
