@@ -35,9 +35,22 @@ templates = Jinja2Templates(directory="app/templates")
 async def login_register(request: Request):
     return templates.TemplateResponse("login/register.html", {"request": request})
 
-@app.get("/formulario", response_class=HTMLResponse)
-async def formulario_page(request: Request, user_id: int):
-    return templates.TemplateResponse("formulario.html", {"request": request, "user_id": user_id})
+@app.get("/formulario")
+def mostrar_formulario(request: Request, user_id: int, role_id: int):
+    return templates.TemplateResponse("formulario.html", {
+        "request": request,
+        "user_id": user_id,
+        "role_id": role_id
+    })
+
+@app.get("/dashboard")
+def mostrar_dashboard(request: Request, user_id: int, role_id: int):
+    return templates.TemplateResponse("dashboard.html", {
+        "request": request,
+        "user_id": user_id,
+        "role_id": role_id
+    })
+
 
 
 
@@ -96,20 +109,20 @@ async def handle_login(email: str = Form(...), password: str = Form(...)):
         conn = get_connection()
         cur = conn.cursor()
 
-        cur.execute("SELECT id, password_hash FROM users WHERE email = %s", (email,))
+        cur.execute("SELECT id, password_hash,role_id FROM users WHERE email = %s", (email,))
         result = cur.fetchone()
 
         if not result:
             raise HTTPException(status_code=401, detail="Utilizador não encontrado")
 
-        user_id, stored_hash = result
+        user_id, stored_hash, role_id = result
         stored_hash = bytes(stored_hash)
 
         if not bcrypt.checkpw(password.encode(), stored_hash):
             raise HTTPException(status_code=401, detail="Senha incorreta")
 
         # Em vez de redirecionar, devolve JSON com o ID
-        return JSONResponse(content={"user_id": user_id}, status_code=200)
+        return JSONResponse(content={"user_id": user_id, "role_id": role_id}, status_code=200)
 
     except Exception as e:
         print("Erro:", e)

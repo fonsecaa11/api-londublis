@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Backoffice Sidebar</title>
+  <script src="https://cdn.tailwindcss.com"></script>
+</head>
+<body class="bg-gray-900 text-white flex h-screen">
+
+  <!-- Sidebar -->
+  <aside id="sidebar" class="w-64 bg-gray-800 flex flex-col justify-between transition-all duration-300">
+    <div>
+      <!-- Toggle Button -->
+      <div class="flex justify-between items-center p-4 border-b border-gray-700">
+        <span id="menuTitle" class="text-xl font-bold">Menu</span>
+        <button onclick="toggleSidebar()" class="text-white text-lg">
+          ⬅️
+        </button>
+      </div>
+      <nav class="mt-4 space-y-2">
+        <a href="#" class="flex items-center gap-3 py-3 px-6 hover:bg-gray-700">
+          <span>📊</span>
+          <span class="menu-text">Overview</span>
+        </a>
+        <a href="#" class="flex items-center gap-3 py-3 px-6 hover:bg-gray-700">
+          <span>👥</span>
+          <span class="menu-text">Clientes</span>
+        </a>
+        <a href="#" class="flex items-center gap-3 py-3 px-6 hover:bg-gray-700">
+          <span>📦</span>
+          <span class="menu-text">Produtos</span>
+        </a>
+        <a href="#" class="flex items-center gap-3 py-3 px-6 hover:bg-gray-700">
+          <span>⚙️</span>
+          <span class="menu-text">Definições</span>
+        </a>
+      </nav>
+    </div>
+    <div class="p-6 border-t border-gray-700">
+      <button onclick="logout()" class="w-full py-2 bg-red-600 hover:bg-red-700 rounded font-semibold flex items-center gap-2 justify-center">
+        🔒 <span class="menu-text">Logout</span>
+      </button>
+    </div>
+  </aside>
+
+  <!-- Main Content -->
+  <main id="mainContent" class="flex-1 p-10 transition-all duration-300">
+    <h1 class="text-3xl font-bold mb-6">Bem-vindo ao Backoffice</h1>
+    <p>O conteúdo principal vai aqui. Por agora é apenas estático.</p>
+  </main>
+
+  <!-- Script -->
+  <script>
+    let isSidebarOpen = true;
+
+    function toggleSidebar() {
+      const sidebar = document.getElementById("sidebar");
+      const main = document.getElementById("mainContent");
+      const menuTitle = document.getElementById("menuTitle");
+      const menuTexts = document.querySelectorAll(".menu-text");
+
+      isSidebarOpen = !isSidebarOpen;
+
+      if (isSidebarOpen) {
+        sidebar.classList.remove("w-16");
+        sidebar.classList.add("w-64");
+        main.classList.remove("ml-16");
+        main.classList.add("ml-64");
+        menuTitle.style.display = "inline";
+        menuTexts.forEach(el => el.style.display = "inline");
+      } else {
+        sidebar.classList.remove("w-64");
+        sidebar.classList.add("w-16");
+        main.classList.remove("ml-64");
+        main.classList.add("ml-16");
+        menuTitle.style.display = "none";
+        menuTexts.forEach(el => el.style.display = "none");
+      }
+    }
+
+    function logout() {
+      alert("Sessão terminada!");
+      // window.location.href = "/login";
+    }
+  </script>
+</body>
+</html>

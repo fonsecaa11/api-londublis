@@ -184,22 +184,38 @@
         }
       } else {
         const response = await fetch("/login", {
-          method: "POST",
-          headers: { "Content-Type": "application/x-www-form-urlencoded" },
-          body: new URLSearchParams({ email, password }),
-        });
+        method: "POST",
+        headers: { "Content-Type": "application/x-www-form-urlencoded" },
+        body: new URLSearchParams({ email, password }),
+      });
 
-        const result = await response.json();
+      const result = await response.json();
+      console.log("Resposta do servidor:", result); // 👈 Este log mostra o que vem da API
 
-        if (response.ok) {
-          window.location.href = `/formulario?user_id=${result.user_id}`;
+      if (response.ok) {
+        // O backend agora envia user_id e role_id
+        if (result.role_id == 2) {
+          // Redireciona para utilizador normal
+          window.location.href = `/formulario?user_id=${result.user_id}&role_id=${result.role_id}`;
+        } else if (result.role_id == 1) {
+          // Redireciona para administrador
+          window.location.href = `/dashboard?user_id=${result.user_id}&role_id=${result.role_id}`;
         } else {
+          // Papel desconhecido
           Swal.fire({
             icon: 'error',
-            title: 'Erro ao iniciar sessão',
-            text: result.detail || 'Tenta novamente.',
+            title: 'Acesso negado',
+            text: 'Função do utilizador não reconhecida.',
           });
         }
+      }
+      else {
+        Swal.fire({
+          icon: 'error',
+          title: 'Erro ao iniciar sessão',
+          text: result.detail || 'Tenta novamente.',
+        });
+      }
       }
 
       return false;
