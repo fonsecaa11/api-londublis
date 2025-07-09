@@ -5,13 +5,14 @@
   <title>Login</title>
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <link rel="stylesheet" href="https://unpkg.com/leaflet/dist/leaflet.css" />
+  <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
 
   <style>
     html, body {
       margin: 0;
       padding: 0;
       height: 100%;
-      overflow: hidden; /* 🛑 Impede o scroll */
+      overflow: hidden;
       font-family: Arial, sans-serif;
     }
 
@@ -95,18 +96,21 @@
   <div class="login-wrapper">
     <div class="login-form">
       <h2 id="form-title">Login</h2>
-        <form id="auth-form" method="post" action="/login" onsubmit="handleAuth(event)">
+      <form id="auth-form">
+        <label for="email">E-mail:</label>
+        <input type="email" id="email" name="email" required />
 
-            <label for="email">E-mail:</label>
-            <input type="email" id="email" name="email" required />
+        <label for="password">Senha:</label>
+        <input type="password" id="password" name="password" required />
 
-            <label for="password">Senha:</label>
-            <input type="password" id="password" name="password" required />
+        <div id="confirm-group" style="display: none;">
+          <label for="confirm">Confirmar Senha:</label>
+          <input type="password" id="confirm" name="confirm" />
+        </div>
 
-            <button type="submit">Entrar</button>
-        </form>
+        <button type="submit" id="submit-btn">Entrar</button>
+      </form>
 
-      <!-- ✅ Botão para trocar entre Login e Registo -->
       <button class="switch-btn" onclick="toggleForm()">Ainda não tens conta? Regista-te</button>
     </div>
   </div>
@@ -122,95 +126,86 @@
     map.dragging.disable();
   </script>
 
-  <script>
-  async function handleAuth(event) {
-    event.preventDefault();
-
-    const email = document.getElementById('email').value;
-    const password = document.getElementById('password').value;
-
-    if (!isLogin) {
-        // REGISTO
-        const confirm = document.getElementById('confirm').value;
-
-        const response = await fetch("/login/register", {
-        method: "POST",
-        headers: { "Content-Type": "application/x-www-form-urlencoded" },
-        body: new URLSearchParams({ email, password, confirm }),
-        });
-
-        const result = await response.json();
-        if (response.ok) {
-        alert("Registo feito com sucesso!");
-        toggleForm(); // Voltar para login
-        } else {
-        alert(result.error || result.detail);
-        }
-
-    } else {
-        // LOGIN REAL
-        const response = await fetch("/login", {
-        method: "POST",
-        headers: { "Content-Type": "application/x-www-form-urlencoded" },
-        body: new URLSearchParams({ email, password }),
-        });
-
-        const result = await response.json();
-
-        if (response.ok) {
-        // 🔁 Redirecionar para /formulario com o user_id retornado pelo backend
-        window.location.href = `/formulario?user_id=${result.user_id}`;
-        } else {
-        alert(result.detail || "Erro ao iniciar sessão");
-        }
-    }
-
-    return false;
-    }
-
-    </script>
-
-
-  <!-- Alternar entre Login e Registo -->
+  <!-- JavaScript de Autenticação -->
   <script>
     let isLogin = true;
 
     function toggleForm() {
       const title = document.getElementById('form-title');
-      const form = document.getElementById('auth-form');
+      const confirmGroup = document.getElementById('confirm-group');
+      const submitBtn = document.getElementById('submit-btn');
       const switchBtn = document.querySelector('.switch-btn');
 
+      isLogin = !isLogin;
+
       if (isLogin) {
-        title.textContent = "Registo";
-        form.innerHTML = `
-          <label for="email">E-mail:</label>
-          <input type="email" id="email" name="email" required />
-
-          <label for="password">Senha:</label>
-          <input type="password" id="password" name="password" required />
-
-          <label for="confirm">Confirmar Senha:</label>
-          <input type="password" id="confirm" name="confirm" required />
-
-          <button type="submit">Registar</button>
-        `;
-        switchBtn.textContent = "Já tens conta? Inicia sessão";
-        isLogin = false;
-      } else {
         title.textContent = "Login";
-        form.innerHTML = `
-          <label for="email">E-mail:</label>
-          <input type="email" id="email" name="email" required />
-
-          <label for="password">Senha:</label>
-          <input type="password" id="password" name="password" required />
-
-          <button type="submit">Entrar</button>
-        `;
+        confirmGroup.style.display = "none";
+        submitBtn.textContent = "Entrar";
         switchBtn.textContent = "Ainda não tens conta? Regista-te";
-        isLogin = true;
+      } else {
+        title.textContent = "Registo";
+        confirmGroup.style.display = "block";
+        submitBtn.textContent = "Registar";
+        switchBtn.textContent = "Já tens conta? Inicia sessão";
       }
     }
+
+    async function handleAuth(event) {
+      event.preventDefault();
+
+      const email = document.getElementById('email').value;
+      const password = document.getElementById('password').value;
+
+      if (!isLogin) {
+        const confirm = document.getElementById('confirm').value;
+
+        const response = await fetch("/login/register", {
+          method: "POST",
+          headers: { "Content-Type": "application/x-www-form-urlencoded" },
+          body: new URLSearchParams({ email, password, confirm }),
+        });
+
+        const result = await response.json();
+        if (response.ok) {
+          Swal.fire({
+            icon: 'success',
+            title: 'Registo feito com sucesso!',
+            confirmButtonText: 'OK'
+          }).then(() => {
+            toggleForm();
+          });
+        } else {
+          Swal.fire({
+            icon: 'error',
+            title: 'Erro',
+            text: result.error || result.detail || 'Não foi possível registar.',
+          });
+        }
+      } else {
+        const response = await fetch("/login", {
+          method: "POST",
+          headers: { "Content-Type": "application/x-www-form-urlencoded" },
+          body: new URLSearchParams({ email, password }),
+        });
+
+        const result = await response.json();
+
+        if (response.ok) {
+          window.location.href = `/formulario?user_id=${result.user_id}`;
+        } else {
+          Swal.fire({
+            icon: 'error',
+            title: 'Erro ao iniciar sessão',
+            text: result.detail || 'Tenta novamente.',
+          });
+        }
+      }
+
+      return false;
+    }
+
+    document.getElementById("auth-form").addEventListener("submit", handleAuth);
   </script>
 </body>
 </html>
