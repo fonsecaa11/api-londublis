@@ -29,10 +29,6 @@ def gerar_relatorio(lat, lon, morada, codigo_postal):
         # Adicionar mais espaçamento
         pdf.ln(10)
 
-        # Dados de código postal
-        if codigo_postal:
-            pdf.cell(200, 10, txt=f"Código Postal: {codigo_postal}", ln=True)
-
         # Salvar o arquivo PDF temporariamente
         with tempfile.NamedTemporaryFile(delete=False, suffix='.pdf') as tmp_file:
             arquivo_pdf = tmp_file.name

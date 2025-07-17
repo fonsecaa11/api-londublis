@@ -30,23 +30,17 @@ def obter_freguesia(lat: float, lon: float):
 
             cur.execute("""
                 SELECT c.descr_concelho, 
-                       i.taxa_envelhecimento, 
-                       i.taxa_analfabetismo,
-                       i.taxa_ensino_superior, 
-                       i.taxa_desemprego, 
-                       i.taxa_criminalidade,
-                       i.taxa_mortalidade, 
-                       i.valor_renda_absoluto, 
-                       i.valor_renda_percentual,
-                       i.enfermeiros_por_1000,
+                       i.*,
                        te.numero_total,
                        te.numero_nao_transicao,
                        ROUND(te.taxa_nao_transicao, 2) AS taxa_nao_transicao,
                        te.numero_transicao,
-                       ROUND(te.taxa_transicao, 2) AS taxa_transicao
+                       ROUND(te.taxa_transicao, 2) AS taxa_transicao,
+                        ie.*
                 FROM indicadoresconcelho i
                 JOIN concelho c ON i.concelho_id = c.id_concelho
                 LEFT JOIN transicoes_ensino te ON te.concelho_id = i.concelho_id
+                left join indicadoresempresas ie on ie.concelho_id = i.concelho_id
                 WHERE c.descr_concelho = %s;
             """, (nome_concelho,))
 

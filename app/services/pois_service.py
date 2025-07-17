@@ -1,8 +1,9 @@
 from app.db import get_connection
 import requests
 from psycopg2.extras import RealDictCursor
+import time
 
-def get_pois_around(lat: float, lon: float, min_pois: int = 10, max_raio: int = 10000) -> list[dict]:
+def get_pois_around(lat: float, lon: float, min_pois: int = 10, max_raio: int = 5000) -> list[dict]:
     try:
         conn = get_connection()
         with conn.cursor(cursor_factory=RealDictCursor) as cur:
@@ -42,6 +43,7 @@ def get_pois_around(lat: float, lon: float, min_pois: int = 10, max_raio: int = 
                         poi["distancia_pedonal_m"] = round(dist, 2)
                         poi["tipo"] = "poi"
                         resultados_dict[poi_id] = poi
+                        time.sleep(1)
 
                 if len(resultados_dict) >= min_pois:
                     break
