@@ -1,0 +1,156 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>About Us</title>
+    <link
+      href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&display=swap"
+      rel="stylesheet"
+    />
+    <style>
+      * {
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+      }
+
+      body {
+        font-family: "Montserrat", sans-serif;
+        background: #fff;
+        color: #333;
+      }
+
+      header {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        padding: 20px 50px;
+        background-color: #0c1f37;
+      }
+
+      header nav a {
+        margin-left: 30px;
+        text-decoration: none;
+        color: white;
+        font-weight: 500;
+        transition: 0.3s;
+      }
+
+      header nav a:hover {
+        border-bottom: 2px solid white;
+      }
+
+      .hero {
+        position: relative;
+        text-align: center;
+        padding: 100px 20px 60px;
+        color: #222;
+        background: url("images/diagonal-background.png") no-repeat center center;
+        background-size: cover;
+      }
+
+      .hero h1 {
+        font-size: 48px;
+        font-weight: 700;
+      }
+
+      .hero p {
+        margin-top: 20px;
+        font-size: 18px;
+        color: #555;
+        max-width: 700px;
+        margin-left: auto;
+        margin-right: auto;
+        line-height: 1.6;
+      }
+
+      .section {
+        padding: 80px 20px;
+        max-width: 1200px;
+        margin: 0 auto;
+      }
+
+      .section h2 {
+        font-size: 36px;
+        font-weight: 700;
+        margin-bottom: 20px;
+        text-align: left;
+      }
+
+      .section p {
+        font-size: 16px;
+        color: #444;
+        line-height: 1.8;
+        max-width: 600px;
+        margin-bottom: 40px;
+      }
+
+      .image-grid {
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        grid-template-rows: auto auto;
+        gap: 20px;
+      }
+
+      .image-grid div {
+        background-color: #e0e0e0;
+        height: 150px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        color: #999;
+        font-size: 14px;
+      }
+
+      .image-grid div.large {
+        grid-column: span 2;
+        height: 200px;
+      }
+
+      footer {
+        text-align: center;
+        padding: 30px 0;
+        font-size: 14px;
+        color: #888;
+        background-color: #f2f2f2;
+        margin-top: 60px;
+      }
+    </style>
+  </head>
+  <body>
+    <header>
+      <div>
+        <img src="images/londublisGPT.png" alt="Logo" style="height: 60px" />
+      </div>
+      <nav>
+        <a href="index.html">Home</a>
+        <a href="#">About us</a>
+        <a href="#">Service</a>
+        <a href="contact.html">Contact</a>
+      </nav>
+    </header>
+
+    <div class="hero">
+      <h1>About Us</h1>
+      <p>
+        Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+      </p>
+    </div>
+
+    <div class="section">
+      <h2>Our Mission</h2>
+      <p>
+        Neque porro quisquam est, qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit, sed quia non numquam eius modi tempora incidunt ut labore et dolore magnam aliquam quaerat voluptatem.
+        Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+      </p>
+      <div class="image-grid">
+        <div>Image 1</div>
+        <div>Image 2</div>
+        <div class="large">Image 3</div>
+      </div>
+    </div>
+
+    <footer>© 2025 Londublis, lda. All rights reserved.</footer>
+  </body>
+</html>
