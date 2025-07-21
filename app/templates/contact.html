@@ -1,0 +1,169 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Contact Us</title>
+  <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&display=swap" rel="stylesheet"/>
+  <style>
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+    }
+    body {
+      font-family: 'Montserrat', sans-serif;
+      background: linear-gradient(to top, #0c1f37, #2a5298);
+      color: #fff;
+    }
+    header {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      padding: 20px 50px;
+    }
+    header nav a {
+      margin-left: 30px;
+      text-decoration: none;
+      color: white;
+      font-weight: 500;
+      transition: 0.3s;
+    }
+    header nav a:hover {
+      border-bottom: 2px solid white;
+    }
+
+    .contact-section {
+      padding: 80px 20px 60px;
+      text-align: center;
+    }
+    .contact-section h1 {
+      font-size: 48px;
+      font-weight: 700;
+    }
+    .contact-section p {
+      margin-top: 10px;
+      font-size: 16px;
+      color: #d1d1d1;
+    }
+
+    .logos {
+      display: flex;
+      justify-content: center;
+      gap: 40px;
+      margin: 50px 0;
+      flex-wrap: wrap;
+    }
+    .logos img {
+      height: 40px;
+      filter: brightness(0) invert(1);
+    }
+
+    .form-container {
+      display: flex;
+      justify-content: center;
+      flex-wrap: wrap;
+      gap: 40px;
+      padding: 40px 20px;
+    }
+    form {
+      display: flex;
+      flex-direction: column;
+      gap: 15px;
+      max-width: 500px;
+      flex: 1;
+    }
+    input, textarea {
+      padding: 15px;
+      border-radius: 10px;
+      border: none;
+      font-family: 'Montserrat', sans-serif;
+    }
+    textarea {
+      min-height: 100px;
+      resize: vertical;
+    }
+    .submit-btn {
+      background-color: #2a5298;
+      color: white;
+      border: none;
+      padding: 15px;
+      border-radius: 10px;
+      cursor: pointer;
+      font-weight: bold;
+      transition: background-color 0.3s;
+    }
+    .submit-btn:hover {
+      background-color: #1e3c72;
+    }
+
+    .newsletter {
+      background-color: rgba(255, 255, 255, 0.1);
+      padding: 30px;
+      border-radius: 15px;
+      max-width: 300px;
+      flex: 1;
+    }
+    .newsletter h3 {
+      margin-bottom: 15px;
+      font-size: 20px;
+    }
+    .newsletter input {
+      width: 100%;
+      margin-top: 10px;
+      padding: 10px;
+      border-radius: 10px;
+      border: none;
+    }
+
+    .newsletter .submit-btn {
+      width: 100%;
+      margin-top: 15px;
+    }
+
+    footer {
+      text-align: center;
+      padding: 30px 0;
+      font-size: 14px;
+      color: #d1d1d1;
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <div>
+      <img src="images/londublisGPT.png" alt="Logo" style="height: 60px" />
+    </div>
+    <nav>
+      <a href="index.html">Home</a>
+      <a href="about.html">About us</a>
+      <a href="#">Service</a>
+      <a href="#">Contact</a>
+    </nav>
+  </header>
+
+  <section class="contact-section">
+    <h1>Contact Us</h1>
+    <p>Have questions or need assistance? Our team is here to help you explore and analyze geospatial data with ease.</p>
+
+    <div class="form-container">
+      <form>
+        <input type="email" placeholder="Email" required />
+        <input type="text" placeholder="Phone" />
+        <input type="text" placeholder="Name" required />
+        <textarea placeholder="Message" required></textarea>
+        <button class="submit-btn" type="submit">Submit</button>
+      </form>
+
+      <div class="newsletter">
+        <h3>Our Newsletters</h3>
+        <p>Stay updated with the latest features, tips, and geospatial insights delivered straight to your inbox.</p>
+        <input type="email" placeholder="Your email" />
+        <button class="submit-btn" type="button">Subscribe</button>
+      </div>
+    </div>
+  </section>
+
+  <footer>© 2025 Londublis, lda. All rights reserved.</footer>
+</body>
+</html>
