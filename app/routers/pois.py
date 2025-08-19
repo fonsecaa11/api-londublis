@@ -19,10 +19,12 @@ class Coordenadas(BaseModel):
 @router.post("/pois", response_model=list[POIOut])
 async def obter_pois(coord: Coordenadas):
     print(f"📩 Coordenadas recebidas: lat={coord.lat}, lon={coord.lon}")
+    # Debug: Log da distância calculada
     pois = get_pois_around(coord.lat, coord.lon)
+    print(f"POIs encontrados: {pois}")
     if not pois:
         raise HTTPException(404, "Nenhum POI encontrado.")
-    return pois  
+    return pois
 
 @router.get("/escolas/{id}")
 async def detalhes_escola(id: str):
@@ -141,5 +143,4 @@ async def obter_cursos_universidade(poi_id: str):
     finally:
         if cur: cur.close()
         if conn: conn.close()
-
 

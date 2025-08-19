@@ -20,3 +20,6 @@ class POIOut(BaseModel):
     distancia_pedonal_m: float
     morada: Optional[str]
     cod_postal: Optional[str]
+
+class ResultadoResumo(BaseModel):
+    resumo: str
