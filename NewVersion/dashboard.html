@@ -1,0 +1,312 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Painel Administrativo</title>
+    <link rel="stylesheet" href="./styles/dashboard.css">
+</head>
+<body>
+    <div class="dashboard">
+        <!-- Sidebar Navigation -->
+        <nav class="sidebar">
+            <div class="sidebar-header">
+                <div class="logo">
+                    <span class="logo-icon">
+                        <svg fill="#fff" width="30px" height="30px" viewBox="0 0 1920 1920" xmlns="http://www.w3.org/2000/svg">
+                            <path d="M1556.611 1920c-54.084 0-108.168-20.692-149.333-61.857L740.095 1190.96c-198.162 41.712-406.725-19.269-550.475-163.019C14.449 852.771-35.256 582.788 65.796 356.27l32.406-72.696 390.194 390.193c24.414 24.305 64.266 24.305 88.68 0l110.687-110.686c11.824-11.934 18.283-27.59 18.283-44.34 0-16.751-6.46-32.516-18.283-44.34L297.569 84.207 370.265 51.8C596.893-49.252 866.875.453 1041.937 175.515c155.026 155.136 212.833 385.157 151.851 594.815l650.651 650.651c39.961 39.852 61.967 92.95 61.967 149.443 0 56.383-22.006 109.482-61.967 149.334l-138.275 138.385c-41.275 41.165-95.36 61.857-149.553 61.857Z" fill-rule="evenodd"/>
+                        </svg>
+                    </span>
+                    <span class="logo-text">Admin Painel</span>
+                </div>
+            </div>
+            
+            <ul class="nav-menu">
+                <li class="nav-item active" data-section="overview">
+                    <span class="nav-icon">
+                    </span>
+                    <span class="nav-text">Visão Geral</span>
+                </li>
+                <li class="nav-item" data-section="users">
+                    <span class="nav-icon"></span>
+                    <span class="nav-text">Utilizadores</span>
+                </li>                
+                <li class="nav-item" data-section="activities">
+                    <span class="nav-icon"></span>
+                    <span class="nav-text">Atividades</span>
+                </li>
+            </ul>
+
+            <div class="user-profile">
+                <div class="profile-avatar">A</div>
+                <div class="profile-info">
+                    <div class="profile-name">Admin</div>
+                    <div class="profile-role">Administrador</div>
+                </div>
+            </div>
+        </nav>
+
+        <!-- Main Content -->
+        <main class="main-content">
+            <header class="header">
+                <div class="header-title">
+                    <h1 id="page-title">Visão Geral</h1>
+                    <p id="page-subtitle">Dashboard principal do sistema</p>
+                </div>
+                <div class="header-actions">
+                    <input type="text" id="global-search" placeholder="Buscar..." class="search-input">
+                </div>
+            </header>
+
+            <!-- Overview Section -->
+            <section id="overview-section" class="content-section active">
+                <div class="stats-grid">
+                    <div class="stat-card">
+                        <div class="stat-icon users">
+                            <svg width="30px" height="30px" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                <circle cx="12" cy="6" r="4" stroke="#ffffff" stroke-width="1.5"/>
+                                <path d="M19.9975 18C20 17.8358 20 17.669 20 17.5C20 15.0147 16.4183 13 12 13C7.58172 13 4 15.0147 4 17.5C4 19.9853 4 22 12 22C14.231 22 15.8398 21.8433 17 21.5634" stroke="#ffffff" stroke-width="1.5" stroke-linecap="round"/>
+                            </svg>
+                        </div>
+                        <div class="stat-content">
+                            <div class="stat-number" id="total-users">1,247</div>
+                            <div class="stat-label">Total de Utilizadores</div>
+                            <div class="stat-change positive">+12% este mês</div>
+                        </div>
+                    </div>
+                    
+                    <div class="stat-card">
+                        <div class="stat-icon views">
+                          <svg width="30px" height="30px" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                            <path d="M9 4.45962C9.91153 4.16968 10.9104 4 12 4C16.1819 4 19.028 6.49956 20.7251 8.70433C21.575 9.80853 22 10.3606 22 12C22 13.6394 21.575 14.1915 20.7251 15.2957C19.028 17.5004 16.1819 20 12 20C7.81811 20 4.97196 17.5004 3.27489 15.2957C2.42496 14.1915 2 13.6394 2 12C2 10.3606 2.42496 9.80853 3.27489 8.70433C3.75612 8.07914 4.32973 7.43025 5 6.82137" stroke="#ffffff" stroke-width="1.5" stroke-linecap="round"/>
+                            <path d="M15 12C15 13.6569 13.6569 15 12 15C10.3431 15 9 13.6569 9 12C9 10.3431 10.3431 9 12 9C13.6569 9 15 10.3431 15 12Z" stroke="#ffffff" stroke-width="1.5"/>
+                          </svg>
+                        </div>
+                        <div class="stat-content">
+                            <div class="stat-number" id="total-views">89,432</div>
+                            <div class="stat-label">Visualizações</div>
+                            <div class="stat-change positive">+8% este mês</div>
+                        </div>
+                    </div>
+                    
+                    <div class="stat-card">
+                        <div class="stat-icon searches">
+                            <svg height="30px" width="30px" version="1.1" id="_x32_" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 512 512"  xml:space="preserve">
+                                <style type="text/css">
+                                	.st0{fill: #fff;;}
+                                </style>
+                                <g>
+                                	<path class="st0" d="M332.998,291.918c52.2-71.895,45.941-173.338-18.834-238.123c-71.736-71.728-188.468-71.728-260.195,0
+                                		c-71.746,71.745-71.746,188.458,0,260.204c64.775,64.775,166.218,71.034,238.104,18.844l14.222,14.203l40.916-40.916
+                                		L332.998,291.918z M278.488,278.333c-52.144,52.134-136.699,52.144-188.852,0c-52.152-52.153-52.152-136.717,0-188.861
+                                		c52.154-52.144,136.708-52.144,188.852,0C330.64,141.616,330.64,226.18,278.488,278.333z"/>
+                                	<path class="st0" d="M109.303,119.216c-27.078,34.788-29.324,82.646-6.756,119.614c2.142,3.489,6.709,4.603,10.208,2.46
+                                		c3.49-2.142,4.594-6.709,2.462-10.198v0.008c-19.387-31.7-17.45-72.962,5.782-102.771c2.526-3.228,1.946-7.898-1.292-10.405
+                                		C116.48,115.399,111.811,115.979,109.303,119.216z"/>
+                                	<path class="st0" d="M501.499,438.591L363.341,315.178l-47.98,47.98l123.403,138.168c12.548,16.234,35.144,13.848,55.447-6.456
+                                		C514.505,474.576,517.743,451.138,501.499,438.591z"/>
+                                </g>
+                            </svg>
+                        </div>
+                        <div class="stat-content">
+                            <div class="stat-number" id="total-searches">12,891</div>
+                            <div class="stat-label">Pesquisas</div>
+                            <div class="stat-change negative">-3% este mês</div>
+                        </div>
+                    </div>
+                    
+                    <div class="stat-card">
+                        <div class="stat-icon active-users">
+                            <svg width="30px" height="30px" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                <style type="text/css">
+                                	.st0{fill: #fff; stroke: #fff;}
+                                </style>
+                                <path d="M14 19.2857L15.8 21L20 17M16.5 14.4018C16.2052 14.2315 15.8784 14.1098 15.5303 14.0472C15.4548 14.0337 15.3748 14.024 15.2842 14.0171C15.059 14 14.9464 13.9915 14.7961 14.0027C14.6399 14.0143 14.5527 14.0297 14.4019 14.0723C14.2569 14.1132 13.9957 14.2315 13.4732 14.4682C12.7191 14.8098 11.8817 15 11 15C10.1183 15 9.28093 14.8098 8.52682 14.4682C8.00429 14.2315 7.74302 14.1131 7.59797 14.0722C7.4472 14.0297 7.35983 14.0143 7.20361 14.0026C7.05331 13.9914 6.94079 14 6.71575 14.0172C6.6237 14.0242 6.5425 14.0341 6.46558 14.048C5.23442 14.2709 4.27087 15.2344 4.04798 16.4656C4 16.7306 4 17.0485 4 17.6841V19.4C4 19.9601 4 20.2401 4.10899 20.454C4.20487 20.6422 4.35785 20.7951 4.54601 20.891C4.75992 21 5.03995 21 5.6 21H10.5M15 7C15 9.20914 13.2091 11 11 11C8.79086 11 7 9.20914 7 7C7 4.79086 8.79086 3 11 3C13.2091 3 15 4.79086 15 7Z" stroke="#000000" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+                            </svg>
+                        </div>
+                        <div class="stat-content">
+                            <div class="stat-number" id="active-users">342</div>
+                            <div class="stat-label">Utilizadores Ativos</div>
+                            <div class="stat-change positive">+15% hoje</div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="charts-grid">
+                    <div class="chart-container">
+                        <h3>Páginas Mais Visitadas</h3>
+                        <div class="top-pages">
+                            <div class="page-item">
+                                <div class="page-info">
+                                    <span class="page-name">/home</span>
+                                    <span class="page-views">5,432 views</span>
+                                </div>
+                                <div class="page-bar">
+                                    <div class="page-progress" style="width: 85%"></div>
+                                </div>
+                            </div>
+                            <div class="page-item">
+                                <div class="page-info">
+                                    <span class="page-name">/formulario</span>
+                                    <span class="page-views">2,891 views</span>
+                                </div>
+                                <div class="page-bar">
+                                    <div class="page-progress" style="width: 71%"></div>
+                                </div>
+                            </div>
+                            <div class="page-item">
+                                <div class="page-info">
+                                    <span class="page-name">/login</span>
+                                    <span class="page-views">734 views</span>
+                                </div>
+                                <div class="page-bar">
+                                    <div class="page-progress" style="width: 51%"></div>
+                                </div>
+                            </div>
+                            <div class="page-item">
+                                <div class="page-info">
+                                    <span class="page-name">/dashboard</span>
+                                    <span class="page-views">289 views</span>
+                                </div>
+                                <div class="page-bar">
+                                    <div class="page-progress" style="width: 37%"></div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="chart-container">
+                        <h3>Atividades Recentes</h3>
+                        <div class="activity-feed" id="recent-activities">
+                            <!-- Activities will be populated by JavaScript -->
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+            <!-- Users Section -->
+            <section id="users-section" class="content-section">
+                <div class="section-header">
+                    <div class="section-actions">
+                        <input type="text" id="user-search" placeholder="Buscar Utilizadores..." class="search-input">
+                        <select id="user-filter" class="filter-select">
+                            <option value="all">Todos os Status</option>
+                            <option value="active">Ativo</option>
+                            <option value="inactive">Inativo</option>
+                            <option value="pending">Pendente</option>
+                        </select>
+                        <button class="btn-primary" onclick="showAddUserModal()">+ Adicionar Utilizador</button>
+                    </div>
+                </div>
+
+                <div class="users-table-container">
+                    <table class="users-table">
+                        <thead>
+                            <tr>
+                                <th>Nome</th>
+                                <th>Email</th>
+                                <th>Status</th>
+                                <th>Último Acesso</th>
+                                <th>Ações</th>
+                            </tr>
+                        </thead>
+                        <tbody id="users-tbody">
+                            <!-- Users will be populated by JavaScript -->
+                        </tbody>
+                    </table>
+                </div>
+            </section>
+
+            <!-- Statistics Section -->
+            <section id="statistics-section" class="content-section">
+                <div class="stats-charts">
+                    <div class="chart-container full-width">
+                        <h3>Pesquisas Mais Realizadas</h3>
+                        <div class="search-stats" id="search-stats">
+                            <!-- Search statistics will be populated by JavaScript -->
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+            <!-- Activities Section -->
+            <section id="activities-section" class="content-section">
+                <div class="activities-container">
+                    <div class="activity-filters">
+                        <select id="activity-type-filter" class="filter-select">
+                            <option value="all">Todas as Atividades</option>
+                            <option value="login">Logins</option>
+                            <option value="user_create">Criação de Utilizadores</option>
+                            <option value="user_update">Atualização de Utilizadores</option>
+                            <option value="user_delete">Exclusão de Utilizadores</option>
+                            <option value="search">Pesquisas</option>
+                        </select>
+                    </div>
+                    <div class="activities-list" id="activities-list">
+                        <!-- Activities will be populated by JavaScript -->
+                    </div>
+                </div>
+            </section>
+        </main>
+    </div>
+
+    <!-- Add/Edit User Modal -->
+    <div id="user-modal" class="modal">
+        <div class="modal-content">
+            <div class="modal-header">
+                <h3 id="modal-title">Adicionar Utilizador</h3>
+                <button class="modal-close" onclick="closeModal()">&times;</button>
+            </div>
+            <form id="user-form">
+                <div class="form-group">
+                    <label for="user-name">Nome:</label>
+                    <input type="text" id="user-name" required>
+                </div>
+                <div class="form-group">
+                    <label for="user-email">Email:</label>
+                    <input type="email" id="user-email" required>
+                </div>
+                <div class="form-group">
+                    <label for="user-status">Status:</label>
+                    <select id="user-status">
+                        <option value="active">Ativo</option>
+                        <option value="inactive">Inativo</option>
+                        <option value="pending">Pendente</option>
+                    </select>
+                </div>
+                <div class="form-group">
+                    <label for="user-role">Função:</label>
+                    <select id="user-role">
+                        <option value="user">Utilizador</option>
+                        <option value="admin">Administrador</option>
+                        <option value="moderator">Moderador</option>
+                    </select>
+                </div>
+                <div class="modal-actions">
+                    <button type="button" class="btn-secondary" onclick="closeModal()">Cancelar</button>
+                    <button type="submit" class="btn-primary">Salvar</button>
+                </div>
+            </form>
+        </div>
+    </div>
+
+    <!-- Confirmation Modal -->
+    <div id="confirm-modal" class="modal">
+        <div class="modal-content">
+            <div class="modal-header">
+                <h3>Confirmar Ação</h3>
+                <button class="modal-close" onclick="closeConfirmModal()">&times;</button>
+            </div>
+            <div class="confirm-content">
+                <p id="confirm-message"></p>
+                <div class="modal-actions">
+                    <button type="button" class="btn-secondary" onclick="closeConfirmModal()">Cancelar</button>
+                    <button type="button" class="btn-danger" id="confirm-action">Confirmar</button>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <script src="js/dashboard.js"></script>
+</body>
+</html>

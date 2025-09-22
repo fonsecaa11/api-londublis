@@ -51,9 +51,6 @@ def mostrar_dashboard(request: Request, user_id: int, role_id: int):
         "role_id": role_id
     })
 
-
-
-
 @app.get("/", response_class=RedirectResponse)
 async def homepage_redirect():
     return RedirectResponse(url="/login/register")

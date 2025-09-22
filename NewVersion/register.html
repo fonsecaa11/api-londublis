@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>registerForm</title>
+    <link rel="stylesheet" href="css/login.css">
+</head>
+<body>
+    <div class="h-screen bg-gradient-subtle flex items-center justify-center p-2 relative overflow-hidden">
+        <!-- Background decoration -->
+        <div class="absolute inset-0">
+            <div class="decoration-reg-1"></div>
+            <div class="decoration-reg-2"></div>
+        </div>
+        
+        <div class="w-full max-w-md relative z-10">
+            <div class="text-center mb-4 animate-fade-in">
+                <a href="index.html">
+                    <h1 class="page-title-small">Registro</h1>
+                </a>
+                <p class="page-subtitle-small">Crie a sua nova conta</p>
+            </div>
+            
+            <div class="card-compact animate-slide-up">
+                <div class="card-header-compact">
+                    <h2 class="card-title-small">Criar conta</h2>
+                    <p class="card-description-small">Preencha os dados para começar</p>
+                </div>
+                <div class="card-content-compact">
+                    <form id="registerForm" class="form-space-compact">
+                        <div class="form-grid">
+                            <div class="form-group-compact">
+                                <label for="firstName" class="label-small">Nome</label>
+                                <input
+                                    id="firstName"
+                                    placeholder="João"
+                                    class="input-small"
+                                    required
+                                />
+                            </div>
+                            <div class="form-group-compact">
+                                <label for="lastName" class="label-small">Sobrenome</label>
+                                <input
+                                    id="lastName"
+                                    placeholder="Silva"
+                                    class="input-small"
+                                    required
+                                />
+                            </div>
+                        </div>
+                        
+                        <div class="form-group-compact">
+                            <label for="regEmail" class="label-small">Email</label>
+                            <input
+                                id="regEmail"
+                                type="email"
+                                placeholder="seu@email.com"
+                                class="input-small"
+                                required
+                            />
+                        </div>
+                        
+                        <div class="form-group-compact">
+                            <label for="regPassword" class="label-small">Senha</label>
+                            <input
+                                id="regPassword"
+                                type="password"
+                                placeholder="••••••••"
+                                class="input-small"
+                                required
+                            />
+                        </div>
+                        
+                        <div class="form-group-compact">
+                            <label for="confirmPassword" class="label-small">Confirmar Senha</label>
+                            <input
+                                id="confirmPassword"
+                                type="password"
+                                placeholder="••••••••"
+                                class="input-small"
+                                required
+                            />
+                        </div>
+                        
+                        <div class="checkbox-group-compact">
+                            <input type="checkbox" id="terms" class="checkbox" required>
+                            <label for="terms" class="checkbox-label-small">
+                                Aceito os <span class="link">termos e condições</span>
+                            </label>
+                        </div>
+                        
+                        <button type="submit" class="btn btn-primary btn-full btn-small hover-lift" id="submitBtn" disabled>
+                            Criar Conta
+                        </button>
+                        
+                        <div class="text-center pt-2">
+                            <p class="link-text-small">
+                                Já tem uma conta? 
+                                <a href="login.html" class="link">Fazer login</a>
+                            </p>
+                        </div>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </div>
+    
+    <div id="toast" class="toast"></div>
+    <script src="js/auth.js"></script>
+</body>
+</html>

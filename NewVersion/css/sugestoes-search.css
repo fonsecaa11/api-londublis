@@ -1,0 +1,59 @@
+/* Caixa de sugestões */
+#suggestionsList {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+    position: absolute;
+    top: 41%; /* Fica logo abaixo da barra de pesquisa */
+    left: 50%; /* Centraliza horizontalmente em relação ao campo de pesquisa */
+    transform: translateX(-50%); /* Ajusta para garantir que fique centralizado */
+    width: 60%; /* Largura fixa da caixa, ajustável conforme necessário */
+    max-height: 60%; /* Máxima altura da lista (ajustável) */
+    overflow-y: auto; /* Barra de rolagem automática se houver muitas sugestões */
+    background-color: white;
+    border: 1px solid #ccc;
+    border-radius: 8px; /* Bordas arredondadas */
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1); /* Sombras sutis */
+    z-index: 1000; /* Garante que fique acima de outros elementos */
+    display: none; /* Inicialmente oculta */
+    max-width: 512px; /* Limita a largura máxima */
+}
+
+/* Estilo para cada item de sugestão */
+#suggestionsList li {
+    padding: 12px;
+    cursor: pointer;
+    font-size: 16px; /* Tamanho de fonte legível */
+    color: #333;
+    transition: background-color 0.3s ease;
+    border-bottom: 1px solid #eee; /* Divisória entre itens */
+}
+
+/* Efeito hover para os itens da lista */
+#suggestionsList li:hover {
+    background-color: #f7f7f7;
+}
+
+/* Foco no campo de entrada de pesquisa */
+#searchInput:focus + #suggestionsList {
+    display: block; /* Exibe a lista quando o campo de pesquisa está em foco */
+}
+
+/* Para quando a lista de sugestões estiver visível */
+#suggestionsList.show {
+    display: block; /* Garante que a lista seja exibida */
+}
+
+/* Ajustes para a barra de rolagem */
+#suggestionsList::-webkit-scrollbar {
+    width: 8px;
+}
+
+#suggestionsList::-webkit-scrollbar-thumb {
+    background-color: #ccc;
+    border-radius: 10px;
+}
+
+#suggestionsList::-webkit-scrollbar-thumb:hover {
+    background-color: #aaa;
+}
