@@ -403,7 +403,7 @@ async function renderRegionStats(lat, lon) {
     console.log("Renderizando as estatísticas da região");
 
     try {
-        const freguesiaResponse = await fetch(`/api/freguesia?lat=${lat}&lon=${lon}`);
+        const freguesiaResponse = await fetch(`/api/obter_freguesia?lat=${lat}&lon=${lon}`);
         if (!freguesiaResponse.ok) {
             throw new Error('Erro ao carregar as estatísticas');
         }
