@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="pt">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Pesquisar Freguesia, Concelho ou NUTS</title>
+    <!-- Incluindo a biblioteca SweetAlert para as notificações -->
+    <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
+  </head>
+  <body>
+    <div class="container">
+      <h1>Pesquisar Freguesia, Concelho ou NUTS</h1>
+      <form id="searchForm">
+        <!-- Seletor NUTS -->
+        <div>
+          <label for="nuts">NUTS III:</label>
+          <select id="nuts" name="nuts">
+            <option value="null">--</option>
+            <!-- NUTS serão preenchidos dinamicamente -->
+          </select>
+        </div>
+
+        <!-- Seletor Distrito -->
+        <div>
+          <label for="distrito">Distrito:</label>
+          <select id="distrito" name="distrito">
+            <option value="null">--</option>
+            <!-- Distritos serão preenchidos dinamicamente -->
+          </select>
+        </div>
+
+        <!-- Seletor Município -->
+        <div>
+          <label for="municipio">Município:</label>
+          <select id="municipio" name="municipio">
+            <option value="null">--</option>
+            <!-- NUTS serão preenchidos dinamicamente -->
+          </select>
+        </div>
+
+        <!-- Seletor Freguesia -->
+        <div>
+          <label for="freguesia">Freguesia:</label>
+          <select id="freguesia" name="freguesia">
+            <option value="null">--</option>
+            <!-- Freguesias serão preenchidas dinamicamente -->
+          </select>
+        </div>
+
+        <div>
+          <button type="button" id="showStreetField">Pesquisar por morada ou código postal</button>
+        </div>
+
+        <!-- Campo para pesquisar pelo nome da rua ou código Postal -->
+        <div id="streetContainer" style="display: none;">
+          <label for="nome_rua">Nome da rua ou código Postal:</label>
+          <input type="text" id="nome_rua" name="nome_rua" placeholder="Digite o nome da rua ou código Postal" value="null" />
+          <ul id="suggestionsList" style="display: none;"></ul> <!-- Lista de sugestões -->
+        </div>
+
+
+        <!-- Botões de pesquisa -->
+        <button type="submit" id="searchButton">Procurar</button>
+        <button type="reset">Limpar</button>
+      </form>
+
+      <div id="regionStats">
+        <h3>Estatísticas da Freguesia</h3>
+        <!-- Container para exibir as estatísticas da freguesia -->
+      </div>
+
+    <script type="module" src="teste.js"></script>
+  </body>
+</html>
