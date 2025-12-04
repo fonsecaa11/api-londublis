@@ -1,0 +1,3095 @@
+id_freguesia;freguesia;concelho;id_freguesia
+010101;Aguada de Cima;101;010101
+010102;Fermentelos;101;010102
+010103;Macinhata do Vouga;101;010103
+010104;Valongo do Vouga;101;010104
+010105;Uni�o das freguesias de �gueda e Borralha;101;010105
+010106;Uni�o das freguesias de Barr� e Aguada de Baixo;101;010106
+010107;Uni�o das freguesias de Belazaima do Ch�o, Castanheira do Vouga e Agad�o;101;010107
+010108;Uni�o das freguesias de Recard�es e Espinhel;101;010108
+010109;Uni�o das freguesias de Travass� e �is da Ribeira;101;010109
+010110;Uni�o das freguesias de Trofa, Segad�es e Lamas do Vouga;101;010110
+010111;Uni�o das freguesias do Pr�stimo e Macieira de Alcoba;101;010111
+010201;Alquerubim;102;010201
+010202;Angeja;102;010202
+010203;Branca;102;010203
+010204;Ribeira de Fr�guas;102;010204
+010205;Albergaria-a-Velha e Valmaior;102;010205
+010206;S�o Jo�o de Loure e Frossos;102;010206
+010301;Avel�s de Caminho;103;010301
+010302;Avel�s de Cima;103;010302
+010303;Moita;103;010303
+010304;Sangalhos;103;010304
+010305;S�o Louren�o do Bairro;103;010305
+010306;Vila Nova de Monsarros;103;010306
+010307;Vilarinho do Bairro;103;010307
+010308;Uni�o das freguesias de Amoreira da G�ndara, Paredes do Bairro e Ancas;103;010308
+010309;Uni�o das freguesias de Arcos e Mogofores;103;010309
+010310;Uni�o das freguesias de Tamengos, Aguim e �is do Bairro;103;010310
+010401;Alvarenga;104;010401
+010402;Chave;104;010402
+010403;Escariz;104;010403
+010404;Fermedo;104;010404
+010405;Mansores;104;010405
+010406;Moldes;104;010406
+010407;Rossas;104;010407
+010408;Santa Eul�lia;104;010408
+010409;S�o Miguel do Mato;104;010409
+010410;Trope�o;104;010410
+010411;Urr�;104;010411
+010412;V�rzea;104;010412
+010413;Uni�o das freguesias de Arouca e Burgo;104;010413
+010414;Uni�o das freguesias de Cabreiros e Albergaria da Serra;104;010414
+010415;Uni�o das freguesias de Canelas e Espiunca;104;010415
+010416;Uni�o das freguesias de Covelo de Paiv� e Janarde;104;010416
+010501;Aradas;105;010501
+010502;Cacia;105;010502
+010503;Esgueira;105;010503
+010504;Oliveirinha;105;010504
+010505;S�o Bernardo;105;010505
+010506;S�o Jacinto;105;010506
+010507;Santa Joana;105;010507
+010508;Eixo e Eirol;105;010508
+010509;Requeixo, Nossa Senhora de F�tima e Nariz;105;010509
+010510;Uni�o das freguesias de Gl�ria e Vera Cruz;105;010510
+010601;Fornos;106;010601
+010602;Real;106;010602
+010603;Santa Maria de Sardoura;106;010603
+010604;S�o Martinho de Sardoura;106;010604
+010605;Uni�o das freguesias de Raiva, Pedorido e Paraíso;106;010605
+010606;Uni�o das freguesias de Sobrado e Bairros;106;010606
+010701;Espinho;107;010701
+010702;Paramos;107;010702
+010703;Silvalde;107;010703
+010704;Uni�o das freguesias de Anta e Guetim;107;010704
+010801;Avanca;108;010801
+010802;Pardilh�;108;010802
+010803;Salreu;108;010803
+010804;Uni�o das freguesias de Beduído e Veiros;108;010804
+010805;Uni�o das freguesias de Canelas e Fermel�;108;010805
+010901;Argoncilhe;109;010901
+010902;Arrifana;109;010902
+010903;Escap�es;109;010903
+010904;Fi�es;109;010904
+010905;Fornos;109;010905
+010906;Lourosa;109;010906
+010907;Milheir�s de Poiares;109;010907
+010908;Mozelos;109;010908
+010909;Nogueira da Regedoura;109;010909
+010910;S�o Paio de Oleiros;109;010910
+010911;Pa�os de Brand�o;109;010911
+010912;Rio Me�o;109;010912
+010913;Romariz;109;010913
+010914;Sanguedo;109;010914
+010915;Santa Maria de Lamas;109;010915
+010916;S�o Jo�o de Ver;109;010916
+010917;Uni�o das freguesias de Caldas de S�o Jorge e Pigeiros;109;010917
+010918;Uni�o das freguesias de Canedo, Vale e Vila Maior;109;010918
+010919;Uni�o das freguesias de Lob�o, Gi�o, Louredo e Guisande;109;010919
+010920;Uni�o das freguesias de Santa Maria da Feira, Travanca, Sanfins e Espargo;109;010920
+010921;Uni�o das freguesias de S�o Miguel do Souto e Mosteir�;109;010921
+011001;Gafanha da Encarna��o;110;011001
+011002;Gafanha da Nazar�;110;011002
+011003;Gafanha do Carmo;110;011003
+011004;Ílhavo (S�o Salvador);110;011004
+011101;Barcou�o;111;011101
+011102;Casal Comba;111;011102
+011103;Luso;111;011103
+011104;Pampilhosa;111;011104
+011105;Vacari�a;111;011105
+011106;Uni�o das freguesias da Mealhada, Ventosa do Bairro e Antes;111;011106
+011201;Bunheiro;112;011201
+011202;Monte;112;011202
+011203;Murtosa;112;011203
+011204;Torreira;112;011204
+011301;Carregosa;113;011301
+011302;Cesar;113;011302
+011303;Fajões;113;011303
+011304;Loureiro;113;011304
+011305;Macieira de Sarnes;113;011305
+011306;Ossela;113;011306
+011307;S�o Martinho da G�ndara;113;011307
+011308;S�o Roque;113;011308
+011309;Vila de Cucuj�es;113;011309
+011310;Uni�o das freguesias de Nogueira do Cravo e Pindelo;113;011310
+011311;Uni�o das freguesias de Oliveira de Azem�is, Santiago de Riba-Ul, Ul, Macinhata da Seixa e Madail;113;011311
+011312;Uni�o das freguesias de Pinheiro da Bemposta, Travanca e Palmaz;113;011312
+011401;Oi�;114;011401
+011402;Oliveira do Bairro;114;011402
+011403;Palha�a;114;011403
+011404;Uni�o das freguesias de Bustos, Troviscal e Mamarrosa;114;011404
+011501;Cortega�a;115;011501
+011502;Esmoriz;115;011502
+011503;Maceda;115;011503
+011504;V�lega;115;011504
+011505;Uni�o das freguesias de Ovar, S�o Jo�o, Arada e S�o Vicente de Pereira Jus�;115;011505
+011601;S�o Jo�o da Madeira;116;011601
+011701;Couto de Esteves;117;011701
+011702;Pessegueiro do Vouga;117;011702
+011703;Rocas do Vouga;117;011703
+011704;Sever do Vouga;117;011704
+011705;Talhadas;117;011705
+011706;Uni�o das freguesias de Cedrim e Paradela;117;011706
+011707;Uni�o das freguesias de Silva Escura e Dornelas;117;011707
+011801;Calv�o;118;011801
+011802;Gafanha da Boa Hora;118;011802
+011803;Ouca;118;011803
+011804;Sosa;118;011804
+011805;Santo Andr� de Vagos;118;011805
+011806;Uni�o das freguesias de Fonte de Ange�o e Cov�o do Lobo;118;011806
+011807;Uni�o das freguesias de Ponte de Vagos e Santa Catarina;118;011807
+011808;Uni�o das freguesias de Vagos e Santo Ant�nio;118;011808
+011901;Arões;119;011901
+011902;S�o Pedro de Castelões;119;011902
+011903;Cepelos;119;011903
+011904;Junqueira;119;011904
+011905;Macieira de Cambra;119;011905
+011906;Roge;119;011906
+011907;Uni�o das freguesias de Vila Ch�, Codal e Vila Cova de Perrinho;119;011907
+020101;Ervidel;201;020101
+020102;Messejana;201;020102
+020103;S�o Jo�o de Negrilhos;201;020103
+020104;Uni�o das freguesias de Aljustrel e Rio de Moinhos;201;020104
+020201;Ros�rio;202;020201
+020202;Santa Cruz;202;020202
+020203;S�o Barnab�;202;020203
+020204;Aldeia dos Fernandes;202;020204
+020205;Uni�o das freguesias de Almod�var e Gra�a dos Padrões;202;020205
+020206;Uni�o das freguesias de Santa Clara-a-Nova e Gomes Aires;202;020206
+020301;Alvito;203;020301
+020302;Vila Nova da Baronia;203;020302
+020401;Barrancos;204;020401
+020501;Baleiz�o;205;020501
+020502;Beringel;205;020502
+020503;Cabe�a Gorda;205;020503
+020504;Nossa Senhora das Neves;205;020504
+020505;Santa Clara de Louredo;205;020505
+020506;S�o Matias;205;020506
+020507;Uni�o das freguesias de Albernoa e Trindade;205;020507
+020508;Uni�o das freguesias de Beja (Salvador e Santa Maria da Feira);205;020508
+020509;Uni�o das freguesias de Beja (Santiago Maior e S�o Jo�o Baptista);205;020509
+020510;Uni�o das freguesias de Salvada e Quintos;205;020510
+020511;Uni�o das freguesias de Santa Vit�ria e Mombeja;205;020511
+020512;Uni�o das freguesias de Trigaches e S�o Brissos;205;020512
+020601;Entradas;206;020601
+020602;Santa B�rbara de Padrões;206;020602
+020603;S�o Marcos da Ataboeira;206;020603
+020604;Uni�o das freguesias de Castro Verde e Cas�vel;206;020604
+020701;Cuba;207;020701
+020702;Faro do Alentejo;207;020702
+020703;Vila Alva;207;020703
+020704;Vila Ruiva;207;020704
+020801;Figueira dos Cavaleiros;208;020801
+020802;Odivelas;208;020802
+020803;Uni�o das freguesias de Alfund�o e Peroguarda;208;020803
+020804;Uni�o das freguesias de Ferreira do Alentejo e Canhestros;208;020804
+020901;Alcaria Ruiva;209;020901
+020902;Corte do Pinto;209;020902
+020903;Espírito Santo;209;020903
+020904;M�rtola;209;020904
+020905;Santana de Cambas;209;020905
+020906;S�o Jo�o dos Caldeireiros;209;020906
+020907;Uni�o das freguesias de S�o Miguel do Pinheiro, S�o Pedro de Solis e S�o Sebasti�o dos Carros;209;020907
+021001;Amareleja;210;021001
+021002;P�voa de S�o Miguel;210;021002
+021003;Sobral da Adi�a;210;021003
+021004;Uni�o das freguesias de Moura (Santo Agostinho e S�o Jo�o Baptista) e Santo Amador;210;021004
+021005;Uni�o das freguesias de Safara e Santo Aleixo da Restaura��o;210;021005
+021101;Relíquias;211;021101
+021102;Sab�ia;211;021102
+021103;S�o Luís;211;021103
+021104;S�o Martinho das Amoreiras;211;021104
+021105;Vila Nova de Milfontes;211;021105
+021106;Luzianes-Gare;211;021106
+021107;Boavista dos Pinheiros;211;021107
+021108;Longueira/Almograve;211;021108
+021109;Colos;211;021109
+021110;Santa Clara-a-Velha;211;021110
+021111;S�o Salvador e Santa Maria;211;021111
+021112;S�o Teot�nio;211;021112
+021113;Vale de Santiago;211;021113
+021201;Ourique;212;021201
+021202;Santana da Serra;212;021202
+021203;Uni�o das freguesias de Garv�o e Santa Luzia;212;021203
+021204;Uni�o das freguesias de Panoias e Concei��o;212;021204
+021301;Brinches;213;021301
+021302;Pias;213;021302
+021303;Vila Verde de Ficalho;213;021303
+021304;Uni�o das freguesias de Serpa (Salvador e Santa Maria);213;021304
+021305;Uni�o das freguesias de Vila Nova de S�o Bento e Vale de Vargo;213;021305
+021401;Pedr�g�o;214;021401
+021402;Selmes;214;021402
+021403;Vidigueira;214;021403
+021404;Vila de Frades;214;021404
+030101;Barreiros;301;030101
+030102;Bico;301;030102
+030103;Caires;301;030103
+030104;Carrazedo;301;030104
+030105;Dornelas;301;030105
+030106;Fiscal;301;030106
+030107;Go�es;301;030107
+030108;Lago;301;030108
+030109;Rendufe;301;030109
+030110;Bouro (Santa Maria);301;030110
+030111;Bouro (Santa Marta);301;030111
+030112;Uni�o das freguesias de Amares e Figueiredo;301;030112
+030113;Uni�o das freguesias de Caldelas, Sequeiros e Paranhos;301;030113
+030114;Uni�o das freguesias de Ferreiros, Prozelo e Besteiros;301;030114
+030115;Uni�o das freguesias de Torre e Portela;301;030115
+030116;Uni�o das freguesias de Vilela, Seramil e Paredes Secas;301;030116
+030201;Abade de Neiva;302;030201
+030202;Aborim;302;030202
+030203;Ad�es;302;030203
+030204;Air�;302;030204
+030205;Aldreu;302;030205
+030206;Alvelos;302;030206
+030207;Arcozelo;302;030207
+030208;Areias;302;030208
+030209;Balug�es;302;030209
+030210;Barcelinhos;302;030210
+030211;Barqueiros;302;030211
+030212;Cambeses;302;030212
+030213;Carape�os;302;030213
+030214;Carvalhal;302;030214
+030215;Carvalhas;302;030215
+030216;Cossourado;302;030216
+030217;Cristelo;302;030217
+030218;Fornelos;302;030218
+030219;Fragoso;302;030219
+030220;Gilmonde;302;030220
+030221;Lama;302;030221
+030222;Lij�;302;030222
+030223;Macieira de Rates;302;030223
+030224;Manhente;302;030224
+030225;Martim;302;030225
+030226;Moure;302;030226
+030227;Oliveira;302;030227
+030228;Palme;302;030228
+030229;Panque;302;030229
+030230;Paradela;302;030230
+030231;Pereira;302;030231
+030232;Perelhal;302;030232
+030233;Pousa;302;030233
+030234;Remelhe;302;030234
+030235;Roriz;302;030235
+030236;Rio Covo (Santa Eug�nia);302;030236
+030237;Galegos (Santa Maria);302;030237
+030238;Galegos (S�o Martinho);302;030238
+030239;Tamel (S�o Veríssimo);302;030239
+030240;Silva;302;030240
+030241;Ucha;302;030241
+030242;V�rzea;302;030242
+030243;Vila Seca;302;030243
+030244;Uni�o das freguesias de Alheira e Igreja Nova;302;030244
+030245;Uni�o das freguesias de Alvito (S�o Pedro e S�o Martinho) e Couto;302;030245
+030246;Uni�o das freguesias de Areias de Vilar e Encourados;302;030246
+030247;Uni�o das freguesias de Barcelos, Vila Boa e Vila Frescainha (S�o Martinho e S�o Pedro);302;030247
+030248;Uni�o das freguesias de Campo e Tamel (S�o Pedro Fins);302;030248
+030249;Uni�o das freguesias de Carreira e Fonte Coberta;302;030249
+030250;Uni�o das freguesias de Chorente, G�ios, Courel, Pedra Furada e Gueral;302;030250
+030251;Uni�o das freguesias de Creixomil e Mariz;302;030251
+030252;Uni�o das freguesias de Durr�es e Tregosa;302;030252
+030253;Uni�o das freguesias de Gamil e Midões;302;030253
+030254;Uni�o das freguesias de Milhazes, Vilar de Figos e Faria;302;030254
+030255;Uni�o das freguesias de Negreiros e Chav�o;302;030255
+030256;Uni�o das freguesias de Quinti�es e Aguiar;302;030256
+030257;Uni�o das freguesias de Sequeade e Bastu�o (S�o Jo�o e Santo Estev�o);302;030257
+030258;Uni�o das freguesias de Silveiros e Rio Covo (Santa Eul�lia);302;030258
+030259;Uni�o das freguesias de Tamel (Santa Leoc�dia) e Vilar do Monte;302;030259
+030260;Uni�o das freguesias de Viatodos, Grimancelos, Minhot�es e Monte de Fral�es;302;030260
+030261;Uni�o das freguesias de Vila Cova e Feitos;302;030261
+030301;Adaúfe;303;030301
+030302;Espinho;303;030302
+030303;Esporões;303;030303
+030304;Figueiredo;303;030304
+030305;Gualtar;303;030305
+030306;Lamas;303;030306
+030307;Mire de Tib�es;303;030307
+030308;Padim da Gra�a;303;030308
+030309;Palmeira;303;030309
+030310;Pedralva;303;030310
+030311;Priscos;303;030311
+030312;Ruilhe;303;030312
+030313;Braga (S�o Vicente);303;030313
+030314;Braga (S�o Vítor);303;030314
+030315;Sequeira;303;030315
+030316;Sobreposta;303;030316
+030317;Tadim;303;030317
+030318;Tebosa;303;030318
+030319;Uni�o das freguesias de Arentim e Cunha;303;030319
+030320;Uni�o das freguesias de Braga (Maximinos, S� e Cividade);303;030320
+030321;Uni�o das freguesias de Braga (S�o Jos� de S�o L�zaro e S�o Jo�o do Souto);303;030321
+030322;Uni�o das freguesias de Cabreiros e Passos (S�o Juli�o);303;030322
+030323;Uni�o das freguesias de Celeir�s, Aveleda e Vimieiro;303;030323
+030324;Uni�o das freguesias de Crespos e Pousada;303;030324
+030325;Uni�o das freguesias de Escudeiros e Penso (Santo Estêv�o e S�o Vicente);303;030325
+030326;Uni�o das freguesias de Este (S�o Pedro e S�o Mamede);303;030326
+030327;Uni�o das freguesias de Ferreiros e Gondizalves;303;030327
+030328;Uni�o das freguesias de Guisande e Oliveira (S�o Pedro);303;030328
+030329;Uni�o das freguesias de Lomar e Arcos;303;030329
+030330;Uni�o das freguesias de Merelim (S�o Paio), Panoias e Parada de Tib�es;303;030330
+030331;Uni�o das freguesias de Merelim (S�o Pedro) e Frossos;303;030331
+030332;Uni�o das freguesias de Morreira e Trandeiras;303;030332
+030333;Uni�o das freguesias de Nogueira, Frai�o e Lama��es;303;030333
+030334;Uni�o das freguesias de Nogueir� e Tenões;303;030334
+030335;Uni�o das freguesias de Real, Dume e Semelhe;303;030335
+030336;Uni�o das freguesias de Santa Lucr�cia de Algeriz e Navarra;303;030336
+030337;Uni�o das freguesias de Vila�a e Fradelos;303;030337
+030401;Abadim;304;030401
+030402;Basto;304;030402
+030403;Bucos;304;030403
+030404;Cabeceiras de Basto;304;030404
+030405;Cavez;304;030405
+030406;Faia;304;030406
+030407;Pedra�a;304;030407
+030408;Rio Douro;304;030408
+030409;Uni�o das freguesias de Alvite e Passos;304;030409
+030410;Uni�o das freguesias de Arco de Baúlhe e Vila Nune;304;030410
+030411;Uni�o das freguesias de Gondi�es e Vilar de Cunhas;304;030411
+030412;Uni�o das freguesias de Refojos de Basto, Outeiro e Painzela;304;030412
+030501;Agilde;305;030501
+030502;Arn�ia;305;030502
+030503;Borba de Montanha;305;030503
+030504;Code�oso;305;030504
+030505;Ferven�a;305;030505
+030506;Moreira do Castelo;305;030506
+030507;Rego;305;030507
+030508;Ribas;305;030508
+030509;Basto (S�o Clemente);305;030509
+030510;Vale de Bouro;305;030510
+030511;Uni�o das freguesias de Britelo, G�meos e Ourilhe;305;030511
+030512;Uni�o das freguesias de Ca�arilhe e Infesta;305;030512
+030513;Uni�o das freguesias de Canedo de Basto e Corgo;305;030513
+030514;Uni�o das freguesias de Carvalho e Basto (Santa Tecla);305;030514
+030515;Uni�o das freguesias de Veade, Gagos e Molares;305;030515
+030601;Antas;306;030601
+030602;Forj�es;306;030602
+030603;Gemeses;306;030603
+030604;Vila Ch�;306;030604
+030605;Uni�o das freguesias de Apúlia e F�o;306;030605
+030606;Uni�o das freguesias de Belinho e Mar;306;030606
+030607;Uni�o das freguesias de Esposende, Marinhas e Gandra;306;030607
+030608;Uni�o das freguesias de Fonte Boa e Rio Tinto;306;030608
+030609;Uni�o das freguesias de Palmeira de Faro e Curvos;306;030609
+030701;Armil;307;030701
+030702;Estor�os;307;030702
+030703;Fafe;307;030703
+030704;Fornelos;307;030704
+030705;Gol�es;307;030705
+030706;Medelo;307;030706
+030707;Pa�os;307;030707
+030708;Quinch�es;307;030708
+030709;Regadas;307;030709
+030710;Revelhe;307;030710
+030711;Ribeiros;307;030711
+030712;Arões (Santa Cristina);307;030712
+030713;S�o Gens;307;030713
+030714;Silvares (S�o Martinho);307;030714
+030715;Arões (S�o Rom�o);307;030715
+030716;Travass�s;307;030716
+030717;Vinh�s;307;030717
+030718;Uni�o de freguesias de Aboim, Felgueiras, Gontim e Pedraído;307;030718
+030719;Uni�o de freguesias de Agrela e Seraf�o;307;030719
+030720;Uni�o de freguesias de Antime e Silvares (S�o Clemente);307;030720
+030721;Uni�o de freguesias de Ardeg�o, Arnozela e Seidões;307;030721
+030722;Uni�o de freguesias de Cep�es e Fareja;307;030722
+030723;Uni�o de freguesias de Freitas e Vila Cova;307;030723
+030724;Uni�o de freguesias de Monte e Queimadela;307;030724
+030725;Uni�o de freguesias de Moreira do Rei e V�rzea Cova;307;030725
+030801;Ald�o;308;030801
+030802;Azur�m;308;030802
+030803;Barco;308;030803
+030804;Brito;308;030804
+030805;Caldelas;308;030805
+030806;Costa;308;030806
+030807;Creixomil;308;030807
+030808;Fermentões;308;030808
+030809;Gon�a;308;030809
+030810;Gondar;308;030810
+030811;Guardizela;308;030811
+030812;Infantas;308;030812
+030813;Longos;308;030813
+030814;Lordelo;308;030814
+030815;Mes�o Frio;308;030815
+030816;Moreira de C�negos;308;030816
+030817;Nespereira;308;030817
+030818;Pencelo;308;030818
+030819;Pinheiro;308;030819
+030820;Polvoreira;308;030820
+030821;Ponte;308;030821
+030822;Ronfe;308;030822
+030823;Prazins (Santa Euf�mia);308;030823
+030824;Selho (S�o Crist�v�o);308;030824
+030825;Selho (S�o Jorge);308;030825
+030826;Candoso (S�o Martinho);308;030826
+030827;Sande (S�o Martinho);308;030827
+030828;S�o Torcato;308;030828
+030829;Serzedelo;308;030829
+030830;Silvares;308;030830
+030831;Urgezes;308;030831
+030832;Uni�o das freguesias de Aba��o e G�meos;308;030832
+030833;Uni�o das freguesias de Air�o Santa Maria, Air�o S�o Jo�o e Vermil;308;030833
+030834;Uni�o das freguesias de Arosa e Castelões;308;030834
+030835;Uni�o das freguesias de At�es e Rendufe;308;030835
+030836;Uni�o das freguesias de Briteiros Santo Estêv�o e Donim;308;030836
+030837;Uni�o das freguesias de Briteiros S�o Salvador e Briteiros Santa Leoc�dia;308;030837
+030838;Uni�o das freguesias de Candoso S�o Tiago e Mascotelos;308;030838
+030839;Uni�o das freguesias de Conde e Gandarela;308;030839
+030840;Uni�o das freguesias de Leitões, Oleiros e Figueiredo;308;030840
+030841;Uni�o das freguesias de Oliveira, S�o Paio e S�o Sebasti�o;308;030841
+030842;Uni�o das freguesias de Prazins Santo Tirso e Corvite;308;030842
+030843;Uni�o das freguesias de Sande S�o Louren�o e Balazar;308;030843
+030844;Uni�o das freguesias de Sande Vila Nova e Sande S�o Clemente;308;030844
+030845;Uni�o das freguesias de Selho S�o Louren�o e Gominh�es;308;030845
+030846;Uni�o das freguesias de Serzedo e Calvos;308;030846
+030847;Uni�o das freguesias de Souto Santa Maria, Souto S�o Salvador e Gondomar;308;030847
+030848;Uni�o das freguesias de Tabuadelo e S�o Faustino;308;030848
+030901;Covelas;309;030901
+030902;Ferreiros;309;030902
+030903;Galegos;309;030903
+030904;Garfe;309;030904
+030905;Geraz do Minho;309;030905
+030906;Lanhoso;309;030906
+030907;Monsul;309;030907
+030908;P�voa de Lanhoso (Nossa Senhora do Amparo);309;030908
+030909;Rendufinho;309;030909
+030910;Santo Emili�o;309;030910
+030911;S�o Jo�o de Rei;309;030911
+030912;Serzedelo;309;030912
+030913;Sobradelo da Goma;309;030913
+030914;Taíde;309;030914
+030915;Travassos;309;030915
+030916;Vilela;309;030916
+030917;Uni�o das freguesias de �guas Santas e Moure;309;030917
+030918;Uni�o das freguesias de Calvos e Frades;309;030918
+030919;Uni�o das freguesias de Campos e Louredo;309;030919
+030920;Uni�o das freguesias de Esperan�a e Brunhais;309;030920
+030921;Uni�o das freguesias de Fonte Arcada e Oliveira;309;030921
+030922;Uni�o das freguesias de Verim, Friande e Ajude;309;030922
+031001;Balan�a;310;031001
+031002;Campo do Gerês;310;031002
+031003;Carvalheira;310;031003
+031004;Covide;310;031004
+031005;Gondoriz;310;031005
+031006;Moimenta;310;031006
+031007;Ribeira;310;031007
+031008;Rio Caldo;310;031008
+031009;Souto;310;031009
+031010;Valdosende;310;031010
+031011;Vilar da Veiga;310;031011
+031012;Uni�o das freguesias de Chamoim e Vilar;310;031012
+031013;Uni�o das freguesias de Chorense e Monte;310;031013
+031014;Uni�o das freguesias de Cibões e Brufe;310;031014
+031101;Cantel�es;311;031101
+031102;Eira Vedra;311;031102
+031103;Guilhofrei;311;031103
+031104;Louredo;311;031104
+031105;Mosteiro;311;031105
+031106;Parada de Bouro;311;031106
+031107;Pinheiro;311;031107
+031108;Rossas;311;031108
+031109;Salamonde;311;031109
+031110;Tabua�as;311;031110
+031111;Vieira do Minho;311;031111
+031112;Uni�o das freguesias de Aniss� e Soutelo;311;031112
+031113;Uni�o das freguesias de Anjos e Vilar do Ch�o;311;031113
+031114;Uni�o das freguesias de Cani�ada e Soengas;311;031114
+031115;Uni�o das freguesias de Ruiv�es e Campos;311;031115
+031116;Uni�o das freguesias de Ventosa e Cova;311;031116
+031201;Bairro;312;031201
+031202;Brufe;312;031202
+031203;Castelões;312;031203
+031204;Cruz;312;031204
+031205;Del�es;312;031205
+031206;Fradelos;312;031206
+031207;Gavi�o;312;031207
+031208;Joane;312;031208
+031209;Landim;312;031209
+031210;Louro;312;031210
+031211;Lousado;312;031211
+031212;Mogege;312;031212
+031213;Nine;312;031213
+031214;Pedome;312;031214
+031215;Pousada de Saramagos;312;031215
+031216;Requi�o;312;031216
+031217;Riba de Ave;312;031217
+031218;Ribeir�o;312;031218
+031219;Oliveira (Santa Maria);312;031219
+031220;Vale (S�o Martinho);312;031220
+031221;Oliveira (S�o Mateus);312;031221
+031222;Vermoim;312;031222
+031223;Vilarinho das Cambas;312;031223
+031224;Uni�o das freguesias de Antas e Abade de Vermoim;312;031224
+031225;Uni�o das freguesias de Arnoso (Santa Maria e Santa Eul�lia) e Sezures;312;031225
+031226;Uni�o das freguesias de Avidos e Lagoa;312;031226
+031227;Uni�o das freguesias de Carreira e Bente;312;031227
+031228;Uni�o das freguesias de Esmeriz e Cabe�udos;312;031228
+031229;Uni�o das freguesias de Gondifelos, Cavalões e Outiz;312;031229
+031230;Uni�o das freguesias de Lemenhe, Mouquim e Jesufrei;312;031230
+031231;Uni�o das freguesias de Ruiv�es e Novais;312;031231
+031232;Uni�o das freguesias de Seide;312;031232
+031233;Uni�o das freguesias de Vale (S�o Cosme), Telhado e Portela;312;031233
+031234;Uni�o das freguesias de Vila Nova de Famalic�o e Calend�rio;312;031234
+031301;Ati�es;313;031301
+031302;Cabanelas;313;031302
+031303;Cerv�es;313;031303
+031304;Coucieiro;313;031304
+031305;Doss�os;313;031305
+031306;Freiriz;313;031306
+031307;Gême;313;031307
+031308;Lage;313;031308
+031309;Lanhas;313;031309
+031310;Loureira;313;031310
+031311;Moure;313;031311
+031312;Oleiros;313;031312
+031313;Parada de Gatim;313;031313
+031314;Pico;313;031314
+031315;Ponte;313;031315
+031316;Sabariz;313;031316
+031317;Vila de Prado;313;031317
+031318;Prado (S�o Miguel);313;031318
+031319;Soutelo;313;031319
+031320;Turiz;313;031320
+031321;Valdreu;313;031321
+031322;Aboim da N�brega e Gondomar;313;031322
+031323;Uni�o das freguesias da Ribeira do Neiva;313;031323
+031324;Uni�o das freguesias de Carreiras (S�o Miguel) e Carreiras (Santiago);313;031324
+031325;Uni�o das freguesias de Escariz (S�o Mamede) e Escariz (S�o Martinho);313;031325
+031326;Uni�o das freguesias de Esqueiros, Nevogilde e Travass�s;313;031326
+031327;Uni�o das freguesias de Marrancos e Arcozelo;313;031327
+031328;Uni�o das freguesias de Oriz (Santa Marinha) e Oriz (S�o Miguel);313;031328
+031329;Uni�o das freguesias de Pico de Regalados, Gondi�es e M�s;313;031329
+031330;Uni�o das freguesias de Sande, Vilarinho, Barros e Gomide;313;031330
+031331;Uni�o das freguesias de Valbom (S�o Pedro), Pass� e Valbom (S�o Martinho);313;031331
+031332;Uni�o das freguesias do Vade;313;031332
+031333;Vila Verde e Barbudo;313;031333
+031401;Santa Eul�lia;314;031401
+031402;Infias;314;031402
+031403;Vizela (Santo Adri�o);314;031403
+031404;Uni�o das freguesias de Caldas de Vizela (S�o Miguel e S�o Jo�o);314;031404
+031405;Uni�o das freguesias de Tagilde e Vizela (S�o Paio);314;031405
+040101;Alf�ndega da F�;401;040101
+040102;Cerejais;401;040102
+040103;Sambade;401;040103
+040104;Vilar Ch�o;401;040104
+040105;Vilarelhos;401;040105
+040106;Vilares de Vilari�a;401;040106
+040107;Uni�o das freguesias de Agrobom, Saldonha e Vale Pereiro;401;040107
+040108;Uni�o das freguesias de Eucisia, Gouveia e Valverde;401;040108
+040109;Uni�o das freguesias de Ferradosa e Sendim da Serra;401;040109
+040110;Uni�o das freguesias de Gebelim e Soeima;401;040110
+040111;Uni�o das freguesias de Parada e Sendim da Ribeira;401;040111
+040112;Uni�o das freguesias de Pombal e Vales;401;040112
+040201;Alfai�o;402;040201
+040202;Babe;402;040202
+040203;Ba�al;402;040203
+040204;Carragosa;402;040204
+040205;Castro de Avel�s;402;040205
+040206;Coelhoso;402;040206
+040207;Donai;402;040207
+040208;Espinhosela;402;040208
+040209;Fran�a;402;040209
+040210;Gimonde;402;040210
+040211;Gondesende;402;040211
+040212;Gostei;402;040212
+040213;Grij� de Parada;402;040213
+040214;Macedo do Mato;402;040214
+040215;M�s;402;040215
+040216;Nogueira;402;040216
+040217;Outeiro;402;040217
+040218;Par�mio;402;040218
+040219;Pinela;402;040219
+040220;Quintanilha;402;040220
+040221;Quintela de Lampa�as;402;040221
+040222;Rabal;402;040222
+040223;Rebord�os;402;040223
+040224;Salsas;402;040224
+040225;Samil;402;040225
+040226;Santa Comba de Rossas;402;040226
+040227;S�o Pedro de Sarracenos;402;040227
+040228;Sendas;402;040228
+040229;Serapicos;402;040229
+040230;Sortes;402;040230
+040231;Zoio;402;040231
+040232;Uni�o das freguesias de Aveleda e Rio de Onor;402;040232
+040233;Uni�o das freguesias de Castrelos e Carrazedo;402;040233
+040234;Uni�o das freguesias de Izeda, Calvelhe e Paradinha Nova;402;040234
+040235;Uni�o das freguesias de Parada e Faílde;402;040235
+040236;Uni�o das freguesias de Rebordainhos e Pombares;402;040236
+040237;Uni�o das freguesias de Rio Frio e Milh�o;402;040237
+040238;Uni�o das freguesias de S�o Juli�o de Pal�cios e Deil�o;402;040238
+040239;Uni�o das freguesias de S�, Santa Maria e Meixedo;402;040239
+040301;Carrazeda de Ansi�es;403;040301
+040302;Fonte Longa;403;040302
+040303;Linhares;403;040303
+040304;Marzag�o;403;040304
+040305;Parambos;403;040305
+040306;Pereiros;403;040306
+040307;Pinhal do Norte;403;040307
+040308;Pombal;403;040308
+040309;Seixo de Ansi�es;403;040309
+040310;Vilarinho da Castanheira;403;040310
+040311;Uni�o das freguesias de Amedo e Zedes;403;040311
+040312;Uni�o das freguesias de Belver e Mogo de Malta;403;040312
+040313;Uni�o das freguesias de Castanheiro do Norte e Ribalonga;403;040313
+040314;Uni�o das freguesias de Lavandeira, Beira Grande e Selores;403;040314
+040401;Ligares;404;040401
+040402;Poiares;404;040402
+040403;Uni�o das freguesias de Freixo de Espada à Cinta e Mazouco;404;040403
+040404;Uni�o das freguesias de Lagoa�a e Fornos;404;040404
+040501;Amendoeira;405;040501
+040502;Arcas;405;040502
+040503;Carrapatas;405;040503
+040504;Chacim;405;040504
+040505;Corti�os;405;040505
+040506;Corujas;405;040506
+040507;Ferreira;405;040507
+040508;Grij�;405;040508
+040509;Lagoa;405;040509
+040510;Lamalonga;405;040510
+040511;Lamas;405;040511
+040512;Lombo;405;040512
+040513;Macedo de Cavaleiros;405;040513
+040514;Morais;405;040514
+040515;Olmos;405;040515
+040516;Peredo;405;040516
+040517;Salselas;405;040517
+040518;Sezulfe;405;040518
+040519;Talhas;405;040519
+040520;Vale Benfeito;405;040520
+040521;Vale da Porca;405;040521
+040522;Vale de Prados;405;040522
+040523;Vilarinho de Agroch�o;405;040523
+040524;Vinhas;405;040524
+040525;Uni�o das freguesias de Ala e Vilarinho do Monte;405;040525
+040526;Uni�o das freguesias de Bornes e Burga;405;040526
+040527;Uni�o das freguesias de Castel�os e Vilar do Monte;405;040527
+040528;Uni�o das freguesias de Espadanedo, Edroso, Mur��s e Soutelo Mourisco;405;040528
+040529;Uni�o das freguesias de Podence e Santa Combinha;405;040529
+040530;Uni�o das freguesias de Talhinhas e Bagueixe;405;040530
+040601;Duas Igrejas;406;040601
+040602;Genísio;406;040602
+040603;Malhadas;406;040603
+040604;Miranda do Douro;406;040604
+040605;Pala�oulo;406;040605
+040606;Picote;406;040606
+040607;P�voa;406;040607
+040608;S�o Martinho de Angueira;406;040608
+040609;Vila Ch� de Braciosa;406;040609
+040610;Uni�o das freguesias de Constantim e Cicouro;406;040610
+040611;Uni�o das freguesias de Ifanes e Paradela;406;040611
+040612;Uni�o das freguesias de Sendim e Atenor;406;040612
+040613;Uni�o das freguesias de Silva e �guas Vivas;406;040613
+040701;Abambres;407;040701
+040702;Abreiro;407;040702
+040703;Aguieiras;407;040703
+040704;Alvites;407;040704
+040705;Bou�a;407;040705
+040706;Cabanelas;407;040706
+040707;Caravelas;407;040707
+040708;Carvalhais;407;040708
+040709;Ced�es;407;040709
+040710;Cobro;407;040710
+040711;Fradizela;407;040711
+040712;Frechas;407;040712
+040713;Lamas de Orelh�o;407;040713
+040714;Mascarenhas;407;040714
+040715;Mirandela;407;040715
+040716;Múrias;407;040716
+040717;Passos;407;040717
+040718;S�o Pedro Velho;407;040718
+040719;S�o Salvador;407;040719
+040720;Su��es;407;040720
+040721;Torre de Dona Chama;407;040721
+040722;Vale de Asnes;407;040722
+040723;Vale de Gouvinhas;407;040723
+040724;Vale de Salgueiro;407;040724
+040725;Vale de Telhas;407;040725
+040726;Uni�o das freguesias de Avantos e Romeu;407;040726
+040727;Uni�o das freguesias de Avidagos, Navalho e Pereira;407;040727
+040728;Uni�o das freguesias de Barcel, Marmelos e Valverde da Gestosa;407;040728
+040729;Uni�o das freguesias de Franco e Vila Boa;407;040729
+040730;Uni�o das freguesias de Freixeda e Vila Verde;407;040730
+040801;Azinhoso;408;040801
+040802;Bemposta;408;040802
+040803;Bru��;408;040803
+040804;Brunhoso;408;040804
+040805;Castelo Branco;408;040805
+040806;Castro Vicente;408;040806
+040807;Meirinhos;408;040807
+040808;Paradela;408;040808
+040809;Penas Roias;408;040809
+040810;Peredo da Bemposta;408;040810
+040811;Saldanha;408;040811
+040812;S�o Martinho do Peso;408;040812
+040813;T�;408;040813
+040814;Travanca;408;040814
+040815;Urr�s;408;040815
+040816;Vale da Madre;408;040816
+040817;Vila de Ala;408;040817
+040818;Uni�o das freguesias de Brunhozinho, Castanheira e Sanhoane;408;040818
+040819;Uni�o das freguesias de Mogadouro, Valverde, Vale de Porco e Vilar de Rei;408;040819
+040820;Uni�o das freguesias de Remondes e Soutelo;408;040820
+040821;Uni�o das freguesias de Vilarinho dos Galegos e Ventozelo;408;040821
+040901;A�oreira;409;040901
+040902;Cabe�a Boa;409;040902
+040903;Carvi�ais;409;040903
+040904;Castedo;409;040904
+040905;Horta da Vilari�a;409;040905
+040906;Larinho;409;040906
+040907;Lousa;409;040907
+040908;M�s;409;040908
+040909;Torre de Moncorvo;409;040909
+040910;Uni�o das freguesias de Adeganha e Cardanha;409;040910
+040911;Uni�o das freguesias de Felgar e Souto da Velha;409;040911
+040912;Uni�o das freguesias de Felgueiras e Ma�ores;409;040912
+040913;Uni�o das freguesias de Urros e Peredo dos Castelhanos;409;040913
+041001;Benlhevai;410;041001
+041002;Freixiel;410;041002
+041003;Roios;410;041003
+041004;Samões;410;041004
+041005;Sampaio;410;041005
+041006;Santa Comba de Vilari�a;410;041006
+041007;Seixo de Manhoses;410;041007
+041008;Trindade;410;041008
+041009;Vale Frechoso;410;041009
+041010;Uni�o das freguesias de Assares e Lodões;410;041010
+041011;Uni�o das freguesias de Candoso e Carvalho de Egas;410;041011
+041012;Uni�o das freguesias de Valtorno e Mour�o;410;041012
+041013;Uni�o das freguesias de Vila Flor e Nabo;410;041013
+041014;Uni�o das freguesias de Vilas Boas e Vilarinho das Azenhas;410;041014
+041101;Argozelo;411;041101
+041102;Car��o;411;041102
+041103;Matela;411;041103
+041104;Pinelo;411;041104
+041105;Santulh�o;411;041105
+041106;Vilar Seco;411;041106
+041107;Vimioso;411;041107
+041108;Uni�o das freguesias de Algoso, Campo de Víboras e Uva;411;041108
+041109;Uni�o das freguesias de Ca�arelhos e Angueira;411;041109
+041110;Uni�o das freguesias de Vale de Frades e Avelanoso;411;041110
+041201;Agroch�o;412;041201
+041202;Candedo;412;041202
+041203;Celas;412;041203
+041204;Edral;412;041204
+041205;Edrosa;412;041205
+041206;Ervedosa;412;041206
+041207;Pa��;412;041207
+041208;Penhas Juntas;412;041208
+041209;Rebordelo;412;041209
+041210;Santalha;412;041210
+041211;Tuizelo;412;041211
+041212;Vale das Fontes;412;041212
+041213;Vila Boa de Ousilh�o;412;041213
+041214;Vila Verde;412;041214
+041215;Vilar de Ossos;412;041215
+041216;Vilar de Peregrinos;412;041216
+041217;Vilar Seco de Lomba;412;041217
+041218;Vinhais;412;041218
+041219;Uni�o das freguesias de Curopos e Vale de Janeiro;412;041219
+041220;Uni�o das freguesias de Moimenta e Montouto;412;041220
+041221;Uni�o das freguesias de Nunes e Ousilh�o;412;041221
+041222;Uni�o das freguesias de Quir�s e Pinheiro Novo;412;041222
+041223;Uni�o das freguesias de Sobreiro de Baixo e Alvaredos;412;041223
+041224;Uni�o das freguesias de Soeira, Fresulfe e Mofreita;412;041224
+041225;Uni�o das freguesias de Travanca e Santa Cruz;412;041225
+041226;Uni�o das freguesias de Vilar de Lomba e S�o Jomil;412;041226
+050101;Caria;501;050101
+050102;Inguias;501;050102
+050103;Ma�ainhas;501;050103
+050104;Uni�o das freguesias de Belmonte e Colmeal da Torre;501;050104
+050201;Alcains;502;050201
+050202;Almaceda;502;050202
+050203;Benqueren�as;502;050203
+050204;Castelo Branco;502;050204
+050205;Lardosa;502;050205
+050206;Louri�al do Campo;502;050206
+050207;Malpica do Tejo;502;050207
+050208;Monforte da Beira;502;050208
+050209;Salgueiro do Campo;502;050209
+050210;Santo Andr� das Tojeiras;502;050210
+050211;S�o Vicente da Beira;502;050211
+050212;Sarzedas;502;050212
+050213;Tinalhas;502;050213
+050214;Uni�o das freguesias de Cebolais de Cima e Retaxo;502;050214
+050215;Uni�o das freguesias de Escalos de Baixo e Mata;502;050215
+050216;Uni�o das freguesias de Escalos de Cima e Lousa;502;050216
+050217;Uni�o das freguesias de Freixial e Juncal do Campo;502;050217
+050218;Uni�o das freguesias de Ninho do A�or e Sobral do Campo;502;050218
+050219;Uni�o das freguesias de P�voa de Rio de Moinhos e Cafede;502;050219
+050301;Aldeia de S�o Francisco de Assis;503;050301
+050302;Boidobra;503;050302
+050303;Cortes do Meio;503;050303
+050304;Dominguizo;503;050304
+050305;Erada;503;050305
+050306;Ferro;503;050306
+050307;Orjais;503;050307
+050308;Paul;503;050308
+050309;Peraboa;503;050309
+050310;S�o Jorge da Beira;503;050310
+050311;Sobral de S�o Miguel;503;050311
+050312;Tortosendo;503;050312
+050313;Unhais da Serra;503;050313
+050314;Verdelhos;503;050314
+050315;Uni�o das freguesias de Barco e Coutada;503;050315
+050316;Uni�o das freguesias de Cantar-Galo e Vila do Carvalho;503;050316
+050317;Uni�o das freguesias de Casegas e Ourondo;503;050317
+050318;Uni�o das freguesias de Covilh� e Canhoso;503;050318
+050319;Uni�o das freguesias de Peso e Vales do Rio;503;050319
+050320;Uni�o das freguesias de Teixoso e Sarzedo;503;050320
+050321;Uni�o das freguesias de Vale Formoso e Aldeia do Souto;503;050321
+050401;Alcaide;504;050401
+050402;Alcaria;504;050402
+050403;Alcongosta;504;050403
+050404;Alpedrinha;504;050404
+050405;Barroca;504;050405
+050406;Bogas de Cima;504;050406
+050407;Capinha;504;050407
+050408;Castelejo;504;050408
+050409;Castelo Novo;504;050409
+050410;Fatela;504;050410
+050411;Lavacolhos;504;050411
+050412;Orca;504;050412
+050413;Pêro Viseu;504;050413
+050414;Silvares;504;050414
+050415;Soalheira;504;050415
+050416;Souto da Casa;504;050416
+050417;Telhado;504;050417
+050418;Enxames;504;050418
+050419;Três Povos;504;050419
+050420;Uni�o das freguesias de Janeiro de Cima e Bogas de Baixo;504;050420
+050421;Uni�o das freguesias de Fund�o, Valverde, Donas, Aldeia de Joanes e Aldeia Nova do Cabo;504;050421
+050422;Uni�o das freguesias de P�voa de Atalaia e Atalaia do Campo;504;050422
+050423;Uni�o das freguesias de Vale de Prazeres e Mata da Rainha;504;050423
+050501;Aldeia de Santa Margarida;505;050501
+050502;Ladoeiro;505;050502
+050503;Medelim;505;050503
+050504;Oledo;505;050504
+050505;Penha Garcia;505;050505
+050506;Proen�a-a-Velha;505;050506
+050507;Rosmaninhal;505;050507
+050508;S�o Miguel de Acha;505;050508
+050509;Toulões;505;050509
+050510;Uni�o das freguesias de Idanha-a-Nova e Alcafozes;505;050510
+050511;Uni�o das freguesias de Monfortinho e Salvaterra do Extremo;505;050511
+050512;Uni�o das freguesias de Monsanto e Idanha-a-Velha;505;050512
+050513;Uni�o das freguesias de Zebreira e Segura;505;050513
+050601;�lvaro;506;050601
+050602;Cambas;506;050602
+050603;Isna;506;050603
+050604;Madeir�;506;050604
+050605;Mosteiro;506;050605
+050606;Orvalho;506;050606
+050607;Sarnadas de S�o Sim�o;506;050607
+050608;Sobral;506;050608
+050609;Estreito-Vilar Barroco;506;050609
+050610;Oleiros-Amieira;506;050610
+050701;Aranhas;507;050701
+050702;Benqueren�a;507;050702
+050703;Meim�o;507;050703
+050704;Meimoa;507;050704
+050705;Penamacor;507;050705
+050706;Salvador;507;050706
+050707;Vale da Senhora da P�voa;507;050707
+050708;Uni�o das freguesias de Aldeia do Bispo, �guas e Aldeia de Jo�o Pires;507;050708
+050709;Uni�o das freguesias de Pedr�g�o de S�o Pedro e Bemposta;507;050709
+050801;Montes da Senhora;508;050801
+050802;S�o Pedro do Esteval;508;050802
+050803;Uni�o das freguesias de Proen�a-a-Nova e Peral;508;050803
+050804;Uni�o das freguesias de Sobreira Formosa e Alvito da Beira;508;050804
+050901;Cabe�udo;509;050901
+050902;Carvalhal;509;050902
+050903;Castelo;509;050903
+050904;Pedr�g�o Pequeno;509;050904
+050905;Sert�;509;050905
+050906;Troviscal;509;050906
+050907;V�rzea dos Cavaleiros;509;050907
+050908;Uni�o das freguesias de Cernache do Bonjardim, Nesperal e Palhais;509;050908
+050909;Uni�o das freguesias de Cumeada e Marmeleiro;509;050909
+050910;Uni�o das freguesias de Ermida e Figueiredo;509;050910
+051001;Fundada;510;051001
+051002;S�o Jo�o do Peso;510;051002
+051003;Vila de Rei;510;051003
+051101;Fratel;511;051101
+051102;Perais;511;051102
+051103;Sarnadas de R�d�o;511;051103
+051104;Vila Velha de R�d�o;511;051104
+060101;Arganil;601;060101
+060102;Benfeita;601;060102
+060103;Celavisa;601;060103
+060104;Folques;601;060104
+060105;Pi�d�o;601;060105
+060106;Pomares;601;060106
+060107;Pombeiro da Beira;601;060107
+060108;S�o Martinho da Corti�a;601;060108
+060109;Sarzedo;601;060109
+060110;Secarias;601;060110
+060111;Uni�o das freguesias de Cepos e Teixeira;601;060111
+060112;Uni�o das freguesias de Cerdeira e Moura da Serra;601;060112
+060113;Uni�o das freguesias de C�ja e Barril de Alva;601;060113
+060114;Uni�o das freguesias de Vila Cova de Alva e Anseriz;601;060114
+060201;An��;602;060201
+060202;Cadima;602;060202
+060203;Cordinh�;602;060203
+060204;Febres;602;060204
+060205;Murtede;602;060205
+060206;Ourent�;602;060206
+060207;Tocha;602;060207
+060208;S�o Caetano;602;060208
+060209;Sanguinheira;602;060209
+060210;Uni�o das freguesias de Cantanhede e Pocari�a;602;060210
+060211;Uni�o das freguesias de Covões e Camarneira;602;060211
+060212;Uni�o das freguesias de Portunhos e Outil;602;060212
+060213;Uni�o das freguesias de Sepins e Bolho;602;060213
+060214;Uni�o das freguesias de Vilamar e Corticeiro de Cima;602;060214
+060301;Almalaguês;603;060301
+060302;Brasfemes;603;060302
+060303;Ceira;603;060303
+060304;Cernache;603;060304
+060305;Santo Ant�nio dos Olivais;603;060305
+060306;S�o Jo�o do Campo;603;060306
+060307;S�o Silvestre;603;060307
+060308;Torres do Mondego;603;060308
+060309;Uni�o das freguesias de Antuzede e Vil de Matos;603;060309
+060310;Uni�o das freguesias de Assafarge e Antanhol;603;060310
+060311;Uni�o das freguesias de Coimbra (S� Nova, Santa Cruz, Almedina e S�o Bartolomeu);603;060311
+060312;Uni�o das freguesias de Eiras e S�o Paulo de Frades;603;060312
+060313;Uni�o das freguesias de Santa Clara e Castelo Viegas;603;060313
+060314;Uni�o das freguesias de S�o Martinho de �rvore e Lamarosa;603;060314
+060315;Uni�o das freguesias de S�o Martinho do Bispo e Ribeira de Frades;603;060315
+060316;Uni�o das freguesias de Souselas e Bot�o;603;060316
+060317;Uni�o das freguesias de Taveiro, Ameal e Arzila;603;060317
+060318;Uni�o das freguesias de Trouxemil e Torre de Vilela;603;060318
+060401;Anobra;604;060401
+060402;Ega;604;060402
+060403;Furadouro;604;060403
+060404;Zambujal;604;060404
+060405;Uni�o das freguesias de Condeixa-a-Velha e Condeixa-a-Nova;604;060405
+060406;Uni�o das freguesias de Sebal e Belide;604;060406
+060407;Uni�o das freguesias de Vila Seca e Bem da F�;604;060407
+060501;Alqueid�o;605;060501
+060502;Maiorca;605;060502
+060503;Marinha das Ondas;605;060503
+060504;Tavarede;605;060504
+060505;Vila Verde;605;060505
+060506;S�o Pedro;605;060506
+060507;Bom Sucesso;605;060507
+060508;Moinhos da G�ndara;605;060508
+060509;Alhadas;605;060509
+060510;Buarcos e S�o Juli�o;605;060510
+060511;Ferreira-a-Nova;605;060511
+060512;Lavos;605;060512
+060513;Pai�o;605;060513
+060514;Quiaios;605;060514
+060601;Alvares;606;060601
+060602;G�is;606;060602
+060603;Vila Nova do Ceira;606;060603
+060604;Uni�o das freguesias de Cadafaz e Colmeal;606;060604
+060701;Serpins;607;060701
+060702;G�ndaras;607;060702
+060703;Uni�o das freguesias de Foz de Arouce e Casal de Ermio;607;060703
+060704;Uni�o das freguesias de Lous� e Vilarinho;607;060704
+060801;Mira;608;060801
+060802;Seixo;608;060802
+060803;Carapelhos;608;060803
+060804;Praia de Mira;608;060804
+060901;Lamas;609;060901
+060902;Miranda do Corvo;609;060902
+060903;Vila Nova;609;060903
+060904;Uni�o das freguesias de Semide e Rio Vide;609;060904
+061001;Arazede;610;061001
+061002;Carapinheira;610;061002
+061003;Liceia;610;061003
+061004;Me�s do Campo;610;061004
+061005;Pereira;610;061005
+061006;Santo Var�o;610;061006
+061007;Seixo de Gatões;610;061007
+061008;Tentúgal;610;061008
+061009;Ereira;610;061009
+061010;Uni�o das freguesias de Abrunheira, Verride e Vila Nova da Barca;610;061010
+061011;Uni�o das freguesias de Montemor-o-Velho e Gatões;610;061011
+061101;Aldeia das Dez;611;061101
+061102;Alvoco das V�rzeas;611;061102
+061103;Av�;611;061103
+061104;Bobadela;611;061104
+061105;Lagares;611;061105
+061106;Lourosa;611;061106
+061107;Meruge;611;061107
+061108;Nogueira do Cravo;611;061108
+061109;S�o Gi�o;611;061109
+061110;Seixo da Beira;611;061110
+061111;Travanca de Lagos;611;061111
+061112;Uni�o das freguesias de Ervedal e Vila Franca da Beira;611;061112
+061113;Uni�o das freguesias de Lagos da Beira e Lajeosa;611;061113
+061114;Uni�o das freguesias de Oliveira do Hospital e S�o Paio de Grama�os;611;061114
+061115;Uni�o das freguesias de Penalva de Alva e S�o Sebasti�o da Feira;611;061115
+061116;Uni�o das freguesias de Santa Ovaia e Vila Pouca da Beira;611;061116
+061201;Cabril;612;061201
+061202;Dornelas do Zêzere;612;061202
+061203;Janeiro de Baixo;612;061203
+061204;Pampilhosa da Serra;612;061204
+061205;Pessegueiro;612;061205
+061206;Unhais-o-Velho;612;061206
+061207;Faj�o-Vidual;612;061207
+061208;Portela do Fojo-Machio;612;061208
+061301;Carvalho;613;061301
+061302;Figueira de Lorv�o;613;061302
+061303;Lorv�o;613;061303
+061304;Penacova;613;061304
+061305;Sazes do Lorv�o;613;061305
+061306;Uni�o das freguesias de Friúmes e Paradela;613;061306
+061307;Uni�o das freguesias de Oliveira do Mondego e Travanca do Mondego;613;061307
+061308;Uni�o das freguesias de S�o Pedro de Alva e S�o Paio de Mondego;613;061308
+061401;Cumeeira;614;061401
+061402;Espinhal;614;061402
+061403;Podentes;614;061403
+061404;Uni�o das freguesias de S�o Miguel, Santa Euf�mia e Raba�al;614;061404
+061501;Alfarelos;615;061501
+061502;Figueir� do Campo;615;061502
+061503;Granja do Ulmeiro;615;061503
+061504;Samuel;615;061504
+061505;Soure;615;061505
+061506;Tap�us;615;061506
+061507;Vila Nova de An�os;615;061507
+061508;Vinha da Rainha;615;061508
+061509;Uni�o das freguesias de Degracias e Pombalinho;615;061509
+061510;Uni�o das freguesias de Gesteira e Brunh�s;615;061510
+061601;Candosa;616;061601
+061602;Carapinha;616;061602
+061603;Midões;616;061603
+061604;Mouronho;616;061604
+061605;P�voa de Midões;616;061605
+061606;S�o Jo�o da Boa Vista;616;061606
+061607;T�bua;616;061607
+061608;Uni�o das freguesias de �zere e Covelo;616;061608
+061609;Uni�o das freguesias de Covas e Vila Nova de Oliveirinha;616;061609
+061610;Uni�o das freguesias de Espariz e Sinde;616;061610
+061611;Uni�o das freguesias de Pinheiro de Coja e Meda de Mouros;616;061611
+061701;Arrifana;617;061701
+061702;Lavegadas;617;061702
+061703;Poiares (Santo Andr�);617;061703
+061704;S�o Miguel de Poiares;617;061704
+070101;Santiago Maior;701;070101
+070102;Capelins (Santo Ant�nio);701;070102
+070103;Terena (S�o Pedro);701;070103
+070104;Uni�o das freguesias de Alandroal (Nossa Senhora da Concei��o), S�o Br�s dos Matos (Mina do Bugalho) e Juromenha (Nossa Senhora do Loreto);701;070104
+070201;Arraiolos;702;070201
+070202;Igrejinha;702;070202
+070203;Vimieiro;702;070203
+070204;Uni�o das freguesias de Gafanhoeira (S�o Pedro) e Sabugueiro;702;070204
+070205;Uni�o das freguesias de S�o Greg�rio e Santa Justa;702;070205
+070301;Borba (Matriz);703;070301
+070302;Orada;703;070302
+070303;Rio de Moinhos;703;070303
+070304;Borba (S�o Bartolomeu);703;070304
+070401;Arcos;704;070401
+070402;Gl�ria;704;070402
+070403;Évora Monte (Santa Maria);704;070403
+070404;S�o Domingos de Ana Loura;704;070404
+070405;Veiros;704;070405
+070406;Uni�o das freguesias de Estremoz (Santa Maria e Santo Andr�);704;070406
+070407;Uni�o das freguesias de S�o Bento do Corti�o e Santo Estêv�o;704;070407
+070408;Uni�o das freguesias de S�o Louren�o de Mamporc�o e S�o Bento de Ana Loura;704;070408
+070409;Uni�o das freguesias do Ameixial (Santa Vit�ria e S�o Bento);704;070409
+070501;Nossa Senhora da Gra�a do Divor;705;070501
+070502;Nossa Senhora de Machede;705;070502
+070503;S�o Bento do Mato;705;070503
+070504;S�o Miguel de Machede;705;070504
+070505;Torre de Coelheiros;705;070505
+070506;Canaviais;705;070506
+070507;Uni�o das freguesias de Bacelo e Senhora da Saúde;705;070507
+070508;Uni�o das freguesias de Évora (S�o Mamede, S�, S�o Pedro e Santo Ant�o);705;070508
+070509;Uni�o das freguesias de Malagueira e Horta das Figueiras;705;070509
+070510;Uni�o das freguesias de Nossa Senhora da Tourega e Nossa Senhora de Guadalupe;705;070510
+070511;Uni�o das freguesias de S�o Man�os e S�o Vicente do Pigeiro;705;070511
+070512;Uni�o das freguesias de S�o Sebasti�o da Giesteira e Nossa Senhora da Boa F�;705;070512
+070601;Cabrela;706;070601
+070602;Santiago do Escoural;706;070602
+070603;S�o Crist�v�o;706;070603
+070604;Ciborro;706;070604
+070605;Foros de Vale de Figueira;706;070605
+070606;Uni�o das freguesias de Corti�adas de Lavre e Lavre;706;070606
+070607;Uni�o das freguesias de Nossa Senhora da Vila, Nossa Senhora do Bispo e Silveiras;706;070607
+070701;Brotas;707;070701
+070702;Cabe��o;707;070702
+070703;Mora;707;070703
+070704;Pavia;707;070704
+070801;Granja;708;070801
+070802;Luz;708;070802
+070803;Mour�o;708;070803
+070901;Monte do Trigo;709;070901
+070902;Portel;709;070902
+070903;Santana;709;070903
+070904;Vera Cruz;709;070904
+070905;Uni�o das freguesias de Amieira e Alqueva;709;070905
+070906;Uni�o das freguesias de S�o Bartolomeu do Outeiro e Oriola;709;070906
+071001;Montoito;710;071001
+071002;Redondo;710;071002
+071101;Corval;711;071101
+071102;Monsaraz;711;071102
+071103;Reguengos de Monsaraz;711;071103
+071104;Uni�o das freguesias de Campo e Campinho;711;071104
+071201;Vendas Novas;712;071201
+071202;Landeira;712;071202
+071301;Alc��ovas;713;071301
+071302;Viana do Alentejo;713;071302
+071303;Aguiar;713;071303
+071401;Bencatel;714;071401
+071402;Ciladas;714;071402
+071403;Pardais;714;071403
+071404;Nossa Senhora da Concei��o e S�o Bartolomeu;714;071404
+080101;Guia;801;080101
+080102;Paderne;801;080102
+080103;Ferreiras;801;080103
+080104;Albufeira e Olhos de �gua;801;080104
+080201;Giões;802;080201
+080202;Martim Longo;802;080202
+080203;Vaqueiros;802;080203
+080204;Uni�o das freguesias de Alcoutim e Pereiro;802;080204
+080301;Aljezur;803;080301
+080302;Bordeira;803;080302
+080303;Odeceixe;803;080303
+080304;Rogil;803;080304
+080401;Azinhal;804;080401
+080402;Castro Marim;804;080402
+080403;Odeleite;804;080403
+080404;Altura;804;080404
+080501;Santa B�rbara de Nexe;805;080501
+080502;Montenegro;805;080502
+080503;Uni�o das freguesias de Concei��o e Estoi;805;080503
+080504;Uni�o das freguesias de Faro (S� e S�o Pedro);805;080504
+080601;Ferragudo;806;080601
+080602;Porches;806;080602
+080603;Uni�o das freguesias de Est�mbar e Parchal;806;080603
+080604;Uni�o das freguesias de Lagoa e Carvoeiro;806;080604
+080701;Luz;807;080701
+080702;Odi�xere;807;080702
+080703;Uni�o das freguesias de Bensafrim e Bar�o de S�o Jo�o;807;080703
+080704;S�o Gon�alo de Lagos;807;080704
+080801;Almancil;808;080801
+080802;Alte;808;080802
+080803;Ameixial;808;080803
+080804;Boliqueime;808;080804
+080805;Quarteira;808;080805
+080806;Salir;808;080806
+080807;Loul� (S�o Clemente);808;080807
+080808;Loul� (S�o Sebasti�o);808;080808
+080809;Uni�o de freguesias de Queren�a, T�r e Benafim;808;080809
+080901;Alferce;809;080901
+080902;Marmelete;809;080902
+080903;Monchique;809;080903
+081001;Olh�o;810;081001
+081002;Pech�o;810;081002
+081003;Quelfes;810;081003
+081004;Uni�o das freguesias de Moncarapacho e Fuseta;810;081004
+081101;Alvor;811;081101
+081102;Mexilhoeira Grande;811;081102
+081103;Portim�o;811;081103
+081201;S�o Br�s de Alportel;812;081201
+081301;Arma��o de Pêra;813;081301
+081302;S�o Bartolomeu de Messines;813;081302
+081303;S�o Marcos da Serra;813;081303
+081304;Silves;813;081304
+081305;Uni�o das freguesias de Alcantarilha e Pêra;813;081305
+081306;Uni�o das freguesias de Algoz e Tunes;813;081306
+081401;Cachopo;814;081401
+081402;Santa Catarina da Fonte do Bispo;814;081402
+081403;Santa Luzia;814;081403
+081404;Uni�o das freguesias de Concei��o e Cabanas de Tavira;814;081404
+081405;Uni�o das freguesias de Luz de Tavira e Santo Estêv�o;814;081405
+081406;Uni�o das freguesias de Tavira (Santa Maria e Santiago);814;081406
+081501;Bar�o de S�o Miguel;815;081501
+081502;Budens;815;081502
+081503;Sagres;815;081503
+081504;Vila do Bispo e Raposeira;815;081504
+081601;Vila Nova de Cacela;816;081601
+081602;Vila Real de Santo Ant�nio;816;081602
+081603;Monte Gordo;816;081603
+090101;Carapito;901;090101
+090102;Corti�ada;901;090102
+090103;Dornelas;901;090103
+090104;Eirado;901;090104
+090105;Forninhos;901;090105
+090106;Pena Verde;901;090106
+090107;Pinheiro;901;090107
+090108;Uni�o das freguesias de Aguiar da Beira e Coruche;901;090108
+090109;Uni�o das freguesias de Sequeiros e Gradiz;901;090109
+090110;Uni�o das freguesias de Souto de Aguiar da Beira e Valverde;901;090110
+090201;Almeida;902;090201
+090202;Castelo Bom;902;090202
+090203;Freineda;902;090203
+090204;Freixo;902;090204
+090205;Malhada Sorda;902;090205
+090206;Nave de Haver;902;090206
+090207;S�o Pedro de Rio Seco;902;090207
+090208;Vale da Mula;902;090208
+090209;Vilar Formoso;902;090209
+090210;Uni�o das freguesias de Amoreira, Parada e Cabreira;902;090210
+090211;Uni�o das freguesias de Azinhal, Peva e Valverde;902;090211
+090212;Uni�o das freguesias de Castelo Mendo, Ade, Monteperobolso e Mesquitela;902;090212
+090213;Uni�o das freguesias de Jun�a e Naves;902;090213
+090214;Uni�o das freguesias de Leomil, Mido, Senouras e Aldeia Nova;902;090214
+090215;Uni�o das freguesias de Malpartida e Vale de Coelha;902;090215
+090216;Uni�o das freguesias de Miuzela e Porto de Ovelha;902;090216
+090301;Bara�al;903;090301
+090302;Carrapichana;903;090302
+090303;Forno Telheiro;903;090303
+090304;Lajeosa do Mondego;903;090304
+090305;Linhares;903;090305
+090306;Ma�al do Ch�o;903;090306
+090307;Mesquitela;903;090307
+090308;Minhocal;903;090308
+090309;Prados;903;090309
+090310;Ratoeira;903;090310
+090311;Vale de Azares;903;090311
+090312;Casas do Soeiro;903;090312
+090313;Uni�o das freguesias de A�ores e Velosa;903;090313
+090314;Uni�o das freguesias de Celorico (S�o Pedro e Santa Maria) e Vila Boa do Mondego;903;090314
+090315;Uni�o das freguesias de Corti�� da Serra, Vide entre Vinhas e Salgueirais;903;090315
+090316;Uni�o das freguesias de Rapa e Cadafaz;903;090316
+090401;Castelo Rodrigo;904;090401
+090402;Escalh�o;904;090402
+090403;Figueira de Castelo Rodrigo;904;090403
+090404;Mata de Lobos;904;090404
+090405;Vermiosa;904;090405
+090406;Uni�o das freguesias de Algodres, Vale de Afonsinho e Vilar de Amargo;904;090406
+090407;Uni�o das freguesias de Almofala e Escarigo;904;090407
+090408;Uni�o das freguesias de Cinco Vilas e Reigada;904;090408
+090409;Uni�o das freguesias de Freixeda do Torr�o, Quint� de Pêro Martins e Penha de �guia;904;090409
+090410;Uni�o das freguesias do Colmeal e Vilar Torpim;904;090410
+090501;Algodres;905;090501
+090502;Casal Vasco;905;090502
+090503;Figueir� da Granja;905;090503
+090504;Fornos de Algodres;905;090504
+090505;Infias;905;090505
+090506;Maceira;905;090506
+090507;Matan�a;905;090507
+090508;Muxagata;905;090508
+090509;Queiriz;905;090509
+090510;Uni�o das freguesias de Corti�� e Vila Ch�;905;090510
+090511;Uni�o das freguesias de Juncais, Vila Ruiva e Vila Soeiro do Ch�o;905;090511
+090512;Uni�o das freguesias de Sobral Pichorro e Fuinhas;905;090512
+090601;Arcozelo;906;090601
+090602;Cativelos;906;090602
+090603;Folgosinho;906;090603
+090604;Nespereira;906;090604
+090605;Pa�os da Serra;906;090605
+090606;Ribamondego;906;090606
+090607;S�o Paio;906;090607
+090608;Vila Cortês da Serra;906;090608
+090609;Vila Franca da Serra;906;090609
+090610;Vila Nova de Tazem;906;090610
+090611;Uni�o das freguesias de Aldeias e Mangualde da Serra;906;090611
+090612;Uni�o das freguesias de Figueir� da Serra e Freixo da Serra;906;090612
+090613;Gouveia;906;090613
+090614;Uni�o das freguesias de Melo e Nabais;906;090614
+090615;Uni�o das freguesias de Moimenta da Serra e Vinh�;906;090615
+090616;Uni�o das freguesias de Rio Torto e Lagarinhos;906;090616
+090701;Aldeia do Bispo;907;090701
+090702;Aldeia Vi�osa;907;090702
+090703;Alvendre;907;090703
+090704;Arrifana;907;090704
+090705;Avel�s da Ribeira;907;090705
+090706;Benespera;907;090706
+090707;Casal de Cinza;907;090707
+090708;Castanheira;907;090708
+090709;Cavadoude;907;090709
+090710;Codesseiro;907;090710
+090711;Faia;907;090711
+090712;Famalic�o;907;090712
+090713;Fern�o Joanes;907;090713
+090714;Gon�alo Bocas;907;090714
+090715;Jo�o Ant�o;907;090715
+090716;Ma�ainhas;907;090716
+090717;Marmeleiro;907;090717
+090718;Meios;907;090718
+090719;Panoias de Cima;907;090719
+090720;Pega;907;090720
+090721;Pêra do Mo�o;907;090721
+090722;Porto da Carne;907;090722
+090723;Ramela;907;090723
+090724;Santana da Azinha;907;090724
+090725;Sobral da Serra;907;090725
+090726;Vale de Estrela;907;090726
+090727;Valhelhas;907;090727
+090728;Vela;907;090728
+090729;Videmonte;907;090729
+090730;Vila Cortês do Mondego;907;090730
+090731;Vila Fernando;907;090731
+090732;Vila Franca do De�o;907;090732
+090733;Vila Garcia;907;090733
+090734;Gon�alo;907;090734
+090735;Guarda;907;090735
+090736;Jarmelo S�o Miguel;907;090736
+090737;Jarmelo S�o Pedro;907;090737
+090738;Uni�o de freguesias de Avel�s de Ambom e Rocamondo;907;090738
+090739;Uni�o de freguesias de Corujeira e Trinta;907;090739
+090740;Uni�o de freguesias de Mizarela, Pêro Soares e Vila Soeiro;907;090740
+090741;Uni�o de freguesias de Pousade e Albardo;907;090741
+090742;Uni�o de freguesias de Rochoso e Monte Margarida;907;090742
+090743;Ad�o;907;090743
+090801;Sameiro;908;090801
+090802;Manteigas (Santa Maria);908;090802
+090803;Manteigas (S�o Pedro);908;090803
+090804;Vale de Amoreira;908;090804
+090901;Aveloso;909;090901
+090902;Barreira;909;090902
+090903;Coriscada;909;090903
+090904;Longroiva;909;090904
+090905;Marialva;909;090905
+090906;Po�o do Canto;909;090906
+090907;Raba�al;909;090907
+090908;Ranhados;909;090908
+090909;Mêda, Outeiro de Gatos e Fonte Longa;909;090909
+090910;Prova e Castei��o;909;090910
+090911;Uni�o das freguesias de Vale Flor, Carvalhal e Pai Penela;909;090911
+091001;Ervedosa;910;091001
+091002;Freixedas;910;091002
+091003;Lamegal;910;091003
+091004;Lameiras;910;091004
+091005;Manigoto;910;091005
+091006;Pala;910;091006
+091007;Pinhel;910;091007
+091008;Pínzio;910;091008
+091009;Souro Pires;910;091009
+091010;Vascoveiro;910;091010
+091011;Agrega��o das freguesias Sul de Pinhel;910;091011
+091012;Alto do Palurdo;910;091012
+091013;Alverca da Beira/Bou�a Cova;910;091013
+091014;Terras de Massueime;910;091014
+091015;Uni�o das freguesias de Atalaia e Safurd�o;910;091015
+091016;Valbom/Bogalhal;910;091016
+091017;Vale do C�a;910;091017
+091018;Vale do Massueime;910;091018
+091101;�guas Belas;911;091101
+091102;Aldeia do Bispo;911;091102
+091103;Aldeia da Ponte;911;091103
+091104;Aldeia Velha;911;091104
+091105;Alfaiates;911;091105
+091106;Bara�al;911;091106
+091107;Bendada;911;091107
+091108;Bismula;911;091108
+091109;Casteleiro;911;091109
+091110;Cerdeira;911;091110
+091111;F�ios;911;091111
+091112;Malcata;911;091112
+091113;Nave;911;091113
+091114;Quadrazais;911;091114
+091115;Quintas de S�o Bartolomeu;911;091115
+091116;Rapoula do C�a;911;091116
+091117;Rebolosa;911;091117
+091118;Rendo;911;091118
+091119;Sortelha;911;091119
+091120;Soito;911;091120
+091121;Vale de Espinho;911;091121
+091122;Vila Boa;911;091122
+091123;Vila do Touro;911;091123
+091124;Uni�o das freguesias de Aldeia da Ribeira, Vilar Maior e Badamalos;911;091124
+091125;Uni�o das freguesias de Lajeosa e Forcalhos;911;091125
+091126;Uni�o das freguesias de Pousafoles do Bispo, Pena Lobo e Lomba;911;091126
+091127;Uni�o das freguesias de Ruvina, Ruiv�s e Vale das Éguas;911;091127
+091128;Uni�o das freguesias do Sabugal e Aldeia de Santo Ant�nio;911;091128
+091129;Uni�o das freguesias de Santo Estêv�o e Moita;911;091129
+091130;Uni�o das freguesias de Seixo do C�a e Vale Longo;911;091130
+091201;Alvoco da Serra;912;091201
+091202;Girabolhos;912;091202
+091203;Loriga;912;091203
+091204;Paranhos;912;091204
+091205;Pinhan�os;912;091205
+091206;Sabugueiro;912;091206
+091207;Sandomil;912;091207
+091208;Santa Comba;912;091208
+091209;Santiago;912;091209
+091210;Sazes da Beira;912;091210
+091211;Teixeira;912;091211
+091212;Travancinha;912;091212
+091213;Valezim;912;091213
+091214;Vila Cova à Coelheira;912;091214
+091215;Uni�o das freguesias de Carragozela e V�rzea de Meruge;912;091215
+091216;Uni�o das freguesias de Sameice e Santa Eul�lia;912;091216
+091217;Uni�o das freguesias de Santa Marinha e S�o Martinho;912;091217
+091218;Uni�o das freguesias de Seia, S�o Rom�o e Lapa dos Dinheiros;912;091218
+091219;Uni�o das freguesias de Torrozelo e Folhadosa;912;091219
+091220;Uni�o das freguesias de Tourais e Lajes;912;091220
+091221;Uni�o das freguesias de Vide e Cabe�a;912;091221
+091301;Aldeia Nova;913;091301
+091302;Castanheira;913;091302
+091303;Cogula;913;091303
+091304;C�timos;913;091304
+091305;Fi�es;913;091305
+091306;Granja;913;091306
+091307;Guilheiro;913;091307
+091308;Moimentinha;913;091308
+091309;Moreira de Rei;913;091309
+091310;Palhais;913;091310
+091311;P�voa do Concelho;913;091311
+091312;Reboleiro;913;091312
+091313;Rio de Mel;913;091313
+091314;Tamanhos;913;091314
+091315;Valdujo;913;091315
+091316;Uni�o das freguesias de Freches e Torres;913;091316
+091317;Uni�o das freguesias de Torre do Terrenho, Sebadelhe da Serra e Terrenho;913;091317
+091318;Uni�o das freguesias de Trancoso (S�o Pedro e Santa Maria) e Souto Maior;913;091318
+091319;Uni�o das freguesias de Vale do Seixo e Vila Garcia;913;091319
+091320;Uni�o das freguesias de Vila Franca das Naves e Feital;913;091320
+091321;Uni�o das freguesias de Vilares e Carnic�es;913;091321
+091401;Almendra;914;091401
+091402;Castelo Melhor;914;091402
+091403;Cedovim;914;091403
+091404;Ch�s;914;091404
+091405;Cust�ias;914;091405
+091406;Horta;914;091406
+091407;Muxagata;914;091407
+091408;Num�o;914;091408
+091409;Santa Comba;914;091409
+091410;Sebadelhe;914;091410
+091411;Seixas;914;091411
+091412;Tou�a;914;091412
+091413;Freixo de Num�o;914;091413
+091414;Vila Nova de Foz C�a;914;091414
+100101;Alfeizer�o;1001;100101
+100102;B�rrio;1001;100102
+100103;Benedita;1001;100103
+100104;Cela;1001;100104
+100105;Évora de Alcoba�a;1001;100105
+100106;Maiorga;1001;100106
+100107;S�o Martinho do Porto;1001;100107
+100108;Turquel;1001;100108
+100109;Vimeiro;1001;100109
+100110;Aljubarrota;1001;100110
+100111;Uni�o das freguesias de Alcoba�a e Vestiaria;1001;100111
+100112;Uni�o das freguesias de Coz, Alpedriz e Montes;1001;100112
+100113;Uni�o das freguesias de Pataias e Martingan�a;1001;100113
+100201;Almoster;1002;100201
+100202;Ma��s de Dona Maria;1002;100202
+100203;Pelm�;1002;100203
+100204;Alvai�zere;1002;100204
+100205;Pussos S�o Pedro;1002;100205
+100301;Alvorge;1003;100301
+100302;Avelar;1003;100302
+100303;Ch�o de Couce;1003;100303
+100304;Pousaflores;1003;100304
+100305;Santiago da Guarda;1003;100305
+100306;Ansi�o;1003;100306
+100401;Batalha;1004;100401
+100402;Reguengo do Fetal;1004;100402
+100403;S�o Mamede;1004;100403
+100404;Golpilheira;1004;100404
+100501;Carvalhal;1005;100501
+100502;Roli�a;1005;100502
+100503;P�;1005;100503
+100504;Uni�o das freguesias do Bombarral e Vale Covo;1005;100504
+100601;A dos Francos;1006;100601
+100602;Alvorninha;1006;100602
+100603;Carvalhal Benfeito;1006;100603
+100604;Foz do Arelho;1006;100604
+100605;Landal;1006;100605
+100606;Nadadouro;1006;100606
+100607;Salir de Matos;1006;100607
+100608;Santa Catarina;1006;100608
+100609;Vidais;1006;100609
+100610;Uni�o das freguesias de Caldas da Rainha - Nossa Senhora do P�pulo, Coto e S�o Greg�rio;1006;100610
+100611;Uni�o das freguesias de Caldas da Rainha - Santo Onofre e Serra do Bouro;1006;100611
+100612;Uni�o das freguesias de Tornada e Salir do Porto;1006;100612
+100701;Uni�o das freguesias de Castanheira de Pêra e Coentral;1007;100701
+100801;Aguda;1008;100801
+100802;Arega;1008;100802
+100803;Campelo;1008;100803
+100804;Uni�o das freguesias de Figueir� dos Vinhos e Bairradas;1008;100804
+100901;Amor;1009;100901
+100902;Arrabal;1009;100902
+100903;Caranguejeira;1009;100903
+100904;Coimbr�o;1009;100904
+100905;Maceira;1009;100905
+100906;Milagres;1009;100906
+100907;Regueira de Pontes;1009;100907
+100908;Bajouca;1009;100908
+100909;Bidoeira de Cima;1009;100909
+100910;Uni�o das freguesias de Colmeias e Mem�ria;1009;100910
+100911;Uni�o das freguesias de Leiria, Pousos, Barreira e Cortes;1009;100911
+100912;Uni�o das freguesias de Marrazes e Barosa;1009;100912
+100913;Uni�o das freguesias de Monte Real e Carvide;1009;100913
+100914;Uni�o das freguesias de Monte Redondo e Carreira;1009;100914
+100915;Uni�o das freguesias de Parceiros e Azoia;1009;100915
+100916;Uni�o das freguesias de Santa Catarina da Serra e Chain�a;1009;100916
+100917;Uni�o das freguesias de Santa Euf�mia e Boa Vista;1009;100917
+100918;Uni�o das freguesias de Souto da Carpalhosa e Ortigosa;1009;100918
+101001;Marinha Grande;1010;101001
+101002;Vieira de Leiria;1010;101002
+101003;Moita;1010;101003
+101101;Famalic�o;1011;101101
+101102;Nazar�;1011;101102
+101103;Valado dos Frades;1011;101103
+101201;A dos Negros;1012;101201
+101202;Amoreira;1012;101202
+101203;Olho Marinho;1012;101203
+101204;Vau;1012;101204
+101205;Gaeiras;1012;101205
+101206;Usseira;1012;101206
+101207;Santa Maria, S�o Pedro e Sobral da Lagoa;1012;101207
+101301;Gra�a;1013;101301
+101302;Pedr�g�o Grande;1013;101302
+101303;Vila Facaia;1013;101303
+101401;Atouguia da Baleia;1014;101401
+101402;Serra dEl-Rei;1014;101402
+101403;Ferrel;1014;101403
+101404;Peniche;1014;101404
+101501;Abiul;1015;101501
+101502;Almagreira;1015;101502
+101503;Carnide;1015;101503
+101504;Carri�o;1015;101504
+101505;Louri�al;1015;101505
+101506;Pelariga;1015;101506
+101507;Pombal;1015;101507
+101508;Redinha;1015;101508
+101509;Vermoil;1015;101509
+101510;Vila C�;1015;101510
+101511;Meirinhas;1015;101511
+101512;Uni�o das freguesias de Guia, Ilha e Mata Mourisca;1015;101512
+101513;Uni�o das freguesias de Santiago e S�o Sim�o de Lit�m e Albergaria dos Doze;1015;101513
+101601;Alqueid�o da Serra;1016;101601
+101602;Calvaria de Cima;1016;101602
+101603;Juncal;1016;101603
+101604;Mira de Aire;1016;101604
+101605;Pedreiras;1016;101605
+101606;S�o Bento;1016;101606
+101607;Serro Ventoso;1016;101607
+101608;Porto de M�s - S�o Jo�o Baptista e S�o Pedro;1016;101608
+101609;Uni�o das freguesias de Alvados e Alcaria;1016;101609
+101610;Uni�o das freguesias de Arrimal e Mendiga;1016;101610
+110101;Carnota;1101;110101
+110102;Meca;1101;110102
+110103;Olhalvo;1101;110103
+110104;Ota;1101;110104
+110105;Ventosa;1101;110105
+110106;Vila Verde dos Francos;1101;110106
+110107;Uni�o das freguesias de Abrigada e Cabanas de Torres;1101;110107
+110108;Uni�o das freguesias de Aldeia Galega da Merceana e Aldeia Gavinha;1101;110108
+110109;Uni�o das freguesias de Alenquer (Santo Estêv�o e Triana);1101;110109
+110110;Uni�o das freguesias de Carregado e Cadafais;1101;110110
+110111;Uni�o das freguesias de Ribafria e Pereiro de Palhacana;1101;110111
+110201;Arranh�;1102;110201
+110202;Arruda dos Vinhos;1102;110202
+110203;Cardosas;1102;110203
+110204;S�o Tiago dos Velhos;1102;110204
+110301;Alcoentre;1103;110301
+110302;Aveiras de Baixo;1103;110302
+110303;Aveiras de Cima;1103;110303
+110304;Azambuja;1103;110304
+110305;Vale do Paraíso;1103;110305
+110306;Vila Nova da Rainha;1103;110306
+110307;Uni�o das freguesias de Manique do Intendente, Vila Nova de S�o Pedro e Ma�ussa;1103;110307
+110401;Alguber;1104;110401
+110402;Peral;1104;110402
+110403;Vermelha;1104;110403
+110404;Vilar;1104;110404
+110405;Uni�o das freguesias do Cadaval e Pêro Moniz;1104;110405
+110406;Uni�o das freguesias de Lamas e Cercal;1104;110406
+110407;Uni�o das freguesias de Painho e Figueiros;1104;110407
+110501;Alcabideche;1105;110501
+110502;S�o Domingos de Rana;1105;110502
+110503;Uni�o das freguesias de Carcavelos e Parede;1105;110503
+110504;Uni�o das freguesias de Cascais e Estoril;1105;110504
+110601;Ajuda;1106;110601
+110602;Alc�ntara;1106;110602
+110603;Beato;1106;110603
+110604;Benfica;1106;110604
+110605;Campolide;1106;110605
+110606;Carnide;1106;110606
+110607;Lumiar;1106;110607
+110608;Marvila;1106;110608
+110609;Olivais;1106;110609
+110610;S�o Domingos de Benfica;1106;110610
+110611;Alvalade;1106;110611
+110612;Areeiro;1106;110612
+110613;Arroios;1106;110613
+110614;Avenidas Novas;1106;110614
+110615;Bel�m;1106;110615
+110616;Campo de Ourique;1106;110616
+110617;Estrela;1106;110617
+110618;Miseric�rdia;1106;110618
+110619;Parque das Na�ões;1106;110619
+110620;Penha de Fran�a;1106;110620
+110621;Santa Clara;1106;110621
+110622;Santa Maria Maior;1106;110622
+110623;Santo Ant�nio;1106;110623
+110624;S�o Vicente;1106;110624
+110701;Bucelas;1107;110701
+110702;Fanhões;1107;110702
+110703;Loures;1107;110703
+110704;Lousa;1107;110704
+110705;Uni�o das freguesias de Moscavide e Portela;1107;110705
+110706;Uni�o das freguesias de Sacav�m e Prior Velho;1107;110706
+110707;Uni�o das freguesias de Santa Iria de Azoia, S�o Jo�o da Talha e Bobadela;1107;110707
+110708;Uni�o das freguesias de Santo Ant�o e S�o Juli�o do Tojal;1107;110708
+110709;Uni�o das freguesias de Santo Ant�nio dos Cavaleiros e Frielas;1107;110709
+110710;Uni�o das freguesias de Camarate, Unhos e Apela��o;1107;110710
+110801;Moita dos Ferreiros;1108;110801
+110802;Reguengo Grande;1108;110802
+110803;Santa B�rbara;1108;110803
+110804;Vimeiro;1108;110804
+110805;Ribamar;1108;110805
+110806;Uni�o das freguesias de Lourinh� e Atalaia;1108;110806
+110807;Uni�o das freguesias de Miragaia e Marteleira;1108;110807
+110808;Uni�o das freguesias de S�o Bartolomeu dos Galegos e Moledo;1108;110808
+110901;Carvoeira;1109;110901
+110902;Encarna��o;1109;110902
+110903;Ericeira;1109;110903
+110904;Mafra;1109;110904
+110905;Milharado;1109;110905
+110906;Santo Isidoro;1109;110906
+110907;Uni�o das freguesias de Azueira e Sobral da Abelheira;1109;110907
+110908;Uni�o das freguesias de Enxara do Bispo, Gradil e Vila Franca do Ros�rio;1109;110908
+110909;Uni�o das freguesias de Igreja Nova e Cheleiros;1109;110909
+110910;Uni�o das freguesias de Malveira e S�o Miguel de Alcain�a;1109;110910
+110911;Uni�o das freguesias de Venda do Pinheiro e Santo Estêv�o das Gal�s;1109;110911
+111001;Barcarena;1110;111001
+111002;Porto Salvo;1110;111002
+111003;Uni�o das freguesias de Alg�s, Linda-a-Velha e Cruz Quebrada-Dafundo;1110;111003
+111004;Uni�o das freguesias de Carnaxide e Queijas;1110;111004
+111005;Uni�o das freguesias de Oeiras e S�o Juli�o da Barra, Pa�o de Arcos e Caxias;1110;111005
+111101;Algueir�o-Mem Martins;1111;111101
+111102;Colares;1111;111102
+111103;Rio de Mouro;1111;111103
+111104;Casal de Cambra;1111;111104
+111105;Uni�o das freguesias de Agualva e Mira-Sintra;1111;111105
+111106;Uni�o das freguesias de Almargem do Bispo, Pêro Pinheiro e Montelavar;1111;111106
+111107;Uni�o das freguesias do Cac�m e S�o Marcos;1111;111107
+111108;Uni�o das freguesias de Massam� e Monte Abra�o;1111;111108
+111109;Uni�o das freguesias de Queluz e Belas;1111;111109
+111110;Uni�o das freguesias de S�o Jo�o das Lampas e Terrugem;1111;111110
+111111;Uni�o das freguesias de Sintra (Santa Maria e S�o Miguel, S�o Martinho e S�o Pedro de Penaferrim);1111;111111
+111201;Santo Quintino;1112;111201
+111202;Sapataria;1112;111202
+111203;Sobral de Monte Agra�o;1112;111203
+111301;Freiria;1113;111301
+111302;Ponte do Rol;1113;111302
+111303;Ramalhal;1113;111303
+111304;S�o Pedro da Cadeira;1113;111304
+111305;Silveira;1113;111305
+111306;Turcifal;1113;111306
+111307;Ventosa;1113;111307
+111308;Uni�o das freguesias de A dos Cunhados e Maceira;1113;111308
+111309;Uni�o das freguesias de Campelos e Outeiro da Cabe�a;1113;111309
+111310;Uni�o das freguesias de Carvoeira e Carmões;1113;111310
+111311;Uni�o das freguesias de Dois Portos e Runa;1113;111311
+111312;Uni�o das freguesias de Maxial e Monte Redondo;1113;111312
+111313;Santa Maria, S�o Pedro e Matac�es;1113;111313
+111401;Vialonga;1114;111401
+111402;Vila Franca de Xira;1114;111402
+111403;Uni�o das freguesias de Alhandra, S�o Jo�o dos Montes e Calhandriz;1114;111403
+111404;Uni�o das freguesias de Alverca do Ribatejo e Sobralinho;1114;111404
+111405;Uni�o das freguesias de Castanheira do Ribatejo e Cachoeiras;1114;111405
+111406;Uni�o das freguesias de P�voa de Santa Iria e Forte da Casa;1114;111406
+111501;Alfragide;1115;111501
+111502;�guas Livres;1115;111502
+111503;Encosta do Sol;1115;111503
+111504;Falagueira-Venda Nova;1115;111504
+111505;Mina de �gua;1115;111505
+111506;Venteira;1115;111506
+111601;Odivelas;1116;111601
+111602;Uni�o das freguesias de Pontinha e Famões;1116;111602
+111603;Uni�o das freguesias de P�voa de Santo Adri�o e Olival Basto;1116;111603
+111604;Uni�o das freguesias de Ramada e Cane�as;1116;111604
+120101;Alter do Ch�o;1201;120101
+120102;Chancelaria;1201;120102
+120103;Seda;1201;120103
+120104;Cunheira;1201;120104
+120201;Assun��o;1202;120201
+120202;Esperan�a;1202;120202
+120203;Mosteiros;1202;120203
+120301;Aldeia Velha;1203;120301
+120302;Avis;1203;120302
+120303;Ervedal;1203;120303
+120304;Figueira e Barros;1203;120304
+120305;Uni�o das freguesias de Alc�rrego e Maranh�o;1203;120305
+120306;Uni�o das freguesias de Benavila e Valongo;1203;120306
+120401;Nossa Senhora da Expecta��o;1204;120401
+120402;Nossa Senhora da Gra�a dos Degolados;1204;120402
+120403;S�o Jo�o Baptista;1204;120403
+120501;Nossa Senhora da Gra�a de P�voa e Meadas;1205;120501
+120502;Santa Maria da Devesa;1205;120502
+120503;Santiago Maior;1205;120503
+120504;S�o Jo�o Baptista;1205;120504
+120601;Aldeia da Mata;1206;120601
+120602;G�fete;1206;120602
+120603;Monte da Pedra;1206;120603
+120604;Uni�o das freguesias de Crato e M�rtires, Flor da Rosa e Vale do Peso;1206;120604
+120701;Santa Eul�lia;1207;120701
+120702;S�o Br�s e S�o Louren�o;1207;120702
+120703;S�o Vicente e Ventosa;1207;120703
+120704;Assun��o, Ajuda, Salvador e Santo Ildefonso;1207;120704
+120705;Caia, S�o Pedro e Alc��ova;1207;120705
+120706;Uni�o das freguesias de Barbacena e Vila Fernando;1207;120706
+120707;Uni�o das freguesias de Terrugem e Vila Boim;1207;120707
+120801;Cabe�o de Vide;1208;120801
+120802;Fronteira;1208;120802
+120803;S�o Saturnino;1208;120803
+120901;Belver;1209;120901
+120902;Comenda;1209;120902
+120903;Margem;1209;120903
+120904;Uni�o das freguesias de Gavi�o e Atalaia;1209;120904
+121001;Beir�;1210;121001
+121002;Santa Maria de Marv�o;1210;121002
+121003;Santo Ant�nio das Areias;1210;121003
+121004;S�o Salvador da Aramenha;1210;121004
+121101;Assumar;1211;121101
+121102;Monforte;1211;121102
+121103;Santo Aleixo;1211;121103
+121104;Vaiamonte;1211;121104
+121201;Alpalh�o;1212;121201
+121202;Montalv�o;1212;121202
+121203;Santana;1212;121203
+121204;S�o Matias;1212;121204
+121205;Tolosa;1212;121205
+121206;Uni�o das freguesias de Arez e Amieira do Tejo;1212;121206
+121207;Uni�o das freguesias de Espírito Santo, Nossa Senhora da Gra�a e S�o Sim�o;1212;121207
+121301;Galveias;1213;121301
+121302;Montargil;1213;121302
+121303;Foros de Arr�o;1213;121303
+121304;Longomel;1213;121304
+121305;Uni�o das freguesias de Ponte de Sor, Tramaga e Vale de A�or;1213;121305
+121401;Alagoa;1214;121401
+121402;Alegrete;1214;121402
+121403;Fortios;1214;121403
+121404;Urra;1214;121404
+121405;Uni�o das freguesias da S� e S�o Louren�o;1214;121405
+121406;Uni�o das freguesias de Reguengo e S�o Juli�o;1214;121406
+121407;Uni�o das freguesias de Ribeira de Nisa e Carreiras;1214;121407
+121501;Cano;1215;121501
+121502;Casa Branca;1215;121502
+121503;Santo Amaro;1215;121503
+121504;Sousel;1215;121504
+130101;Ansi�es;1301;130101
+130102;Candemil;1301;130102
+130103;Fregim;1301;130103
+130104;Frid�o;1301;130104
+130105;Gondar;1301;130105
+130106;Jazente;1301;130106
+130107;Lomba;1301;130107
+130108;Louredo;1301;130108
+130109;Lufrei;1301;130109
+130110;Mancelos;1301;130110
+130111;Padronelo;1301;130111
+130112;Rebordelo;1301;130112
+130113;Salvador do Monte;1301;130113
+130114;Gouveia (S�o Sim�o);1301;130114
+130115;Telões;1301;130115
+130116;Travanca;1301;130116
+130117;Vila Caiz;1301;130117
+130118;Vila Ch� do Mar�o;1301;130118
+130119;Uni�o das freguesias de Aboadela, Sanche e V�rzea;1301;130119
+130120;Uni�o das freguesias de Amarante (S�o Gon�alo), Madalena, Cepelos e Gat�o;1301;130120
+130121;Uni�o das freguesias de Bustelo, Carneiro e Carvalho de Rei;1301;130121
+130122;Uni�o das freguesias de Figueir� (Santiago e Santa Cristina);1301;130122
+130123;Uni�o das freguesias de Freixo de Cima e de Baixo;1301;130123
+130124;Uni�o das freguesias de Olo e Canadelo;1301;130124
+130125;Vila Me�;1301;130125
+130126;Uni�o das freguesias de Vila Garcia, Aboim e Chapa;1301;130126
+130201;Frende;1302;130201
+130202;Gesta��;1302;130202
+130203;Gove;1302;130203
+130204;Grilo;1302;130204
+130205;Loivos do Monte;1302;130205
+130206;Santa Marinha do Zêzere;1302;130206
+130207;Valadares;1302;130207
+130208;Viariz;1302;130208
+130209;Uni�o das freguesias de Ancede e Ribadouro;1302;130209
+130210;Uni�o das freguesias de Bai�o (Santa Leoc�dia) e Mesquinhata;1302;130210
+130211;Uni�o das freguesias de Campelo e Ovil;1302;130211
+130212;Uni�o das freguesias de Loivos da Ribeira e Tresouras;1302;130212
+130213;Uni�o das freguesias de Santa Cruz do Douro e S�o Tom� de Covelas;1302;130213
+130214;Uni�o das freguesias de Teixeira e Teixeir�;1302;130214
+130301;Ai�o;1303;130301
+130302;Air�es;1303;130302
+130303;Friande;1303;130303
+130304;Id�es;1303;130304
+130305;Jugueiros;1303;130305
+130306;Penacova;1303;130306
+130307;Pinheiro;1303;130307
+130308;Pombeiro de Ribavizela;1303;130308
+130309;Refontoura;1303;130309
+130310;Regilde;1303;130310
+130311;Revinhade;1303;130311
+130312;Sendim;1303;130312
+130313;Uni�o das freguesias de Macieira da Lixa e Caramos;1303;130313
+130314;Uni�o das freguesias de Margaride (Santa Eul�lia), V�rzea, Lagares, Varziela e Moure;1303;130314
+130315;Uni�o das freguesias de Pedreira, Rande e Sernande;1303;130315
+130316;Uni�o das freguesias de Torrados e Sousa;1303;130316
+130317;Uni�o das freguesias de Unh�o e Lordelo;1303;130317
+130318;Uni�o das freguesias de Vila Cova da Lixa e Borba de Godim;1303;130318
+130319;Uni�o das freguesias de Vila Fria e Vizela (S�o Jorge);1303;130319
+130320;Uni�o das freguesias de Vila Verde e Sant�o;1303;130320
+130401;Lomba;1304;130401
+130402;Rio Tinto;1304;130402
+130403;Baguim do Monte (Rio Tinto);1304;130403
+130404;Uni�o das freguesias de F�nzeres e S�o Pedro da Cova;1304;130404
+130405;Uni�o das freguesias de Foz do Sousa e Covelo;1304;130405
+130406;Uni�o das freguesias de Gondomar (S�o Cosme), Valbom e Jovim;1304;130406
+130407;Uni�o das freguesias de Melres e Medas;1304;130407
+130501;Aveleda;1305;130501
+130502;Caíde de Rei;1305;130502
+130503;Lodares;1305;130503
+130504;Macieira;1305;130504
+130505;Meinedo;1305;130505
+130506;Nevogilde;1305;130506
+130507;Sousela;1305;130507
+130508;Torno;1305;130508
+130509;Vilar do Torno e Alent�m;1305;130509
+130510;Uni�o das freguesias de Cernadelo e Lousada (S�o Miguel e Santa Margarida);1305;130510
+130511;Uni�o das freguesias de Cristelos, Boim e Ordem;1305;130511
+130512;Uni�o das freguesias de Figueiras e Covas;1305;130512
+130513;Uni�o das freguesias de Lustosa e Barrosas (Santo Estêv�o);1305;130513
+130514;Uni�o das freguesias de Nespereira e Casais;1305;130514
+130515;Uni�o das freguesias de Silvares, Pias, Nogueira e Alvarenga;1305;130515
+130601;�guas Santas;1306;130601
+130602;Folgosa;1306;130602
+130603;Milheir�s;1306;130603
+130604;Moreira;1306;130604
+130605;S�o Pedro Fins;1306;130605
+130606;Vila Nova da Telha;1306;130606
+130607;Pedrou�os;1306;130607
+130608;Castêlo da Maia;1306;130608
+130609;Cidade da Maia;1306;130609
+130610;Nogueira e Silva Escura;1306;130610
+130701;Banho e Carvalhosa;1307;130701
+130702;Constance;1307;130702
+130703;Soalh�es;1307;130703
+130704;Sobret�mega;1307;130704
+130705;Tabuado;1307;130705
+130706;Vila Boa do Bispo;1307;130706
+130707;Alpendorada, V�rzea e Torr�o;1307;130707
+130708;Avessadas e Ros�m;1307;130708
+130709;Bem Viver;1307;130709
+130710;Santo Isidoro e Livra��o;1307;130710
+130711;Marco;1307;130711
+130712;Paredes de Viadores e Manhuncelos;1307;130712
+130713;Penha Longa e Pa�os de Gaiolo;1307;130713
+130714;Sande e S�o Louren�o do Douro;1307;130714
+130715;V�rzea, Aliviada e Folhada;1307;130715
+130716;Vila Boa de Quires e Maureles;1307;130716
+130801;Uni�o das freguesias de Cust�ias, Le�a do Balio e Guifões;1308;130801
+130802;Uni�o das freguesias de Matosinhos e Le�a da Palmeira;1308;130802
+130803;Uni�o das freguesias de Perafita, Lavra e Santa Cruz do Bispo;1308;130803
+130804;Uni�o das freguesias de S�o Mamede de Infesta e Senhora da Hora;1308;130804
+130901;Carvalhosa;1309;130901
+130902;Eiriz;1309;130902
+130903;Ferreira;1309;130903
+130904;Figueir�;1309;130904
+130905;Freamunde;1309;130905
+130906;Meixomil;1309;130906
+130907;Penamaior;1309;130907
+130908;Raimonda;1309;130908
+130909;Seroa;1309;130909
+130910;Fraz�o Arreigada;1309;130910
+130911;Pa�os de Ferreira;1309;130911
+130912;Sanfins Lamoso Codessos;1309;130912
+131001;Aguiar de Sousa;1310;131001
+131002;Astromil;1310;131002
+131003;Baltar;1310;131003
+131004;Beire;1310;131004
+131005;Cete;1310;131005
+131006;Cristelo;1310;131006
+131007;Duas Igrejas;1310;131007
+131008;Gandra;1310;131008
+131009;Lordelo;1310;131009
+131010;Louredo;1310;131010
+131011;Parada de Todeia;1310;131011
+131012;Rebordosa;1310;131012
+131013;Recarei;1310;131013
+131014;Sobreira;1310;131014
+131015;Sobrosa;1310;131015
+131016;Vandoma;1310;131016
+131017;Vilela;1310;131017
+131018;Paredes;1310;131018
+131101;Abrag�o;1311;131101
+131102;Boelhe;1311;131102
+131103;Bustelo;1311;131103
+131104;Cabe�a Santa;1311;131104
+131105;Canelas;1311;131105
+131106;Capela;1311;131106
+131107;Castelões;1311;131107
+131108;Croca;1311;131108
+131109;Duas Igrejas;1311;131109
+131110;Eja;1311;131110
+131111;Fonte Arcada;1311;131111
+131112;Galegos;1311;131112
+131113;Irivo;1311;131113
+131114;Oldrões;1311;131114
+131115;Pa�o de Sousa;1311;131115
+131116;Perozelo;1311;131116
+131117;Rans;1311;131117
+131118;Rio de Moinhos;1311;131118
+131119;Recezinhos (S�o Mamede);1311;131119
+131120;Recezinhos (S�o Martinho);1311;131120
+131121;Sebolido;1311;131121
+131122;Valpedre;1311;131122
+131123;Rio Mau;1311;131123
+131124;Penafiel;1311;131124
+131125;Luzim e Vila Cova;1311;131125
+131126;Guilhufe e Urr�;1311;131126
+131127;Lagares e Figueira;1311;131127
+131128;Termas de S�o Vicente;1311;131128
+131201;Bonfim;1312;131201
+131202;Campanh�;1312;131202
+131203;Paranhos;1312;131203
+131204;Ramalde;1312;131204
+131205;Uni�o das freguesias de Aldoar, Foz do Douro e Nevogilde;1312;131205
+131206;Uni�o das freguesias de Cedofeita, Santo Ildefonso, S�, Miragaia, S�o Nicolau e Vit�ria;1312;131206
+131207;Uni�o das freguesias de Lordelo do Ouro e Massarelos;1312;131207
+131301;Balazar;1313;131301
+131302;Estela;1313;131302
+131303;Laundos;1313;131303
+131304;Rates;1313;131304
+131305;Uni�o das freguesias de Aver-o-Mar, Amorim e Terroso;1313;131305
+131306;Uni�o das freguesias de Agu�adoura e Navais;1313;131306
+131307;Uni�o das freguesias da P�voa de Varzim, Beiriz e Argivai;1313;131307
+131401;Agrela;1314;131401
+131402;�gua Longa;1314;131402
+131403;Aves;1314;131403
+131404;Monte C�rdova;1314;131404
+131405;Rebordões;1314;131405
+131406;Reguenga;1314;131406
+131407;Roriz;1314;131407
+131408;Negrelos (S�o Tom�);1314;131408
+131409;Vilarinho;1314;131409
+131410;Uni�o das freguesias de Areias, Sequeir�, Lama e Palmeira;1314;131410
+131411;Vila Nova do Campo;1314;131411
+131412;Uni�o das freguesias de Carreira e Refojos de Riba de Ave;1314;131412
+131413;Uni�o das freguesias de Lamelas e Guimarei;1314;131413
+131414;Uni�o das freguesias de Santo Tirso, Couto (Santa Cristina e S�o Miguel) e Burg�es;1314;131414
+131501;Alfena;1315;131501
+131502;Ermesinde;1315;131502
+131503;Valongo;1315;131503
+131504;Uni�o das freguesias de Campo e Sobrado;1315;131504
+131601;�rvore;1316;131601
+131602;Aveleda;1316;131602
+131603;Azurara;1316;131603
+131604;Fajozes;1316;131604
+131605;Gi�o;1316;131605
+131606;Guilhabreu;1316;131606
+131607;Junqueira;1316;131607
+131608;Labruge;1316;131608
+131609;Macieira da Maia;1316;131609
+131610;Mindelo;1316;131610
+131611;Modivas;1316;131611
+131612;Vila Ch�;1316;131612
+131613;Vila do Conde;1316;131613
+131614;Vilar de Pinheiro;1316;131614
+131615;Uni�o das freguesias de Bagunte, Ferreir�, Outeiro Maior e Parada;1316;131615
+131616;Uni�o das freguesias de Fornelo e Vair�o;1316;131616
+131617;Uni�o das freguesias de Malta e Canidelo;1316;131617
+131618;Uni�o das freguesias de Retorta e Tougues;1316;131618
+131619;Uni�o das freguesias de Rio Mau e Arcos;1316;131619
+131620;Uni�o das freguesias de Touguinha e Touguinh�;1316;131620
+131621;Uni�o das freguesias de Vilar e Mosteir�;1316;131621
+131701;Arcozelo;1317;131701
+131702;Avintes;1317;131702
+131703;Canelas;1317;131703
+131704;Canidelo;1317;131704
+131705;Madalena;1317;131705
+131706;Foz do Douro;1317;131706
+131707;S�o F�lix da Marinha;1317;131707
+131708;Vilar de Andorinho;1317;131708
+131709;Uni�o das freguesias de Grij� e Sermonde;1317;131709
+131710;Uni�o das freguesias de Gulpilhares e Valadares;1317;131710
+131711;Uni�o das freguesias de Mafamude e Vilar do Paraíso;1317;131711
+131712;Uni�o das freguesias de Pedroso e Seixezelo;1317;131712
+131713;Uni�o das freguesias de Sandim, Olival, Lever e Crestuma;1317;131713
+131714;Uni�o das freguesias de Santa Marinha e S�o Pedro da Afurada;1317;131714
+131715;Uni�o das freguesias de Serzedo e Perosinho;1317;131715
+131801;Covelas;1318;131801
+131802;Muro;1318;131802
+131803;Uni�o das freguesias de Alvarelhos e Guidões;1318;131803
+131804;Uni�o das freguesias de Bougado (S�o Martinho e Santiago);1318;131804
+131805;Uni�o das freguesias de Coronado (S�o Rom�o e S�o Mamede);1318;131805
+140101;Bemposta;1401;140101
+140102;Martinchel;1401;140102
+140103;Mouriscas;1401;140103
+140104;Pego;1401;140104
+140105;Rio de Moinhos;1401;140105
+140106;Tramagal;1401;140106
+140107;Fontes;1401;140107
+140108;Carvalhal;1401;140108
+140109;Uni�o das freguesias de Abrantes (S�o Vicente e S�o Jo�o) e Alferrarede;1401;140109
+140110;Uni�o das freguesias de Aldeia do Mato e Souto;1401;140110
+140111;Uni�o das freguesias de Alvega e Concavada;1401;140111
+140112;Uni�o das freguesias de S�o Facundo e Vale das M�s;1401;140112
+140113;Uni�o das freguesias de S�o Miguel do Rio Torto e Rossio ao Sul do Tejo;1401;140113
+140201;Bugalhos;1402;140201
+140202;Minde;1402;140202
+140203;Moitas Venda;1402;140203
+140204;Monsanto;1402;140204
+140205;Serra de Santo Ant�nio;1402;140205
+140206;Uni�o das freguesias de Alcanena e Vila Moreira;1402;140206
+140207;Uni�o das freguesias de Malhou, Louriceira e Espinheiro;1402;140207
+140301;Almeirim;1403;140301
+140302;Benfica do Ribatejo;1403;140302
+140303;Fazendas de Almeirim;1403;140303
+140304;Raposa;1403;140304
+140401;Alpiar�a;1404;140401
+140501;Benavente;1405;140501
+140502;Samora Correia;1405;140502
+140503;Santo Estêv�o;1405;140503
+140504;Barrosa;1405;140504
+140601;Pont�vel;1406;140601
+140602;Valada;1406;140602
+140603;Vila Ch� de Ourique;1406;140603
+140604;Vale da Pedra;1406;140604
+140605;Uni�o das freguesias do Cartaxo e Vale da Pinta;1406;140605
+140606;Uni�o das freguesias de Ereira e Lapa;1406;140606
+140701;Ulme;1407;140701
+140702;Vale de Cavalos;1407;140702
+140703;Carregueira;1407;140703
+140704;Uni�o das freguesias da Chamusca e Pinheiro Grande;1407;140704
+140705;Uni�o das freguesias de Parreira e Chouto;1407;140705
+140801;Const�ncia;1408;140801
+140802;Montalvo;1408;140802
+140803;Santa Margarida da Coutada;1408;140803
+140901;Cou�o;1409;140901
+140902;S�o Jos� da Lamarosa;1409;140902
+140903;Branca;1409;140903
+140904;Biscainho;1409;140904
+140905;Santana do Mato;1409;140905
+140906;Uni�o das freguesias de Coruche, Fajarda e Erra;1409;140906
+141001;S�o Jo�o Baptista;1410;141001
+141002;Nossa Senhora de F�tima;1410;141002
+141101;�guas Belas;1411;141101
+141102;Bêco;1411;141102
+141103;Ch�os;1411;141103
+141104;Ferreira do Zêzere;1411;141104
+141105;Igreja Nova do Sobral;1411;141105
+141106;Nossa Senhora do Pranto;1411;141106
+141107;Uni�o das freguesias de Areias e Pias;1411;141107
+141201;Azinhaga;1412;141201
+141202;Goleg�;1412;141202
+141203;Pombalinho;1412;141203
+141301;Amêndoa;1413;141301
+141302;Cardigos;1413;141302
+141303;Carvoeiro;1413;141303
+141304;Envendos;1413;141304
+141305;Ortiga;1413;141305
+141306;Uni�o das freguesias de Ma��o, Penhascoso e Aboboreira;1413;141306
+141401;Alcobertas;1414;141401
+141402;Arrouquelas;1414;141402
+141403;Fr�guas;1414;141403
+141404;Rio Maior;1414;141404
+141405;Asseiceira;1414;141405
+141406;S�o Sebasti�o;1414;141406
+141407;Uni�o das freguesias de Azambujeira e Malaqueijo;1414;141407
+141408;Uni�o das freguesias de Marmeleira e Assentiz;1414;141408
+141409;Uni�o das freguesias de Outeiro da Corti�ada e Arruda dos Pisões;1414;141409
+141410;Uni�o das freguesias de S�o Jo�o da Ribeira e Ribeira de S�o Jo�o;1414;141410
+141501;Marinhais;1415;141501
+141502;Muge;1415;141502
+141503;Uni�o das freguesias de Gl�ria do Ribatejo e Granho;1415;141503
+141504;Uni�o das freguesias de Salvaterra de Magos e Foros de Salvaterra;1415;141504
+141601;Abitureiras;1416;141601
+141602;Abr�;1416;141602
+141603;Alcanede;1416;141603
+141604;Alcanhões;1416;141604
+141605;Almoster;1416;141605
+141606;Amiais de Baixo;1416;141606
+141607;Arneiro das Milhari�as;1416;141607
+141608;Mo�arria;1416;141608
+141609;Pernes;1416;141609
+141610;P�voa da Isenta;1416;141610
+141611;Vale de Santar�m;1416;141611
+141612;Gan�aria;1416;141612
+141613;Uni�o das freguesias de Achete, Azoia de Baixo e P�voa de Santar�m;1416;141613
+141614;Uni�o das freguesias de Azoia de Cima e Tremês;1416;141614
+141615;Uni�o das freguesias de Cas�vel e Vaqueiros;1416;141615
+141616;Uni�o das freguesias de Romeira e V�rzea;1416;141616
+141617;Uni�o de freguesias da cidade de Santar�m;1416;141617
+141618;Uni�o das freguesias de S�o Vicente do Paul e Vale de Figueira;1416;141618
+141701;Alcaravela;1417;141701
+141702;Santiago de Montalegre;1417;141702
+141703;Sardoal;1417;141703
+141704;Valhascos;1417;141704
+141801;Asseiceira;1418;141801
+141802;Carregueiros;1418;141802
+141803;Olalhas;1418;141803
+141804;Paialvo;1418;141804
+141805;S�o Pedro de Tomar;1418;141805
+141806;Sabacheira;1418;141806
+141807;Uni�o das freguesias de Al�m da Ribeira e Pedreira;1418;141807
+141808;Uni�o das freguesias de Casais e Alviobeira;1418;141808
+141809;Uni�o das freguesias de Madalena e Beselga;1418;141809
+141810;Uni�o das freguesias de Serra e Junceira;1418;141810
+141811;Uni�o das freguesias de Tomar (S�o Jo�o Baptista) e Santa Maria dos Olivais;1418;141811
+141901;Assentiz;1419;141901
+141902;Chancelaria;1419;141902
+141903;Pedr�g�o;1419;141903
+141904;Riachos;1419;141904
+141905;Zibreira;1419;141905
+141906;Meia Via;1419;141906
+141907;Uni�o das freguesias de Brogueira, Parceiros de Igreja e Alcorochel;1419;141907
+141908;Uni�o das freguesias de Olaia e Pa�o;1419;141908
+141909;Uni�o das freguesias de Torres Novas (Santa Maria, Salvador e Santiago);1419;141909
+141910;Uni�o das freguesias de Torres Novas (S�o Pedro), Lapas e Ribeira Branca;1419;141910
+142001;Atalaia;1420;142001
+142002;Praia do Ribatejo;1420;142002
+142003;Tancos;1420;142003
+142004;Vila Nova da Barquinha;1420;142004
+142101;Alburitel;1421;142101
+142102;Atouguia;1421;142102
+142103;Caxarias;1421;142103
+142104;Espite;1421;142104
+142105;F�tima;1421;142105
+142106;Nossa Senhora das Miseric�rdias;1421;142106
+142107;Sei�a;1421;142107
+142108;Urqueira;1421;142108
+142109;Nossa Senhora da Piedade;1421;142109
+142110;Uni�o das freguesias de Freixianda, Ribeira do F�rrio e Formigais;1421;142110
+142111;Uni�o das freguesias de Gondemaria e Olival;1421;142111
+142112;Uni�o das freguesias de Matas e Cercal;1421;142112
+142113;Uni�o das freguesias de Rio de Couros e Casal dos Bernardos;1421;142113
+150101;Torr�o;1501;150101
+150102;S�o Martinho;1501;150102
+150103;Comporta;1501;150103
+150104;Uni�o das freguesias de Alc�cer do Sal (Santa Maria do Castelo e Santiago) e Santa Susana;1501;150104
+150201;Alcochete;1502;150201
+150202;Samouco;1502;150202
+150203;S�o Francisco;1502;150203
+150301;Costa da Caparica;1503;150301
+150302;Uni�o das freguesias de Almada, Cova da Piedade, Pragal e Cacilhas;1503;150302
+150303;Uni�o das freguesias de Caparica e Trafaria;1503;150303
+150304;Uni�o das freguesias de Charneca de Caparica e Sobreda;1503;150304
+150305;Uni�o das freguesias de Laranjeiro e Feij�;1503;150305
+150401;Santo Ant�nio da Charneca;1504;150401
+150402;Uni�o das freguesias de Alto do Seixalinho, Santo Andr� e Verderena;1504;150402
+150403;Uni�o das freguesias de Barreiro e Lavradio;1504;150403
+150404;Uni�o das freguesias de Palhais e Coina;1504;150404
+150501;Azinheira dos Barros e S�o Mamede do S�d�o;1505;150501
+150502;Melides;1505;150502
+150503;Carvalhal;1505;150503
+150504;Uni�o das freguesias de Gr�ndola e Santa Margarida da Serra;1505;150504
+150601;Alhos Vedros;1506;150601
+150602;Moita;1506;150602
+150603;Uni�o das freguesias de Baixa da Banheira e Vale da Amoreira;1506;150603
+150604;Uni�o das freguesias de Gaio-Ros�rio e Sarilhos Pequenos;1506;150604
+150701;Canha;1507;150701
+150702;Sarilhos Grandes;1507;150702
+150703;Uni�o das freguesias de Atalaia e Alto Estanqueiro-Jardia;1507;150703
+150704;Uni�o das freguesias de Montijo e Afonsoeiro;1507;150704
+150705;Uni�o das freguesias de Pegões;1507;150705
+150801;Palmela;1508;150801
+150802;Pinhal Novo;1508;150802
+150803;Quinta do Anjo;1508;150803
+150804;Uni�o das freguesias de Poceir�o e Marateca;1508;150804
+150901;Abela;1509;150901
+150902;Alvalade;1509;150902
+150903;Cercal;1509;150903
+150904;Ermidas-Sado;1509;150904
+150905;Santo Andr�;1509;150905
+150906;S�o Francisco da Serra;1509;150906
+150907;Uni�o das freguesias de Santiago do Cac�m, Santa Cruz e S�o Bartolomeu da Serra;1509;150907
+150908;Uni�o das freguesias de S�o Domingos e Vale de �gua;1509;150908
+151001;Amora;1510;151001
+151002;Corroios;1510;151002
+151003;Fern�o Ferro;1510;151003
+151004;Uni�o das freguesias do Seixal, Arrentela e Aldeia de Paio Pires;1510;151004
+151101;Sesimbra (Castelo);1511;151101
+151102;Sesimbra (Santiago);1511;151102
+151103;Quinta do Conde;1511;151103
+151201;Setúbal (S�o Sebasti�o);1512;151201
+151202;G�mbia-Pontes-Alto da Guerra;1512;151202
+151203;Sado;1512;151203
+151204;Uni�o das freguesias de Azeit�o (S�o Louren�o e S�o Sim�o);1512;151204
+151205;Uni�o das freguesias de Setúbal (S�o Juli�o, Nossa Senhora da Anunciada e Santa Maria da Gra�a);1512;151205
+151301;Sines;1513;151301
+151302;Porto Covo;1513;151302
+160101;Aboim das Cho�as;1601;160101
+160102;Agui�;1601;160102
+160103;�zere;1601;160103
+160104;Cabana Maior;1601;160104
+160105;Cabreiro;1601;160105
+160106;Cendufe;1601;160106
+160107;Couto;1601;160107
+160108;Gavieira;1601;160108
+160109;Gondoriz;1601;160109
+160110;Miranda;1601;160110
+160111;Monte Redondo;1601;160111
+160112;Oliveira;1601;160112
+160113;Pa��;1601;160113
+160114;Padroso;1601;160114
+160115;Prozelo;1601;160115
+160116;Rio Frio;1601;160116
+160117;Rio de Moinhos;1601;160117
+160118;Sabadim;1601;160118
+160119;Jolda (S�o Paio);1601;160119
+160120;Senharei;1601;160120
+160121;Sistelo;1601;160121
+160122;Soajo;1601;160122
+160123;Vale;1601;160123
+160124;Uni�o das freguesias de Alvora e Loureda;1601;160124
+160125;Uni�o das freguesias de Arcos de Valdevez (S�o Paio) e Giela;1601;160125
+160126;Uni�o das freguesias de Arcos de Valdevez (Salvador), Vila Fonche e Parada;1601;160126
+160127;Uni�o das freguesias de Eiras e Mei;1601;160127
+160128;Uni�o das freguesias de Grade e Carralcova;1601;160128
+160129;Uni�o das freguesias de Guilhadeses e Santar;1601;160129
+160130;Uni�o das freguesias de Jolda (Madalena) e Rio Cabr�o;1601;160130
+160131;Uni�o das freguesias de Padreiro (Salvador e Santa Cristina);1601;160131
+160132;Uni�o das freguesias de Portela e Extremo;1601;160132
+160133;Uni�o das freguesias de S�o Jorge e Ermelo;1601;160133
+160134;Uni�o das freguesias de Souto e Taba��;1601;160134
+160135;Uni�o das freguesias de T�vora (Santa Maria e S�o Vicente);1601;160135
+160136;Uni�o das freguesias de Vilela, S�o Cosme e S�o Dami�o e S�;1601;160136
+160201;Âncora;1602;160201
+160202;Argela;1602;160202
+160203;Dem;1602;160203
+160204;Lanhelas;1602;160204
+160205;Riba de Âncora;1602;160205
+160206;Seixas;1602;160206
+160207;Vila Praia de Âncora;1602;160207
+160208;Vilar de Mouros;1602;160208
+160209;Vile;1602;160209
+160210;Uni�o das freguesias de Arga (Baixo, Cima e S�o Jo�o);1602;160210
+160211;Uni�o das freguesias de Caminha (Matriz) e Vilarelho;1602;160211
+160212;Uni�o das freguesias de Gondar e Orbac�m;1602;160212
+160213;Uni�o das freguesias de Moledo e Cristelo;1602;160213
+160214;Uni�o das freguesias de Venade e Azevedo;1602;160214
+160301;Alvaredo;1603;160301
+160302;Cousso;1603;160302
+160303;Cristoval;1603;160303
+160304;Fi�es;1603;160304
+160305;Gave;1603;160305
+160306;Paderne;1603;160306
+160307;Penso;1603;160307
+160308;S�o Paio;1603;160308
+160309;Uni�o das freguesias de Castro Laboreiro e Lamas de Mouro;1603;160309
+160310;Uni�o das freguesias de Chavi�es e Pa�os;1603;160310
+160311;Uni�o das freguesias de Parada do Monte e Cubalh�o;1603;160311
+160312;Uni�o das freguesias de Prado e Remo�es;1603;160312
+160313;Uni�o das freguesias de Vila e Roussas;1603;160313
+160401;Abedim;1604;160401
+160402;Barbeita;1604;160402
+160403;Barro�as e Taias;1604;160403
+160404;Bela;1604;160404
+160405;Cambeses;1604;160405
+160406;Lara;1604;160406
+160407;Longos Vales;1604;160407
+160408;Merufe;1604;160408
+160409;Moreira;1604;160409
+160410;Pias;1604;160410
+160411;Pinheiros;1604;160411
+160412;Podame;1604;160412
+160413;Portela;1604;160413
+160414;Riba de Mouro;1604;160414
+160415;Segude;1604;160415
+160416;Tangil;1604;160416
+160417;Trute;1604;160417
+160418;Uni�o das freguesias de Anhões e Luzio;1604;160418
+160419;Uni�o das freguesias de Ceiv�es e Badim;1604;160419
+160420;Uni�o das freguesias de Mazedo e Cortes;1604;160420
+160421;Uni�o das freguesias de Messeg�es, Valadares e S�;1604;160421
+160422;Uni�o das freguesias de Mon��o e Troviscoso;1604;160422
+160423;Uni�o das freguesias de Sago, Lordelo e Parada;1604;160423
+160424;Uni�o das freguesias de Troporiz e Lapela;1604;160424
+160501;Agualonga;1605;160501
+160502;Castanheira;1605;160502
+160503;Coura;1605;160503
+160504;Cunha;1605;160504
+160505;Infesta;1605;160505
+160506;Mozelos;1605;160506
+160507;Padornelo;1605;160507
+160508;Parada;1605;160508
+160509;Romarig�es;1605;160509
+160510;Rubi�es;1605;160510
+160511;Vascões;1605;160511
+160512;Uni�o das freguesias de Bico e Cristelo;1605;160512
+160513;Uni�o das freguesias de Cossourado e Linhares;1605;160513
+160514;Uni�o das freguesias de Formariz e Ferreira;1605;160514
+160515;Uni�o das freguesias de Insalde e Porreiras;1605;160515
+160516;Uni�o das freguesias de Paredes de Coura e Resende;1605;160516
+160601;Azias;1606;160601
+160602;Boiv�es;1606;160602
+160603;Brav�es;1606;160603
+160604;Britelo;1606;160604
+160605;Cuide de Vila Verde;1606;160605
+160606;Lavradas;1606;160606
+160607;Lindoso;1606;160607
+160608;Nogueira;1606;160608
+160609;Oleiros;1606;160609
+160610;Sampriz;1606;160610
+160611;Vade (S�o Pedro);1606;160611
+160612;Vade (S�o Tom�);1606;160612
+160613;Uni�o das freguesias de Crasto, Ruivos e Grovelas;1606;160613
+160614;Uni�o das freguesias de Entre Ambos-os-Rios, Ermida e Germil;1606;160614
+160615;Uni�o das freguesias de Ponte da Barca, Vila Nova de Muía e Pa�o Vedro de Magalh�es;1606;160615
+160616;Uni�o das freguesias de Touvedo (S�o Louren�o e Salvador);1606;160616
+160617;Uni�o das freguesias de Vila Ch� (S�o Jo�o Baptista e Santiago);1606;160617
+160701;Anais;1607;160701
+160702;S�o Pedro de Arcos;1607;160702
+160703;Arcozelo;1607;160703
+160704;Beiral do Lima;1607;160704
+160705;Bertiandos;1607;160705
+160706;Boalhosa;1607;160706
+160707;Brandara;1607;160707
+160708;Calheiros;1607;160708
+160709;Calvelo;1607;160709
+160710;Correlh�;1607;160710
+160711;Estor�os;1607;160711
+160712;Facha;1607;160712
+160713;Feitosa;1607;160713
+160714;Font�o;1607;160714
+160715;Friastelas;1607;160715
+160716;Gandra;1607;160716
+160717;Gemieira;1607;160717
+160718;Gondufe;1607;160718
+160719;Labruja;1607;160719
+160720;Poiares;1607;160720
+160721;Ref�ios do Lima;1607;160721
+160722;Ribeira;1607;160722
+160723;S�;1607;160723
+160724;Santa Comba;1607;160724
+160725;Santa Cruz do Lima;1607;160725
+160726;Rebordões (Santa Maria);1607;160726
+160727;Seara;1607;160727
+160728;Serdedelo;1607;160728
+160729;Rebordões (Souto);1607;160729
+160730;Vitorino das Donas;1607;160730
+160731;Arca e Ponte de Lima;1607;160731
+160732;Ardeg�o, Freixo e Mato;1607;160732
+160733;Associa��o de freguesias do Vale do Neiva;1607;160733
+160734;B�rrio e Cepões;1607;160734
+160735;Caba�os e Fojo Lobal;1607;160735
+160736;Cabra��o e Moreira do Lima;1607;160736
+160737;Fornelos e Queijada;1607;160737
+160738;Labruj�, Rendufe e Vilar do Monte;1607;160738
+160739;Navi� e Vitorino dos Pi�es;1607;160739
+160801;Boiv�o;1608;160801
+160802;Cerdal;1608;160802
+160803;Fontoura;1608;160803
+160804;Friestas;1608;160804
+160805;Ganfei;1608;160805
+160806;S�o Pedro da Torre;1608;160806
+160807;Verdoejo;1608;160807
+160808;Uni�o das freguesias de Gandra e Tai�o;1608;160808
+160809;Uni�o das freguesias de Gondomil e Sanfins;1608;160809
+160810;Uni�o das freguesias de S�o Juli�o e Silva;1608;160810
+160811;Uni�o das freguesias de Valen�a, Cristelo Covo e Ar�o;1608;160811
+160901;Afife;1609;160901
+160902;Alvar�es;1609;160902
+160903;Amonde;1609;160903
+160904;Anha;1609;160904
+160905;Areosa;1609;160905
+160906;Carre�o;1609;160906
+160907;Castelo do Neiva;1609;160907
+160908;Darque;1609;160908
+160909;Freixieiro de Soutelo;1609;160909
+160910;Lanheses;1609;160910
+160911;Montaria;1609;160911
+160912;Muj�es;1609;160912
+160913;S�o Rom�o de Neiva;1609;160913
+160914;Outeiro;1609;160914
+160915;Perre;1609;160915
+160916;Santa Marta de Portuzelo;1609;160916
+160917;Vila Franca;1609;160917
+160918;Vila de Punhe;1609;160918
+160919;Chaf�;1609;160919
+160920;Uni�o das freguesias de Barroselas e Carvoeiro;1609;160920
+160921;Uni�o das freguesias de Cardielos e Serreleis;1609;160921
+160922;Uni�o das freguesias de Geraz do Lima (Santa Maria, Santa Leoc�dia e Moreira) e De�o;1609;160922
+160923;Uni�o das freguesias de Mazarefes e Vila Fria;1609;160923
+160924;Uni�o das freguesias de Nogueira, Meixedo e Vilar de Murteda;1609;160924
+160925;Uni�o das freguesias de Subportela, Deocriste e Portela Sus�;1609;160925
+160926;Uni�o das freguesias de Torre e Vila Mou;1609;160926
+160927;Uni�o das freguesias de Viana do Castelo (Santa Maria Maior e Monserrate) e Meadela;1609;160927
+161001;Cornes;1610;161001
+161002;Covas;1610;161002
+161003;Gondar�m;1610;161003
+161004;Loivo;1610;161004
+161005;Mentrestido;1610;161005
+161006;Sapardos;1610;161006
+161007;Sopo;1610;161007
+161008;Uni�o das freguesias de Campos e Vila Me�;1610;161008
+161009;Uni�o das freguesias de Candemil e Gondar;1610;161009
+161010;Uni�o das freguesias de Reboreda e Nogueira;1610;161010
+161011;Uni�o das freguesias de Vila Nova de Cerveira e Lovelhe;1610;161011
+170101;Alij�;1701;170101
+170102;Favaios;1701;170102
+170103;Pegarinhos;1701;170103
+170104;Pinh�o;1701;170104
+170105;Sanfins do Douro;1701;170105
+170106;Santa Eug�nia;1701;170106
+170107;S�o Mamede de Ribatua;1701;170107
+170108;Vila Ch�;1701;170108
+170109;Vila Verde;1701;170109
+170110;Vilar de Ma�ada;1701;170110
+170111;Uni�o das freguesias de Carl�o e Amieiro;1701;170111
+170112;Uni�o das freguesias de Castedo e Cotas;1701;170112
+170113;Uni�o das freguesias de P�pulo e Ribalonga;1701;170113
+170114;Uni�o das freguesias de Vale de Mendiz, Casal de Loivos e Vilarinho de Cotas;1701;170114
+170201;Be�a;1702;170201
+170202;Covas do Barroso;1702;170202
+170203;Dornelas;1702;170203
+170204;Pinho;1702;170204
+170205;Sapi�os;1702;170205
+170206;Alturas do Barroso e Cerdedo;1702;170206
+170207;Ard�os e Bobadela;1702;170207
+170208;Boticas e Granja;1702;170208
+170209;Codessoso, Curros e Fi�es do T�mega;1702;170209
+170210;Vilar e Viveiro;1702;170210
+170301;�guas Frias;1703;170301
+170302;Anelhe;1703;170302
+170303;Bustelo;1703;170303
+170304;Cimo de Vila da Castanheira;1703;170304
+170305;Curalha;1703;170305
+170306;Ervededo;1703;170306
+170307;Faiões;1703;170307
+170308;Lama de Arcos;1703;170308
+170309;Mairos;1703;170309
+170310;Moreiras;1703;170310
+170311;Nogueira da Montanha;1703;170311
+170312;Oura;1703;170312
+170313;Outeiro Seco;1703;170313
+170314;Paradela;1703;170314
+170315;Redondelo;1703;170315
+170316;Sanfins;1703;170316
+170317;Santa Leoc�dia;1703;170317
+170318;Santo Ant�nio de Monforte;1703;170318
+170319;Santo Estêv�o;1703;170319
+170320;S�o Pedro de Agost�m;1703;170320
+170321;S�o Vicente;1703;170321
+170322;Tronco;1703;170322
+170323;Vale de Anta;1703;170323
+170324;Vila Verde da Raia;1703;170324
+170325;Vilar de Nantes;1703;170325
+170326;Vilarelho da Raia;1703;170326
+170327;Vilas Boas;1703;170327
+170328;Vilela Seca;1703;170328
+170329;Vilela do T�mega;1703;170329
+170330;Santa Maria Maior;1703;170330
+170331;Planalto de Monforte (Uni�o das freguesias de Oucidres e Bobadela);1703;170331
+170332;Uni�o das freguesias da Madalena e Samaiões;1703;170332
+170333;Uni�o das freguesias das Eiras, S�o Juli�o de Montenegro e Cela;1703;170333
+170334;Uni�o das freguesias de Calv�o e Soutelinho da Raia;1703;170334
+170335;Uni�o das freguesias de Loivos e P�voa de Agra�ões;1703;170335
+170336;Uni�o das freguesias de Santa Cruz/Trindade e Sanjurge;1703;170336
+170337;Uni�o das freguesias de Soutelo e Seara Velha;1703;170337
+170338;Uni�o das freguesias de Travancas e Roriz;1703;170338
+170339;Vidago (Uni�o das freguesias de Vidago, Arcoss�, Selhariz e Vilarinho das Paranheiras);1703;170339
+170401;Barqueiros;1704;170401
+170402;Cidadelhe;1704;170402
+170403;Oliveira;1704;170403
+170404;Vila Marim;1704;170404
+170405;Mes�o Frio (Santo Andr�);1704;170405
+170501;Atei;1705;170501
+170502;Bilh�;1705;170502
+170503;S�o Crist�v�o de Mondim de Basto;1705;170503
+170504;Vilar de Ferreiros;1705;170504
+170505;Uni�o das freguesias de Campanh� e Paradan�a;1705;170505
+170506;Uni�o das freguesias de Ermelo e Pardelhas;1705;170506
+170601;Cabril;1706;170601
+170602;Cervos;1706;170602
+170603;Ch�;1706;170603
+170604;Covelo do Gerês;1706;170604
+170605;Ferral;1706;170605
+170606;Gralhas;1706;170606
+170607;Morgade;1706;170607
+170608;Negrões;1706;170608
+170609;Outeiro;1706;170609
+170610;Pitões das Junias;1706;170610
+170611;Reigoso;1706;170611
+170612;Salto;1706;170612
+170613;Santo Andr�;1706;170613
+170614;Sarraquinhos;1706;170614
+170615;Solveira;1706;170615
+170616;Tour�m;1706;170616
+170617;Vila da Ponte;1706;170617
+170618;Uni�o das freguesias de Cambeses do Rio, Donões e Mourilhe;1706;170618
+170619;Uni�o das freguesias de Meixedo e Padornelos;1706;170619
+170620;Uni�o das freguesias de Montalegre e Padroso;1706;170620
+170621;Uni�o das freguesias de Paradela, Contim e Fi�es;1706;170621
+170622;Uni�o das freguesias de Sezelhe e Covel�es;1706;170622
+170623;Uni�o das freguesias de Venda Nova e Pondras;1706;170623
+170624;Uni�o das freguesias de Viade de Baixo e Fervidelas;1706;170624
+170625;Uni�o das freguesias de Vilar de Perdizes e Meixide;1706;170625
+170701;Candedo;1707;170701
+170702;Fiolhoso;1707;170702
+170703;Jou;1707;170703
+170704;Mur�a;1707;170704
+170705;Valongo de Milhais;1707;170705
+170706;Uni�o das freguesias de Carva e Vilares;1707;170706
+170707;Uni�o das freguesias de Noura e Palheiros;1707;170707
+170801;Fontelas;1708;170801
+170802;Loureiro;1708;170802
+170803;Sedielos;1708;170803
+170804;Vilarinho dos Freires;1708;170804
+170805;Uni�o das freguesias de Galafura e Covelinhas;1708;170805
+170806;Uni�o das freguesias de Moura Morta e Vinh�s;1708;170806
+170807;Uni�o das freguesias de Peso da R�gua e Godim;1708;170807
+170808;Uni�o das freguesias de Poiares e Canelas;1708;170808
+170901;Alvadia;1709;170901
+170902;Canedo;1709;170902
+170903;Santa Marinha;1709;170903
+170904;Uni�o das freguesias de Cerva e Limões;1709;170904
+170905;Uni�o das freguesias de Ribeira de Pena (Salvador) e Santo Aleixo de Al�m-T�mega;1709;170905
+171001;Celeir�s;1710;171001
+171002;Covas do Douro;1710;171002
+171003;Gouvinhas;1710;171003
+171004;Parada de Pinh�o;1710;171004
+171005;Pa�os;1710;171005
+171006;Sabrosa;1710;171006
+171007;S�o Louren�o de Ribapinh�o;1710;171007
+171008;Souto Maior;1710;171008
+171009;Torre do Pinh�o;1710;171009
+171010;Vilarinho de S�o Rom�o;1710;171010
+171011;Uni�o das freguesias de Provesende, Gouv�es do Douro e S�o Crist�v�o do Douro;1710;171011
+171012;Uni�o das freguesias de S�o Martinho de Antas e Paradela de Gui�es;1710;171012
+171101;Alva�ões do Corgo;1711;171101
+171102;Cumieira;1711;171102
+171103;Fontes;1711;171103
+171104;Medrões;1711;171104
+171105;Sever;1711;171105
+171106;Uni�o das freguesias de Lobrigos (S�o Miguel e S�o Jo�o Baptista) e Sanhoane;1711;171106
+171107;Uni�o das freguesias de Louredo e Fornelos;1711;171107
+171201;�gua Rev�s e Crasto;1712;171201
+171202;Algeriz;1712;171202
+171203;Bou�o�es;1712;171203
+171204;Canaveses;1712;171204
+171205;Ervões;1712;171205
+171206;Fornos do Pinhal;1712;171206
+171207;Friões;1712;171207
+171208;Padrela e Tazem;1712;171208
+171209;Possacos;1712;171209
+171210;Rio Torto;1712;171210
+171211;Santa Maria de Emeres;1712;171211
+171212;Santa Valha;1712;171212
+171213;Santiago da Ribeira de Alhariz;1712;171213
+171214;S�o Jo�o da Corveira;1712;171214
+171215;S�o Pedro de Veiga de Lila;1712;171215
+171216;Serapicos;1712;171216
+171217;Vales;1712;171217
+171218;Vassal;1712;171218
+171219;Veiga de Lila;1712;171219
+171220;Vilarandelo;1712;171220
+171221;Carrazedo de Montenegro e Curros;1712;171221
+171222;Lebu��o, Fi�es e Nozelos;1712;171222
+171223;Sonim e Barreiros;1712;171223
+171224;Tinhela e Alvarelhos;1712;171224
+171225;Valpa�os e Sanfins;1712;171225
+171301;Alfarela de Jales;1713;171301
+171302;Bornes de Aguiar;1713;171302
+171303;Bragado;1713;171303
+171304;Capeludos;1713;171304
+171305;Soutelo de Aguiar;1713;171305
+171306;Telões;1713;171306
+171307;Tresminas;1713;171307
+171308;Valoura;1713;171308
+171309;Vila Pouca de Aguiar;1713;171309
+171310;Vreia de Bornes;1713;171310
+171311;Vreia de Jales;1713;171311
+171312;Sabroso de Aguiar;1713;171312
+171313;Alv�o;1713;171313
+171314;Uni�o das freguesias de Pensalvos e Parada de Monteiros;1713;171314
+171401;Aba�as;1714;171401
+171402;Andr�es;1714;171402
+171403;Arroios;1714;171403
+171404;Campe�;1714;171404
+171405;Folhadela;1714;171405
+171406;Gui�es;1714;171406
+171407;Lordelo;1714;171407
+171408;Mateus;1714;171408
+171409;Mondrões;1714;171409
+171410;Parada de Cunhos;1714;171410
+171411;Torgueda;1714;171411
+171412;Vila Marim;1714;171412
+171413;Uni�o das freguesias de Adoufe e Vilarinho de Samard�;1714;171413
+171414;Uni�o das freguesias de Borbela e Lamas de Olo;1714;171414
+171415;Uni�o das freguesias de Constantim e Vale de Nogueiras;1714;171415
+171416;Uni�o das freguesias de Mou��s e Lamares;1714;171416
+171417;Uni�o das freguesias de Nogueira e Ermida;1714;171417
+171418;Uni�o das freguesias de Pena, Quint� e Vila Cova;1714;171418
+171419;Uni�o das freguesias de S�o Tom� do Castelo e Justes;1714;171419
+171420;Vila Real;1714;171420
+180101;Aldeias;1801;180101
+180102;Cimbres;1801;180102
+180103;Folgosa;1801;180103
+180104;Fontelo;1801;180104
+180105;Queimada;1801;180105
+180106;Queimadela;1801;180106
+180107;Santa Cruz;1801;180107
+180108;S�o Cosmado;1801;180108
+180109;S�o Martinho das Ch�s;1801;180109
+180110;Vacalar;1801;180110
+180111;Armamar;1801;180111
+180112;Uni�o das freguesias de Aricera e Goujoim;1801;180112
+180113;Uni�o das freguesias de S�o Rom�o e Santiago;1801;180113
+180114;Uni�o das freguesias de Vila Seca e Santo Adri�o;1801;180114
+180201;Beij�s;1802;180201
+180202;Cabanas de Viriato;1802;180202
+180203;Oliveira do Conde;1802;180203
+180204;Parada;1802;180204
+180205;Carregal do Sal;1802;180205
+180301;Almofala;1803;180301
+180302;Cabril;1803;180302
+180303;Castro Daire;1803;180303
+180304;Cuj�;1803;180304
+180305;Gosende;1803;180305
+180306;Mões;1803;180306
+180307;Moledo;1803;180307
+180308;Monteiras;1803;180308
+180309;Pepim;1803;180309
+180310;Pinheiro;1803;180310
+180311;S�o Joaninho;1803;180311
+180312;Uni�o das freguesias de Mamouros, Alva e Ribolhos;1803;180312
+180313;Uni�o das freguesias de Mezio e Moura Morta;1803;180313
+180314;Uni�o das freguesias de Parada de Ester e Ester;1803;180314
+180315;Uni�o das freguesias de Pic�o e Ermida;1803;180315
+180316;Uni�o das freguesias de Reriz e Gafanh�o;1803;180316
+180401;Cinf�es;1804;180401
+180402;Espadanedo;1804;180402
+180403;Ferreiros de Tendais;1804;180403
+180404;Fornelos;1804;180404
+180405;Moimenta;1804;180405
+180406;Nespereira;1804;180406
+180407;Oliveira do Douro;1804;180407
+180408;Santiago de Pi�es;1804;180408
+180409;S�o Crist�v�o de Nogueira;1804;180409
+180410;Souselo;1804;180410
+180411;Tarouquela;1804;180411
+180412;Tendais;1804;180412
+180413;Travanca;1804;180413
+180414;Uni�o das freguesias de Alhões, Bustelo, Gralheira e Ramires;1804;180414
+180501;Avões;1805;180501
+180502;Britiande;1805;180502
+180503;Cambres;1805;180503
+180504;Ferreirim;1805;180504
+180505;Ferreiros de Avões;1805;180505
+180506;Figueira;1805;180506
+180507;Lalim;1805;180507
+180508;Lazarim;1805;180508
+180509;Penaj�ia;1805;180509
+180510;Penude;1805;180510
+180511;Samod�es;1805;180511
+180512;Sande;1805;180512
+180513;V�rzea de Abrunhais;1805;180513
+180514;Vila Nova de Souto dEl-Rei;1805;180514
+180515;Lamego (Almacave e S�);1805;180515
+180516;Uni�o das freguesias de Bigorne, Magueija e Pretarouca;1805;180516
+180517;Uni�o das freguesias de Cepões, Meijinhos e Melcões;1805;180517
+180518;Uni�o das freguesias de Parada do Bispo e Valdigem;1805;180518
+180601;Abrunhosa-a-Velha;1806;180601
+180602;Alcafache;1806;180602
+180603;Cunha Baixa;1806;180603
+180604;Espinho;1806;180604
+180605;Fornos de Maceira D�o;1806;180605
+180606;Freixiosa;1806;180606
+180607;Quintela de Azurara;1806;180607
+180608;S�o Jo�o da Fresta;1806;180608
+180609;Uni�o das freguesias de Mangualde, Mesquitela e Cunha Alta;1806;180609
+180610;Uni�o das freguesias de Moimenta de Maceira D�o e Lobelhe do Mato;1806;180610
+180611;Uni�o das freguesias de Santiago de Cassurr�es e P�voa de Cerv�es;1806;180611
+180612;Uni�o das freguesias de Tavares (Ch�s, V�rzea e Travanca);1806;180612
+180701;Alvite;1807;180701
+180702;Arcozelos;1807;180702
+180703;Baldos;1807;180703
+180704;Caba�os;1807;180704
+180705;Caria;1807;180705
+180706;Castelo;1807;180706
+180707;Leomil;1807;180707
+180708;Moimenta da Beira;1807;180708
+180709;Pass�;1807;180709
+180710;Vila da Rua;1807;180710
+180711;Sarzedo;1807;180711
+180712;Sever;1807;180712
+180713;Vilar;1807;180713
+180714;Uni�o das freguesias de Paradinha e Nagosa;1807;180714
+180715;Uni�o das freguesias de Pêra Velha, Aldeia de Nacomba e Ariz;1807;180715
+180716;Uni�o das freguesias de Peva e Segões;1807;180716
+180801;Cercosa;1808;180801
+180802;Espinho;1808;180802
+180803;Marmeleira;1808;180803
+180804;Pala;1808;180804
+180805;Sobral;1808;180805
+180806;Trez�i;1808;180806
+180807;Uni�o das freguesias de Mort�gua, Vale de Remígio, Cortega�a e Alma�a;1808;180807
+180901;Canas de Senhorim;1809;180901
+180902;Nelas;1809;180902
+180903;Senhorim;1809;180903
+180904;Vilar Seco;1809;180904
+180905;Lapa do Lobo;1809;180905
+180906;Uni�o das freguesias de Carvalhal Redondo e Aguieira;1809;180906
+180907;Uni�o das freguesias de Santar e Moreira;1809;180907
+181001;Arcozelo das Maias;1810;181001
+181002;Pinheiro;1810;181002
+181003;Ribeiradio;1810;181003
+181004;S�o Jo�o da Serra;1810;181004
+181005;S�o Vicente de Lafões;1810;181005
+181006;Uni�o das freguesias de Arca e Varzielas;1810;181006
+181007;Uni�o das freguesias de Destriz e Reigoso;1810;181007
+181008;Uni�o das freguesias de Oliveira de Frades, Souto de Lafões e Sej�es;1810;181008
+181101;Castelo de Penalva;1811;181101
+181102;Esmolfe;1811;181102
+181103;Germil;1811;181103
+181104;Ínsua;1811;181104
+181105;Lusinde;1811;181105
+181106;Pindo;1811;181106
+181107;Real;1811;181107
+181108;Sezures;1811;181108
+181109;Trancozelos;1811;181109
+181110;Uni�o das freguesias de Antas e Matela;1811;181110
+181111;Uni�o das freguesias de Vila Cova do Covelo/Mareco;1811;181111
+181201;Beselga;1812;181201
+181202;Castain�o;1812;181202
+181203;Penela da Beira;1812;181203
+181204;P�voa de Penela;1812;181204
+181205;Souto;1812;181205
+181206;Uni�o das freguesias de Antas e Ourozinho;1812;181206
+181207;Uni�o das freguesias de Penedono e Granja;1812;181207
+181301;Barr�;1813;181301
+181302;C�rquere;1813;181302
+181303;Paus;1813;181303
+181304;Resende;1813;181304
+181305;S�o Cipriano;1813;181305
+181306;S�o Jo�o de Fontoura;1813;181306
+181307;S�o Martinho de Mouros;1813;181307
+181308;Uni�o das freguesias de Anreade e S�o Rom�o de Aregos;1813;181308
+181309;Uni�o das freguesias de Felgueiras e Feir�o;1813;181309
+181310;Uni�o das freguesias de Freigil e Miom�es;1813;181310
+181311;Uni�o das freguesias de Ovadas e Panchorra;1813;181311
+181401;Pinheiro de �zere;1814;181401
+181402;S�o Joaninho;1814;181402
+181403;S�o Jo�o de Areias;1814;181403
+181404;Uni�o das freguesias de Ovoa e Vimieiro;1814;181404
+181405;Uni�o das freguesias de Santa Comba D�o e Couto do Mosteiro;1814;181405
+181406;Uni�o das freguesias de Treixedo e Nagozela;1814;181406
+181501;Castanheiro do Sul;1815;181501
+181502;Ervedosa do Douro;1815;181502
+181503;Nagozelo do Douro;1815;181503
+181504;Paredes da Beira;1815;181504
+181505;Riodades;1815;181505
+181506;Soutelo do Douro;1815;181506
+181507;Vale de Figueira;1815;181507
+181508;Valongo dos Azeites;1815;181508
+181509;Uni�o das freguesias de S�o Jo�o da Pesqueira e V�rzea de Trevões;1815;181509
+181510;Uni�o das freguesias de Trevões e Espinhosa;1815;181510
+181511;Uni�o das freguesias de Vilarouco e Pereiros;1815;181511
+181601;Bordonhos;1816;181601
+181602;Figueiredo de Alva;1816;181602
+181603;Manhouce;1816;181603
+181604;Pindelo dos Milagres;1816;181604
+181605;Pinho;1816;181605
+181606;S�o F�lix;1816;181606
+181607;Serrazes;1816;181607
+181608;Sul;1816;181608
+181609;Valadares;1816;181609
+181610;Vila Maior;1816;181610
+181611;Uni�o das freguesias de Carvalhais e Candal;1816;181611
+181612;Uni�o das freguesias de Santa Cruz da Trapa e S�o Crist�v�o de Lafões;1816;181612
+181613;Uni�o das freguesias de S�o Martinho das Moitas e Covas do Rio;1816;181613
+181614;Uni�o das freguesias de S�o Pedro do Sul, V�rzea e Baiões;1816;181614
+181701;Avelal;1817;181701
+181702;Ferreira de Aves;1817;181702
+181703;Mioma;1817;181703
+181704;Rio de Moinhos;1817;181704
+181705;S�o Miguel de Vila Boa;1817;181705
+181706;S�t�o;1817;181706
+181707;Silv� de Cima;1817;181707
+181708;Uni�o das freguesias de �guas Boas e Forles;1817;181708
+181709;Uni�o das freguesias de Rom�s, Decermilo e Vila Longa;1817;181709
+181801;Arnas;1818;181801
+181802;Carregal;1818;181802
+181803;Chosendo;1818;181803
+181804;Cunha;1818;181804
+181805;Faia;1818;181805
+181806;Granjal;1818;181806
+181807;Lamosa;1818;181807
+181808;Quintela;1818;181808
+181809;Vila da Ponte;1818;181809
+181810;Uni�o das freguesias de Ferreirim e Macieira;1818;181810
+181811;Uni�o das freguesias de Fonte Arcada e Escurquela;1818;181811
+181812;Uni�o das freguesias de Penso e Freixinho;1818;181812
+181813;Uni�o das freguesias de Sernancelhe e Sarzeda;1818;181813
+181901;Adorigo;1819;181901
+181902;Arcos;1819;181902
+181903;Chav�es;1819;181903
+181904;Desejosa;1819;181904
+181905;Granja do Tedo;1819;181905
+181906;Longa;1819;181906
+181907;Sendim;1819;181907
+181908;Tabua�o;1819;181908
+181909;Valen�a do Douro;1819;181909
+181910;Uni�o das freguesias de Barcos e Santa Leoc�dia;1819;181910
+181911;Uni�o das freguesias de Paradela e Granjinha;1819;181911
+181912;Uni�o das freguesias de Pinheiros e Vale de Figueira;1819;181912
+181913;Uni�o das freguesias de T�vora e Pereiro;1819;181913
+182001;Mondim da Beira;1820;182001
+182002;Salzedas;1820;182002
+182003;S�o Jo�o de Tarouca;1820;182003
+182004;V�rzea da Serra;1820;182004
+182005;Uni�o das freguesias de Gouvi�es e Ucanha;1820;182005
+182006;Uni�o das freguesias de Granja Nova e Vila Ch� da Beira;1820;182006
+182007;Uni�o das freguesias de Tarouca e D�lvares;1820;182007
+182101;Campo de Besteiros;1821;182101
+182102;Canas de Santa Maria;1821;182102
+182103;Castelões;1821;182103
+182104;Dardavaz;1821;182104
+182105;Ferreir�s do D�o;1821;182105
+182106;Guard�o;1821;182106
+182107;Lajeosa do D�o;1821;182107
+182108;Lob�o da Beira;1821;182108
+182109;Molelos;1821;182109
+182110;Parada de Gonta;1821;182110
+182111;Santiago de Besteiros;1821;182111
+182112;Tonda;1821;182112
+182113;Uni�o das freguesias de Barreiro de Besteiros e Tourigo;1821;182113
+182114;Uni�o das freguesias de Caparrosa e Silvares;1821;182114
+182115;Uni�o das freguesias de Mouraz e Vila Nova da Rainha;1821;182115
+182116;Uni�o das freguesias de S�o Jo�o do Monte e Mosteirinho;1821;182116
+182117;Uni�o das freguesias de S�o Miguel do Outeiro e Sabugosa;1821;182117
+182118;Uni�o das freguesias de Tondela e Nandufe;1821;182118
+182119;Uni�o das freguesias de Vilar de Besteiros e Mosteiro de Fr�guas;1821;182119
+182201;Pendilhe;1822;182201
+182202;Queiriga;1822;182202
+182203;Touro;1822;182203
+182204;Vila Cova à Coelheira;1822;182204
+182205;Uni�o das freguesias de Vila Nova de Paiva, Alhais e Fr�guas;1822;182205
+182301;Abraveses;1823;182301
+182302;Bodiosa;1823;182302
+182303;Calde;1823;182303
+182304;Campo;1823;182304
+182305;Cavern�es;1823;182305
+182306;Cota;1823;182306
+182307;Fragosela;1823;182307
+182308;Lordosa;1823;182308
+182309;Silgueiros;1823;182309
+182310;Mund�o;1823;182310
+182311;Orgens;1823;182311
+182312;Povolide;1823;182312
+182313;Ranhados;1823;182313
+182314;Ribafeita;1823;182314
+182315;Rio de Loba;1823;182315
+182316;Santos Evos;1823;182316
+182317;S�o Jo�o de Lourosa;1823;182317
+182318;S�o Pedro de France;1823;182318
+182319;Uni�o das freguesias de Barreiros e Cepões;1823;182319
+182320;Uni�o das freguesias de Boa Aldeia, Farminh�o e Torredeita;1823;182320
+182321;Coutos de Viseu;1823;182321
+182322;Uni�o das freguesias de Faíl e Vila Ch� de S�;1823;182322
+182323;Repeses e S�o Salvador;1823;182323
+182324;S�o Cipriano e Vil de Souto;1823;182324
+182325;Viseu;1823;182325
+182401;Alcofra;1824;182401
+182402;Campia;1824;182402
+182403;Fornelo do Monte;1824;182403
+182404;Queir�;1824;182404
+182405;S�o Miguel do Mato;1824;182405
+182406;Ventosa;1824;182406
+182407;Uni�o das freguesias de Cambra e Carvalhal de Vermilhas;1824;182407
+182408;Uni�o das freguesias de Fataun�os e Figueiredo das Donas;1824;182408
+182409;Uni�o das freguesias de Vouzela e Pa�os de Vilharigues;1824;182409
+310101;Arco da Calheta;3101;310101
+310102;Calheta;3101;310102
+310103;Estreito da Calheta;3101;310103
+310104;Faj� da Ovelha;3101;310104
+310105;Jardim do Mar;3101;310105
+310106;Paul do Mar;3101;310106
+310107;Ponta do Pargo;3101;310107
+310108;Prazeres;3101;310108
+310201;C�mara de Lobos;3102;310201
+310202;Curral das Freiras;3102;310202
+310203;Estreito de C�mara de Lobos;3102;310203
+310204;Quinta Grande;3102;310204
+310205;Jardim da Serra;3102;310205
+310301;Imaculado Cora��o de Maria;3103;310301
+310302;Monte;3103;310302
+310303;Funchal (Santa Luzia);3103;310303
+310304;Funchal (Santa Maria Maior);3103;310304
+310305;Santo Ant�nio;3103;310305
+310306;S�o Gon�alo;3103;310306
+310307;S�o Martinho;3103;310307
+310308;Funchal (S�o Pedro);3103;310308
+310309;S�o Roque;3103;310309
+310310;Funchal (S�);3103;310310
+310401;�gua de Pena;3104;310401
+310402;Cani�al;3104;310402
+310403;Machico;3104;310403
+310404;Porto da Cruz;3104;310404
+310405;Santo Ant�nio da Serra;3104;310405
+310501;Canhas;3105;310501
+310502;Madalena do Mar;3105;310502
+310503;Ponta do Sol;3105;310503
+310601;Achadas da Cruz;3106;310601
+310602;Porto Moniz;3106;310602
+310603;Ribeira da Janela;3106;310603
+310604;Seixal;3106;310604
+310701;Campan�rio;3107;310701
+310702;Ribeira Brava;3107;310702
+310703;Serra de �gua;3107;310703
+310704;T�bua;3107;310704
+310801;Camacha;3108;310801
+310802;Cani�o;3108;310802
+310803;Gaula;3108;310803
+310804;Santa Cruz;3108;310804
+310805;Santo Ant�nio da Serra;3108;310805
+310901;Arco de S�o Jorge;3109;310901
+310902;Faial;3109;310902
+310903;Santana;3109;310903
+310904;S�o Jorge;3109;310904
+310905;S�o Roque do Faial;3109;310905
+310906;Ilha;3109;310906
+311001;Boa Ventura;3110;311001
+311002;Ponta Delgada;3110;311002
+311003;S�o Vicente;3110;311003
+320101;Porto Santo;3201;320101
+410101;Almagreira;4101;410101
+410102;Santa B�rbara;4101;410102
+410103;Santo Espírito;4101;410103
+410104;S�o Pedro;4101;410104
+410105;Vila do Porto;4101;410105
+420101;�gua de Pau;4201;420101
+420102;Cabouco;4201;420102
+420103;Lagoa (Nossa Senhora do Ros�rio);4201;420103
+420104;Lagoa (Santa Cruz);4201;420104
+420105;Ribeira Ch�;4201;420105
+420201;Achada;4202;420201
+420202;Achadinha;4202;420202
+420203;Lomba da Fazenda;4202;420203
+420204;Nordeste;4202;420204
+420205;Salga;4202;420205
+420206;Santana;4202;420206
+420207;Algarvia;4202;420207
+420208;Santo Ant�nio de Nordestinho;4202;420208
+420209;S�o Pedro de Nordestinho;4202;420209
+420301;Arrifes;4203;420301
+420302;Candel�ria;4203;420302
+420303;Capelas;4203;420303
+420304;Covoada;4203;420304
+420305;Faj� de Baixo;4203;420305
+420306;Faj� de Cima;4203;420306
+420307;Fenais da Luz;4203;420307
+420308;Feteiras;4203;420308
+420309;Ginetes;4203;420309
+420310;Mosteiros;4203;420310
+420311;Ponta Delgada (S�o Sebasti�o);4203;420311
+420312;Ponta Delgada (S�o Jos�);4203;420312
+420313;Ponta Delgada (S�o Pedro);4203;420313
+420314;Relva;4203;420314
+420315;Rem�dios;4203;420315
+420316;Rosto do C�o (Livramento);4203;420316
+420317;Rosto do C�o (S�o Roque);4203;420317
+420318;Santa B�rbara;4203;420318
+420319;Santo Ant�nio;4203;420319
+420320;S�o Vicente Ferreira;4203;420320
+420321;Sete Cidades;4203;420321
+420322;Ajuda da Bretanha;4203;420322
+420323;Pilar da Bretanha;4203;420323
+420324;Santa Clara;4203;420324
+420401;�gua Retorta;4204;420401
+420402;Faial da Terra;4204;420402
+420403;Furnas;4204;420403
+420404;Nossa Senhora dos Rem�dios;4204;420404
+420405;Povoa��o;4204;420405
+420406;Ribeira Quente;4204;420406
+420501;Calhetas;4205;420501
+420502;Fenais da Ajuda;4205;420502
+420503;Lomba da Maia;4205;420503
+420504;Lomba de S�o Pedro;4205;420504
+420505;Maia;4205;420505
+420506;Pico da Pedra;4205;420506
+420507;Porto Formoso;4205;420507
+420508;Rabo de Peixe;4205;420508
+420509;Ribeira Grande (Concei��o);4205;420509
+420510;Ribeira Grande (Matriz);4205;420510
+420511;Ribeira Seca;4205;420511
+420512;Ribeirinha;4205;420512
+420513;Santa B�rbara;4205;420513
+420514;S�o Br�s;4205;420514
+420601;�gua de Alto;4206;420601
+420602;Ponta Gar�a;4206;420602
+420603;Ribeira das Tainhas;4206;420603
+420604;Vila Franca do Campo (S�o Miguel);4206;420604
+420605;Vila Franca do Campo (S�o Pedro);4206;420605
+420606;Ribeira Seca;4206;420606
+430101;Altares;4301;430101
+430102;Angra (Nossa Senhora da Concei��o);4301;430102
+430103;Angra (Santa Luzia);4301;430103
+430104;Angra (S�o Pedro);4301;430104
+430105;Angra (S�);4301;430105
+430106;Cinco Ribeiras;4301;430106
+430107;Doze Ribeiras;4301;430107
+430108;Feteira;4301;430108
+430109;Porto Judeu;4301;430109
+430110;Posto Santo;4301;430110
+430111;Raminho;4301;430111
+430112;Ribeirinha;4301;430112
+430113;Santa B�rbara;4301;430113
+430114;S�o Bartolomeu de Regatos;4301;430114
+430115;S�o Bento;4301;430115
+430116;S�o Mateus da Calheta;4301;430116
+430117;Serreta;4301;430117
+430118;Terra Ch�;4301;430118
+430119;Vila de S�o Sebasti�o;4301;430119
+430201;Agualva;4302;430201
+430202;Biscoitos;4302;430202
+430203;Cabo da Praia;4302;430203
+430204;Fonte do Bastardo;4302;430204
+430205;Fontinhas;4302;430205
+430206;Lajes;4302;430206
+430207;Praia da Vit�ria (Santa Cruz);4302;430207
+430208;Quatro Ribeiras;4302;430208
+430209;S�o Br�s;4302;430209
+430210;Vila Nova;4302;430210
+430211;Porto Martins;4302;430211
+440101;Guadalupe;4401;440101
+440102;Luz;4401;440102
+440103;S�o Mateus;4401;440103
+440104;Santa Cruz da Graciosa;4401;440104
+450201;Calheta;4502;450201
+450202;Norte Pequeno;4502;450202
+450203;Ribeira Seca;4502;450203
+450204;Santo Ant�o;4502;450204
+450205;Topo (Nossa Senhora do Ros�rio);4502;450205
+450301;Manadas (Santa B�rbara);4503;450301
+450302;Norte Grande (Neves);4503;450302
+450303;Rosais;4503;450303
+450304;Santo Amaro;4503;450304
+450305;Urzelina (S�o Mateus);4503;450305
+450306;Velas (S�o Jorge);4503;450306
+460101;Calheta de Nesquim;4601;460101
+460102;Lajes do Pico;4601;460102
+460103;Piedade;4601;460103
+460104;Ribeiras;4601;460104
+460105;Ribeirinha;4601;460105
+460106;S�o Jo�o;4601;460106
+460201;Bandeiras;4602;460201
+460202;Candel�ria;4602;460202
+460203;Cria��o Velha;4602;460203
+460204;Madalena;4602;460204
+460205;S�o Caetano;4602;460205
+460206;S�o Mateus;4602;460206
+460301;Prainha;4603;460301
+460302;Santa Luzia;4603;460302
+460303;Santo Amaro;4603;460303
+460304;Santo Ant�nio;4603;460304
+460305;S�o Roque do Pico;4603;460305
+470101;Capelo;4701;470101
+470102;Castelo Branco;4701;470102
+470103;Cedros;4701;470103
+470104;Feteira;4701;470104
+470105;Flamengos;4701;470105
+470106;Horta (Angústias);4701;470106
+470107;Horta (Concei��o);4701;470107
+470108;Horta (Matriz);4701;470108
+470109;Pedro Miguel;4701;470109
+470110;Praia do Almoxarife;4701;470110
+470111;Praia do Norte;4701;470111
+470112;Ribeirinha;4701;470112
+470113;Sal�o;4701;470113
+480201;Faj� Grande;4802;480201
+480202;Faj�zinha;4802;480202
+480203;Fazenda;4802;480203
+480204;Lajedo;4802;480204
+480205;Lajes das Flores;4802;480205
+480206;Lomba;4802;480206
+480207;Mosteiro;4802;480207
+480301;Caveira;4803;480301
+480302;Cedros;4803;480302
+480303;Ponta Delgada;4803;480303
+480304;Santa Cruz das Flores;4803;480304
+490101;Corvo;4901;490101
+9906015;Badajoz;9906;9906015
+9936057;Vigo;9936;9936057

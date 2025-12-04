@@ -8,7 +8,7 @@ from fastapi.staticfiles import StaticFiles
 from fastapi.middleware.cors import CORSMiddleware
 from app.db import get_connection
 from pydantic import BaseModel
-from app.routers import localizacao, pois, pdf_router, ia_resume
+from app.routers import localizacao, pois, pdf_router, ia_resume, estatistica
 
 # Configuração do logging
 logging.basicConfig(
@@ -27,9 +27,11 @@ app.add_middleware(
     allow_headers=["*"],
 )
 
+
 # Incluir os routers
-app.include_router(localizacao.router)  # , prefix="/api"
-app.include_router(pois.router)  # , prefix="/api"
+app.include_router(localizacao.router)
+app.include_router(estatistica.router)
+app.include_router(pois.router)
 app.include_router(pdf_router.router)
 app.include_router(ia_resume.router)
 

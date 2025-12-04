@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="pt">
+<head>
+    <meta charset="UTF-8">
+    <title>Filtros — Distrito / Concelho / Freguesia</title>
+</head>
+<body>
+
+    <h2>Pesquisa por Distrito, Concelho e Freguesia</h2>
+
+    <div>
+
+        <!-- DISTRITO -->
+        <label for="selectDistrito">Distrito:</label><br>
+        <select id="selectDistrito">
+            <option value="">Escolha um distrito</option>
+        </select>
+        <br><br>
+
+        <!-- CONCELHO -->
+        <label for="selectConcelho">Concelho:</label><br>
+        <select id="selectConcelho" disabled>
+            <option value="">Escolha um concelho</option>
+        </select>
+        <br><br>
+
+        <!-- FREGUESIA -->
+        <label for="selectFreguesia">Freguesia:</label><br>
+        <select id="selectFreguesia" disabled>
+            <option value="">Escolha uma freguesia</option>
+        </select>
+        <br><br>
+
+        <!-- BOTÕES -->
+        <button id="btnPesquisar">Pesquisar</button>
+        <button id="btnLimpar">Limpar</button>
+
+    </div>
+
+    <hr>
+
+    <h3>Resultado:</h3>
+    <div id="resultado"></div>
+
+    <h3>Densidade Populacional (habitantes por km2)</h3>
+    <div id="densidade"></div>
+
+    <h3>Pirâmide Etária</h3>
+    <div id="piramide" style="max-width: 800px; height: 500px;"></div>
+
+    <h3>Variação Populacional por Grupo Etário (%)</h3>
+    <div id="variacao" style="max-width: 800px; height: 400px;"></div>
+
+
+
+    <!-- ================================================== -->
+    <!-- JAVASCRIPT                                         -->
+    <!-- ================================================== -->
+
+    <script src="./script.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/apexcharts"></script>
+
+</body>
+</html>
