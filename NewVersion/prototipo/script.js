@@ -10,7 +10,7 @@ async function carregarDistritos() {
     const res = await fetch("/api/distritos");
     const distritos = await res.json();
     distritos.forEach(d => {
-        selectDistrito.innerHTML += `<option value="${d.id_distrito}">${d.descr_distrito}</option>`;
+        selectDistrito.innerHTML += `<option value="${d.distrito}">${d.distrito}</option>`;
     });
 }
 carregarDistritos();
@@ -27,13 +27,28 @@ selectDistrito.addEventListener("change", async () => {
 
     if (!id) return;
 
-    const res = await fetch(`/api/concelhos/${id}`);
-    const concelhos = await res.json();
-    concelhos.forEach(c => {
-        selectConcelho.innerHTML += `<option value="${c.id_concelho}">${c.descr_concelho}</option>`;
-    });
-    selectConcelho.disabled = false;
+    try {
+        // Alteração da URL para incluir o distrito como query parameter
+        const res = await fetch(`/api/municipios?distrito=${id}`);
+        const concelhos = await res.json();
+        console.log(concelhos);  // Para ver a resposta da API no console
+
+        if (Array.isArray(concelhos)) {
+            concelhos.forEach(c => {
+                selectConcelho.innerHTML += `<option value="${c.municipio}">${c.municipio}</option>`;
+            });
+        } else {
+            console.error('Resposta da API não é um array', concelhos);
+            selectConcelho.innerHTML = `<option value="">Nenhum concelho encontrado</option>`;
+        }
+        selectConcelho.disabled = false;
+    } catch (err) {
+        console.error('Erro ao carregar concelhos:', err);
+        selectConcelho.innerHTML = `<option value="">Erro ao carregar concelhos</option>`;
+    }
 });
+
+
 
 // ----------------------------------------------------
 // 3. Quando escolhe concelho → carregar freguesias
@@ -45,10 +60,12 @@ selectConcelho.addEventListener("change", async () => {
 
     if (!id) return;
 
-    const res = await fetch(`/api/freguesias/${id}`);
+    const res = await fetch(`/api/freguesias?municipio=${id}`);
     const freguesias = await res.json();
+    console.log(freguesias);  // Para ver a resposta da API no console
+
     freguesias.forEach(f => {
-        selectFreguesia.innerHTML += `<option value="${f.id_freguesia}">${f.descr_freguesia}</option>`;
+        selectFreguesia.innerHTML += `<option value="${f.freguesia}">${f.freguesia}</option>`;
     });
     selectFreguesia.disabled = false;
 });
