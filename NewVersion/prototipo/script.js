@@ -253,6 +253,51 @@ document.getElementById("btnPesquisar").addEventListener("click", async () => {
         console.error(err);
         document.getElementById("piramide").innerHTML = "Erro ao carregar pirâmide etária!";
     }
+
+    // ================================================
+    // 4. Carregar Taxas Populacionais
+    // ================================================
+    try {
+        const resTaxas = await fetch(`/api/populationRates?freguesia=${freguesia}`);
+        const taxas = await resTaxas.json();
+
+        if (!taxas || taxas.length === 0) {
+            document.getElementById("taxasPopulacionais").innerHTML = "<p>Sem dados de taxas populacionais.</p>";
+            return;
+        }
+
+        // Exibindo as taxas populacionais no HTML
+        let taxasHTML = `
+            <table border="1" cellpadding="6">
+                <tr>
+                    <th>Ano</th>
+                    <th>Dimensão</th>
+                    <th>Taxa de Analfabetismo (%)</th>
+                    <th>Taxa de Atividade (%)</th>
+                    <th>Taxa de Desemprego (%)</th>
+                </tr>
+        `;
+
+        taxas.forEach(taxa => {
+            taxasHTML += `
+                <tr>
+                    <td>${taxa.ano}</td>
+                    <td>${taxa.dim_3}</td>
+                    <td>${taxa.taxa_analfabetismo}</td>
+                    <td>${taxa.taxa_atividade}</td>
+                    <td>${taxa.taxa_desemprego}</td>
+                </tr>
+            `;
+        });
+
+        taxasHTML += "</table>";
+        document.getElementById("taxasPopulacionais").innerHTML = taxasHTML;
+
+    } catch (err) {
+        console.error(err);
+        document.getElementById("taxasPopulacionais").innerHTML = "Erro ao carregar as taxas populacionais!";
+    }
+
 });
 
 

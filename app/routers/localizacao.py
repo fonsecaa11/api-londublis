@@ -176,3 +176,56 @@ def region_stats(freguesia: str):
         traceback.print_exc()  # Aparece no terminal/log
         return JSONResponse(status_code=500, content={"detail": str(e)})
 
+# ------------------------------
+# 6. Obter Taxas Populacionais
+# ------------------------------
+@router.get("/populationRates")
+def obter_taxas_populacionais(freguesia: str):
+    try:
+        # Estabelece a conexão com o banco de dados
+        conn = get_connection()
+        with conn.cursor(cursor_factory=RealDictCursor) as cur:
+            # Consulta para obter as taxas populacionais (analfabetismo, atividade, desemprego)
+            cur.execute("""
+            SELECT
+                ta.ano AS ano,
+                ta.dim_3_t AS dim_3,
+                ta.valor AS taxa_analfabetismo,
+                ta_atividade.valor AS taxa_atividade,
+                td.valor AS taxa_desemprego
+            FROM
+                public.taxa_de_analfabetismo ta
+            JOIN
+                public.taxa_de_atividade ta_atividade
+                ON ta.ano = ta_atividade.ano
+                AND ta.dim_3_t = ta_atividade.dim_3_t
+            JOIN
+                public.taxa_de_desemprego td
+                ON ta.ano = td.ano
+                AND ta.dim_3_t = td.dim_3_t
+            WHERE
+                ta.localizacao = %s
+                AND ta_atividade.localizacao = %s
+                AND td.localizacao = %s
+            ORDER BY
+                ta.ano,
+                CASE
+                    WHEN ta.dim_3_t = 'H' THEN 1
+                    WHEN ta.dim_3_t = 'M' THEN 2
+                    WHEN ta.dim_3_t = 'HM' THEN 3
+                    ELSE 4
+                END;
+            """, (freguesia, freguesia, freguesia))
+
+            # Obtém os resultados
+            taxas_populacionais = cur.fetchall()
+
+            if not taxas_populacionais:
+                return JSONResponse(status_code=404, content={"detail": f"Nenhuma taxa populacional encontrada para a localização {freguesia}"})
+
+            return JSONResponse(content=taxas_populacionais)
+
+    except Exception as e:
+        traceback.print_exc()  # Aparece no terminal/log
+        return JSONResponse(status_code=500, content={"detail": str(e)})
+
